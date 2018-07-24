@@ -1,0 +1,67 @@
+:Title: Technical Committee Policies and Procedures
+:titletext: Technical Committee Policies and Procedures
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 3
+:numbered:
+:sectanchors:
+:source-highlighter: pygments
+
+= {title}
+
+<<<
+[cols = ">",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*Open Geospatial Consortium*
+|Submission Date: 2018-02-14
+|Approval Date:   2018-06-05
+|Publication Date:   2018-07-24
+|External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/26.0
+|Internal reference number of this OGC(R) document:    05-020r26
+|Version: 26.0
+|Category: OGC(R) Policy
+|Editor:   Scott Simmons
+|===
+
+[cols = "^", frame = "none"]
+|===
+|[big]*{titletext}*
+|===
+
+[cols = "^", frame = "none", grid = "none"]
+|===
+|*Copyright notice*
+|Copyright (C) 2018 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|===
+
+[cols = "^", frame = "none"]
+|===
+|*Warning*
+|===
+
+This document is an OGC Policies and Procedures Document. The document is subject to change based on membership requirements and motions. Please note that the OGC “Policies Related to OGC Standards” should be also be read. [http://www.opengeospatial.org/ogc/policies/directives]
+
+[width = "50%", grid = "none"]
+|===
+|Document type:   	OGC® Policy
+|Document subtype:
+|Document stage:   	Approved for public release
+|Document language: 	English
+|===
+
+<<<
+toc::[]
+
+<<<
+
+include::part1.adoc[]
+
+:!numbered:
+include::annexa.adoc[]
+include::annexb.adoc[]
+include::annexc.adoc[]
