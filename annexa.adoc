@@ -20,7 +20,7 @@ ER (Engineering Report): An ER Report is a document that reports on some technic
 
 Invited Guest: A liaison representative appointed by an external organization which has reciprocal liaison status with the OGC, or an individual who has received an invitation to attend meetings of the TC. The OGC staff or Voting TC Members may issue invitations. It is the policy of the OGC to freely allow guests and observers, so long as they provide a request to attend to the OGC staff and pay the appropriate meeting fees.
 
-IP (OGC Interoperability Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standard Development Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.
+IP (OGC Innovation Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standards Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.
 
 IPR (Intellectual Property Rights): An umbrella term used to refer to the object of a variety of laws, including patent law, copyright law, trademark law, trade secret law, industrial design law, and potentially others.
 
@@ -54,7 +54,7 @@ Request for Comment, or RFC (See Section 9.4): An explicit request to the indust
 
 Retired Document: An OGC document that, by Member approval, is no longer an official or supported document of the OGC. As such, retired documents should not be referenced in any procurement, policy statement, or other OGC document. Retired documents are made available on the OGC website for historical purposes.
 
-SAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.
+SMAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.
 
 Standards Development Process: The operational details of the discussing and evaluating technologies relevant to the OGC standards baseline, standard revision, and the RFC processes to propose, review, recommend modifications to, and recommend adoption of candidate standards.
 
@@ -67,4 +67,3 @@ TC Member: Any member in good standing of the TC.
 Voting TC Member: Any member of the TC who may vote on TC Items and Issues. Voting TC Members are the Technical Representatives of OGC Technical Committee Members, Principal Members, and Strategic Members. Only the designated Technical Representative from a given member organization may be a Voting TC Member.
 
 WP (White Paper): An OGC member approved publication released by the OGC to the Public that states a position on one or more technical or other subject that is germane to the work of the OGC, often including a high-level explanation of a standards based architecture or framework of a solution. A White Paper often explains the results or conclusions of research. A White Paper is not an official position of the OGC.
-

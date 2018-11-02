@@ -281,6 +281,7 @@ Many votes usually occur in the Opening or Closing TC Plenary. The following is 
 |Approval to start electronic vote for a revision of an OGC standard|TC Voting Member
 |Approval to start electronic vote for a new TC P&P or other policy document|TC Voting Member
 |Approval to start electronic vote for a new SWG or Community standard work activity|TC Voting Member
+|[lime]#Approval of a new SWG Task#|[lime]#TC Voting Member#
 |==================================================================================
  +For “Any Member” votes, only one member representative from a given Member Organization may vote.
 
@@ -289,9 +290,9 @@ Many votes usually occur in the Opening or Closing TC Plenary. The following is 
 
 All SC or WG document votes, except for Best Practices and standards adoption votes shall have the following language:
 
-_______________________________________________________________________________________________________________________________________________________________
+_______________
 The <Name of the SC or WG> recommends that the TC approve the release of <OGC Document number and Name> as an OGC <White, Discussion, or Engineering> Document.
-_______________________________________________________________________________________________________________________________________________________________
+_______________
 
 Often the following clause is added:
 
@@ -513,7 +514,7 @@ Once the Charter is completed and agreed to by the members of the Ad-hocfootnote
 * The ad-hoc considers the TCC comments and edits the charter as necessary.
 * The charter is assigned an OGC document number and posted to pending documents.
 * The availability of the draft charter is announced to the TC and to the public and a three-week public review period begins. There is a formal press release with a general call for comments.
-* If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this document or video should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.
+* If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this [lime line-through]#document or video# [lime]#presentation# should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.
 * Comments received during the comment period are considered by the ad-hoc members and any necessary changes to the draft charter are completed.
 * The modified charter is posted to pending as an update with a new revision number. The TCC shall notify the membership that a revision of the charter has been posted.
 
@@ -571,6 +572,8 @@ The Charter documents the scope of work, references, business value, and project
 
 https://portal.opengeospatial.org/?m=public&subtab=templates&tab=1
 
+[lime]#SWG are chartered to create a primary delivery (a new standard), maintain that standard, and optionally update, extend, or profile that standard through a <<swg-task-process>>. At a minimum, the scope of the primary delivery is provided in the SWG charter.#
+
 [[ipr-rules-for-a-new-swg]]
 ===== IPR rules for a new SWG
 
@@ -584,6 +587,8 @@ The OGC IPR policy is similar to those of other voluntary standards organization
 ===== Persistent SWGs
 
 By default, OGC SWGs are persistent until the SWG elects to become inactive or disband. Persistence supports the ability to maintain the standard products of the SWG, work on multiple revisions of an existing OGC standard, or to insure that long-term collaboration with other SWGs can be maintained. There may be reasons why a SWG is chartered not to be persistent and such reasons must be described in the charter. The Charter template has a section that specifies whether a SWG is persistent or not.
+
+[lime]#Each new activity performed in a SWG after it completes its primary delivery approved via the <<swg-task-process>>.#
 
 [[swg-charter-approval-and-formation]]
 ===== SWG Charter Approval and Formation
@@ -624,7 +629,7 @@ All of the SWG charter members can vote at the first meeting of the new SWG and 
 After the 30-day waiting period, any member representative who is not a charter member may request that the SWG chair change their status to a voting member of the SWG. Once the Chair approves the request, the member can then vote on any item or issue brought before the SWG. Any member who has been participating in a SWG for 30 days but does not wish to be a voting member can remain of group member and participate.
 
 [[opting-out-of-a-swg]]
-==== Opting Out of a SWG
+==== Opting out of a SWG
 
 If during the 30-day waiting period, any member representative may elect to opt-out of a SWG without having the Member having to declare any Necessary Claims. A member representative can opt-out by notifying the TCC and/or designee representative.
 
@@ -632,11 +637,6 @@ If during the 30-day waiting period, any member representative may elect to opt-
 ==== Election of SWG Chair and Co-Chair
 
 The first order of business of a new SWG is to elect a Chair and Co-chair. The Chair and Co-chair must be from different Member organizations. When there are adequate nominations or volunteers for the Chair/Co-chair, the SWG Convener will call for a vote of members who have opted in to participate in the SWG. In the case where there is only one nomination for Chair and one for co-chair, the SWG Convener will ask the SWG members whether there is any objection to unanimous consent. The election of a Chair or Co-Chair can happen at either a TC Meeting or via email. The election of the Chair and Co-Chair does not require TC or PC approval. Once the election is complete, the new Chair shall notify the TCC of the results of the Chair and Co-chair election.
-
-[[cross-swg-communication]]
-==== Cross SWG Communication
-
-Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.
 
 [[responsibilities-of-the-swg-chair-and-co-chair]]
 ==== Responsibilities of the SWG Chair and Co-Chair
@@ -666,8 +666,29 @@ If you join a SWG and have voting privileges, you have a responsibility to parti
 
 Quorum for votes on any items or issues brought before a SWG is based on the number of voting members for that SWG. Insuring quorum at SWG meetings is a vital aspect of the SWG being able to complete its work in a timely manner. Therefore, any SWG voting member who misses two consecutive SWG meetings (teleconference, face to face, or webinar) in which votes occur or misses two consecutive email votes shall be deemed as inactive and will not count toward quorum after the second missed vote. The SWG Chair shall take roll call at the beginning of each meeting and determine quorum based on active voting members only. An inactive SWG voting member can become active again simply by attending the SWG meetings and participating. If regular attendance by a given voting member is an issue, that voting member may assign a temporary or permanent proxy to another SWG voting member or to the SWG Chair. The voting member may rescind that proxy at any time. If the voting member wishes not to assign their proxy, they can ask to change their status to "Observer" and still actively participate in the SWG.
 
+[[cross-swg-communication]]
+==== Cross SWG communication
+
+Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.
+
+[[swg-work-environment]]
+==== [lime]#SWG Work Environment#
+[lime]#SWGs are expected to maintain their Portal records in a complete fashion. Presentations in TC Meetings should be stored in the TC Meeting folder or in the SWG files with a symbolic link to the TC Meeting folder. All draft documents for SWG discussion should be in the SWG files until that point those documents are to be discussed in the TC. SWG documents for TC discussion or voting are to be uploaded to Pending Documents.#
+
+[[swg-use-of-collaboration-environments]]
+===== [lime]#SWG use of collaboration environments#
+[lime]#SWGs are free to use collaboration environments such as GitHub to store text of their draft standard, link that text to developing code, track issues, and manage the document development workflow and milestones. A SWG may also vote to allow non-OGC members to participate in the development of the standard in the collaboration environment. Note that such a vote does not grant access to non-members to the OGC Portal nor does it give those non-members voting rights for SWG approval of any work.#
+
+[lime]#The collaboration environment will be under ultimate control of the OGC. For example, OGC maintains organizational structures in GitHub and SVN under which SWGs can create a project for their use. Private repositories or projects may not be used for development of SWG deliverables.#
+
+[lime]#The collaboration environment must clearly display a message on its home page (e.g., the README file in GitHub) that states the contributions to the work in the collaboration environment belong to OGC, as shown below.#
+
+_______________
+[lime]#The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC standards documents and that all copyright and intellectual property shall be vested to the OGC.#
+_______________
+
 [[public-release-of-swg-documents]]
-==== Public Release of SWG Documents
+==== Public Release of SWG documents
 
 At any time, the SWG voting members may agree to release any SWG in-progress technical document into a public forum, to another standards organization, or to the public for comment. Such an action requires a formal SWG motion and SWG vote as per <<swg-voting>>.
 
@@ -675,6 +696,17 @@ At any time, the SWG voting members may agree to release any SWG in-progress tec
 ===== Release of document(s) for public comment
 
 At any time, the SWG can vote to release an in-progress candidate standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is encouraged to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with OGC Communications to generate a press release and properly create the Call for Comments (RFC) on the OGC website.
+
+[[swg-task-process]]
+==== [lime]#SWG Task approval process#
+
+[lime]#Any new work from a SWG after the primary deliverable must be approved by the TC as a new Task prior to start of that work. The new work can result in an update, extension, or profile of a standard.#
+
+[lime]#The proposed Task must be presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. This presentation should cover the key aspects of the Task, especially the scope of work, the timeline, and the technical discussion related how the work relates to the standard(s) developed by the SWG.#
+
+[lime]#Once the proposed Task has been presented to the TC, the TCC will initiate a 21 day TC and public review of the proposed Task. If comments are received in the review period, the SWG shall consider the comments and reissue the proposed Task details, if necessary.#
+
+[lime]#The proposed Task will be voted upon by TC Voting Members in a Closing Plenary (see <<voting-at-tc-meetings>>) or by a two-week email vote (see <<tc-or-subgroups-of-the-tc-email-voting>>). Once approved, the Task will be added to the SWG Charter and the updated Charter posted to the SWG Portal files. The SWG may now begin work on the Task.#
 
 [[umbrella-swgs]]
 ==== Umbrella SWGs
@@ -746,32 +778,37 @@ Each Public Engineering Report distributed by the OGC shall include a cover page
 Engineering Reports do not have a version number.
 
 [[best-practices-documents]]
-=== Best Practices Documents
+=== Best Practice [lime]#and Community Practice# Documents
 
-OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practices (BP) Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. A best practice is a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result.
+OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practice (BP) [lime]#and Community Practice (CP)# Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. [lime line-through]#A best practice is# [lime]#These documents describe# a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result. [lime]#In some cases, BPs or CPs may transition to full standards through the OGC RFC process.#
 
-BP documents have version numbers that shall start at 1.0.
+BP [lime]#and CP# documents have version numbers that shall start at 1.0.
+
+[lime]#*Best Practice:* a document describing the use of one or more OGC standards, typically to address a domain-specific topic or provide a solution to an interoperability challenge. Best Practices may also describe implemented extensions to or profiles of OGC standards.#
+
+[lime]#*Community Practice:* a document describing implemented standards, specifications, or technologies that originate outside of OGC, but which are relevant to address interoperability requirements in the geospatial and related communities.#
 
 [[submission-of-documents-to-be-considered-as-an-ogc-best-practice]]
-==== Submission of documents to be considered as an OGC Best Practice
+==== Submission of documents to be considered as an OGC Best Practice [lime]#or Community Practice#
 
-In order to be considered for approval as an OGC BP, the document submitters shall provide the following.
+In order to be considered for approval as an OGC BP [lime]#or CP#, the document submitters shall provide the following.
 
+* [lime]#An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.#*
 * Evidence of implementation. Evidence of implementation shall include but not be limited to: Implementation in commercial product, implementation in open source applications or software, and/or implementation in deployed applications. A single research related implementation is not proper evidence of implementation.
-* An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.
+* [lime line-through]#An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.#
 * Presentation of the contents of the proposed BP at an OGC face-to-face meeting. The presentation may be done remotely using OGC communication tools, such as GoToMeeting.
 * Post the document to OGC Pending Documents on the OGC Members Portal for at least three weeks prior to the face-to-face presentation.
 
 [[approval-of-ogc-best-practice-documents]]
-==== Approval of OGC Best Practice Documents
+==== Approval of OGC Best Practice [lime]#and Community Practice# Documents
 
-A BP is an official OGC position statement. Therefore, BP Documents shall be approved by formal electronic vote. Motions to initiate a BP e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
+[lime line-through]#A BP is# [lime]#Both document types are# an official OGC position statement. Therefore, BP [lime]#and CP# Documents shall be approved by formal electronic vote. Motions to initiate a BP [lime]#and CP# e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
 
-A BP vote has the same rules as a standards adoption vote (<<tc-electronic-voting>>).
+A BP [lime]#and CP# vote has the same rules as a standards adoption vote (<<tc-electronic-voting>>).
 
-The BP document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP approval e-vote shall be initiated.
+The BP [lime]#and CP# document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP [lime]#or CP# approval e-vote shall be initiated.
 
-Each Best Practice Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 7].
+Each [lime line-through]#Best Practice Paper# [lime]#BP and CP# distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 7].
 
 [[documents-and-distribution]]
 === Documents and Distribution
