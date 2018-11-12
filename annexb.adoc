@@ -1,6 +1,6 @@
 [[appendix]]
-[[annex-b-rfc-process-outline-full-ogc-standard]]
-== Annex B: RFC Process Outline: Full OGC Standard
+[[annex-b-standard-process-outline-full-ogc-standard]]
+== Annex B: [lime line-through]#RFC# [lime]#OGC Consensus Standards# Process Outline: Draft OGC Standard
 
 
 
@@ -50,7 +50,7 @@
 |Vote completes |
 |Announcement to OGC Members |TCC
 |Planning Committee Approval |TCC and PC
-|SWG process any comments reveived during the adoption vote |SWG
+|SWG process any comments received during the adoption vote |SWG
 |SWG updates Change Request status for each CR processed |SWG
 |Confirm list of contributors |TCC and SWG Chair
 |TCC does final review of adopted standard |TCC
@@ -62,5 +62,3 @@
 |Press release released |OGC staff
 |Done. Congratulations!! |
 |======================================================================================
-
-

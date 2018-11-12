@@ -14,6 +14,8 @@ BP (Best Practice Document): A document containing discussion of best practices 
 
 Candidate standard: An engineering document that describes an existing, operational standard that one or more OGC Voting TC Members wish to sponsor as an RFC submission under the Bylaws of the OGC.
 
+[lime]#Draft standard: A standard which has been approved by OGC membership, but which lacks evidence of implementation.#
+
 Deprecated Document: An official standard of the OGC but no longer maintained. An OGC document shall be deprecated by a vote of the OGC Voting Members, usually as part of a standards adoption vote.
 
 ER (Engineering Report): An ER Report is a document that reports on some technical activity in an Interoperability Program Initiative. An ER Report may also be a candidate standard or a formal change request proposal for an approved standard. An ER Report documents are submitted to the OGC TC for review and comment. An ER Report is not a publicly available document unless approved for release by the OGC membership. An ER Report does not represent the official position of the OGC nor of the OGC Technical Committee.
@@ -36,7 +38,7 @@ OAB (OGC Architecture Board) - The OGC Architecture Board works with the TC and 
 
 OGC Communication: A communication by any means, including posting on the WWW Site (http://www.opengeospatial.org), electronic mail, facsimile transmission, or by regular post. The primary forms of communication will be either via email or using the OGC Members Only Portal. Any member desiring delivery by other than electronic means (WWW site or electronic mail) must state so in written form to OGC staff.
 
-OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts.
+OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts. OGC standards generally have evidence of implementation.
 
 OGC Member, or Member: Any member in good standing.
 
@@ -50,7 +52,7 @@ PC (Planning Committee) − The OGC Planning Committee is granted authority to o
 
 RAND: Reasonable and Non-discriminatory.
 
-Request for Comment, or RFC (See Section 9.4): An explicit request to the industry for comments concerning a particular candidate standard that a Standards Working Group is considering for adoption as a standard satisfying a portion of the Abstract Specification. An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.
+Request for Comment (RFC): An explicit request to the industry for comments concerning a particular candidate standard that [lime line-through]#a Standards Working Group# [lime]#OGC membership# is considering for adoption as a standard satisfying a portion of the Abstract Specification. [lime line-through]#An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.#
 
 Retired Document: An OGC document that, by Member approval, is no longer an official or supported document of the OGC. As such, retired documents should not be referenced in any procurement, policy statement, or other OGC document. Retired documents are made available on the OGC website for historical purposes.
 
@@ -58,7 +60,7 @@ SMAC (Strategic Member Advisory Committee): The SMAC is granted authority to ope
 
 Standards Development Process: The operational details of the discussing and evaluating technologies relevant to the OGC standards baseline, standard revision, and the RFC processes to propose, review, recommend modifications to, and recommend adoption of candidate standards.
 
-Standards Baseline: The complete set of member approved abstract specifications standards, including profiles and extensions, and Community standards.
+Standards Baseline: The complete set of member approved abstract specifications, standards (including profiles and extensions), and Community standards.
 
 TC (Technical Committee) See Section 5: The OGC TC has been granted authority to operate by the OGC Bylaws. The OGC Technical Committee is composed of individuals representing organizations that are duly recognized members in good standing of the OGC.
 
