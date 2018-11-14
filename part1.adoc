@@ -1249,6 +1249,13 @@ NOTE: for this case, the TCC will need to ensure that a copy of the Authoritativ
 
 For this case, the OGC and the Authoritative SDO have agreed to have a joint standards development activity. This decision is captured by approval of the Authoritative SDO (in the case of ISO / TC 211 as an official New Work Item Proposal (NWIP)) and approval of an official OGC SWG Charter. The OGC SWG shall be open to participation by both OGC and the Authoritative SDO members. The work of the SWG shall be under the OGC PnP for all activities related to the development and approval of an OGC standard. There will also be a parallel Edit Committee or equivalent in the Authoritative SDO to process all of the Authoritative SDO requirements for editing, review, and approval of an Authoritative SDO Standard. The SWG Chair shall have responsibility of communicating and coordinating the joint activity.
 
+[[submissions-ogc-standard-to-other-sdo]]
+=== [lime]#Submission of an OGC standard for consideration by another SDO#
+[lime]#OGC membership may choose to submit an approved OGC standard to another SDO for adoption of the standard by that SDO. A number of OGC standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.#
+
+* [lime]#The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and#
+* [lime]#the TC will vote in a Closing Plenary or by email to approve the submission per the rules for <<voting-during-and-between-tc-meetings>>.#
+
 [[appeals-process]]
 === Appeals Process
 
