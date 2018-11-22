@@ -934,7 +934,7 @@ There are two possible tracks for proposing and approving candidate standards or
 |==================================================================================================================================
 | |SWG |Evidence of Implementation |Modular Spec |Compliance Test |OGC Template |Public Comment |OAB Review |IPR to OGC |Member Vote
 |Community standard |NR* |Strong |NR* |Partial |Yes |Yes |Yes |Yes or Shared |Yes
-|Full standards Track |
+|Full standards Track |||||||||
 |[lime]#Draft# standard |Yes |No |Yes |NR* |Yes |Yes |Yes |Yes |Yes
 |standard [lime line-through]#with Compliance Suite# |Yes |Yes |Yes |[lime line-through]#Yes# [lime]#NR*# |Yes |Yes |Yes |Yes |Yes
 |==================================================================================================================================
