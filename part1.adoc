@@ -93,7 +93,7 @@ The TC is the primary group where OGC standards are developed, discussed, approv
 The Technical Committee is comprised of three primary subgroups: the OGC Naming Authority, Working Groups (WG), and Subcommittees (SC) to:
 
 * Evaluate and provide guidance on architecture issues;
-* Carry out the development of new proposalsfootnote:[Proposals as used here is meant to be a general term to cover [lime line-through]#RFCs# [lime]#Standards#, Discussion Papers, Best Practices, and Engineering Reports.];
+* Carry out the development of new proposalsfootnote:[Proposals as used here is meant to be a general term to cover Standards, Discussion Papers, Best Practices, and Engineering Reports.];
 * Evaluation of proposals; and
 * Provide a forum for the discussion and documentation of requirements for interoperability.
 
@@ -134,7 +134,7 @@ A group (organizationally, a subgroup of the TC – <<policies-specific-to-a-dom
 * Have all-member voting policies (unless otherwise stated); and
 * Have missions and goals defined by the TC.
 
-A DWG Does Not work on [lime line-through][lime line-through]#RFC# [lime]#OGC Consensus Standards process# submissions, candidate standards, or revisions to existing OGC standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a SWG.
+A DWG Does Not work on OGC Consensus Standards process submissions, candidate standards, or revisions to existing OGC standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a SWG.
 
 By default, a DWG will allow public collaboration, such as in teleconference, email discussions, or a public twiki. A DWG has the option to make a motion to the TC to remove public participation in the DWG.
 
@@ -146,8 +146,8 @@ A group (organizationally, a subgroup of the TC) of individuals composed of memb
 Specific work items for a SWG could be:
 
 * Have a formal approved charter that defines the SWGs Scope of Work and estimated timeline for completion of the work;
-* Develop a new candidate standard in preparation of that document as an [[lime line-through]#RFC# [lime]#OGC Consensus Standards process# submission.
-* Process a new [lime line-through]#RFC# [lime]#OGC Consensus Standards process# submission [lime line-through]#candidate standard# once approved by the OAB;
+* Develop a new candidate standard in preparation of that document as an OGC Consensus Standards process submission.
+* Process a new OGC Consensus Standards process submission once approved by the OAB;
 * Consider official Change Request Proposals to an existing OGC standard and make changes to the standard as necessary: from this perspective, a SWG does all the work that was formerly performed by a Revision Working Group;
 * Approve a candidate standard for public comment;
 * To vote on any changes to a candidate standard or to an existing OGC standard; and/or
@@ -281,7 +281,7 @@ Many votes usually occur in the Opening or Closing TC Plenary. The following is 
 |Approval to start electronic vote for a revision of an OGC standard|TC Voting Member
 |Approval to start electronic vote for a new TC P&P or other policy document|TC Voting Member
 |Approval to start electronic vote for a new SWG or Community standard work activity|TC Voting Member
-|[lime]#Approval of a new SWG Task#|[lime]#TC Voting Member#
+|Approval of a new SWG Task|TC Voting Member
 |==================================================================================
  +For “Any Member” votes, only one member representative from a given Member Organization may vote.
 
@@ -382,9 +382,9 @@ A motion may only be withdrawn by the Working Groupfootnote:[Except for votes in
 The following procedures shall be followed for those cases in which a revote is required.
 
 * If a WG withdrew a motion and there is no content change to the document, the WG can at any time request the TCC initiate new vote.
-* If a WG withdrew a motion and the content of the document is changed, then the WG needs to restart the approval process (in the case of a [lime line-through]#RFC# [lime]#standard#: OAB review, public comment, vote).
+* If a WG withdrew a motion and the content of the document is changed, then the WG needs to restart the approval process (in the case of a standard: OAB review, public comment, vote).
 * If the vote was stopped for procedural problem(s), fix the problem(s), and initiate a new vote.
-* If failure to approve the motion (See Approval and Sufficiency), then the appropriate OGC group needs to address all comments, revise the document and restart the [lime line-through]#RFC# [lime]#standard# approval process with an OAB review, public comment, final edits to the document and a new adoption vote.
+* If failure to approve the motion (See Approval and Sufficiency), then the appropriate OGC group needs to address all comments, revise the document and restart the standard approval process with an OAB review, public comment, final edits to the document and a new adoption vote.
 
 [[multi-part-documents]]
 ==== Multi-part Documents
@@ -514,7 +514,7 @@ Once the Charter is completed and agreed to by the members of the Ad-hocfootnote
 * The ad-hoc considers the TCC comments and edits the charter as necessary.
 * The charter is assigned an OGC document number and posted to pending documents.
 * The availability of the draft charter is announced to the TC and to the public and a three-week public review period begins. There is a formal press release with a general call for comments.
-* If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this [lime line-through]#document or video# [lime]#presentation# should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.
+* If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this presentation should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.
 * Comments received during the comment period are considered by the ad-hoc members and any necessary changes to the draft charter are completed.
 * The modified charter is posted to pending as an update with a new revision number. The TCC shall notify the membership that a revision of the charter has been posted.
 
@@ -554,10 +554,10 @@ Voting in DWGs is by simple majority of OGC Members present at the DWG meeting, 
 
 A SWG may be formed whenever:
 
-* Three or more members provide a [lime line-through]#RFC# submission for a candidate standard;
+* Three or more members provide a submission for a candidate standard;
 * One or more Change Request Proposals for a given adopted OGC standard have been submitted to the public Change Request repository on the OGC web site;
-* Three or more members wish to define and document a new candidate OGC standard that will be submitted using the OGC [lime line-through]#RFC# [lime]#OGC Consensus Standards# process; The new candidate standard could be an interface, encoding, profile, application schema, or extension package; and/or
-* Three or more members wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process.
+* Three or more members wish to define and document a new candidate OGC standard that will be submitted using the OGC OGC Consensus Standards process; The new candidate standard could be an interface, encoding, profile, application schema, or extension package; and/or
+* Three or more members wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the OGC Consensus Standards process.
 
 The formation and execution of the work of a SWG is closely tied to the OGC Intellectual Property Policies and Procedures. Members are strongly encouraged to read this Policy prior to forming or joining a SWG.
 
@@ -572,7 +572,7 @@ The Charter documents the scope of work, references, business value, and project
 
 https://portal.opengeospatial.org/?m=public&subtab=templates&tab=1
 
-[lime]#SWG are chartered to create a primary delivery (a new standard), maintain that standard, and optionally update, extend, or profile that standard through a <<swg-task-process>>. At a minimum, the scope of the primary delivery is provided in the SWG charter.#
+SWG are chartered to create a primary delivery (a new standard), maintain that standard, and optionally update, extend, or profile that standard through a <<swg-task-process>>. At a minimum, the scope of the primary delivery is provided in the SWG charter.
 
 [[ipr-rules-for-a-new-swg]]
 ===== IPR rules for a new SWG
@@ -588,7 +588,7 @@ The OGC IPR policy is similar to those of other voluntary standards organization
 
 By default, OGC SWGs are persistent until the SWG elects to become inactive or disband. Persistence supports the ability to maintain the standard products of the SWG, work on multiple revisions of an existing OGC standard, or to insure that long-term collaboration with other SWGs can be maintained. There may be reasons why a SWG is chartered not to be persistent and such reasons must be described in the charter. The Charter template has a section that specifies whether a SWG is persistent or not.
 
-[lime]#After a SWG completes its primary delivery, each new proposed SWG deliverable under its in-force charter shall be approved via the <<swg-task-process>>.#
+After a SWG completes its primary delivery, each new proposed SWG deliverable under its in-force charter shall be approved via the <<swg-task-process>>.
 
 [[swg-charter-approval-and-formation]]
 ===== SWG Charter Approval and Formation
@@ -606,7 +606,7 @@ Finally, the TCC shall make a general call for participation in the new SWG. The
 
 The charter members for a SWG will be:
 
-* Any members that are part of a [lime line-through]#RFC# [lime]#candidate standard# submission team;
+* Any members that are part of a candidate standard submission team;
 * Any member who asks to join the SWG during the three-week SWG Charter review period; and
 * Any members who participate in the development of the Charter for a new SWG.
 
@@ -672,19 +672,19 @@ Quorum for votes on any items or issues brought before a SWG is based on the n
 Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.
 
 [[swg-work-environment]]
-==== [lime]#SWG Work Environment#
-[lime]#SWGs are expected to maintain their Portal records in a complete fashion, including presentations made at SWG meetings. Presentations in TC Meetings which the SWG permits to be viewed by general OGC membership should be stored in the TC Meeting folder for that SWG or in the SWG Portal project files with a symbolic link to the TC Meeting folder. All draft documents for SWG discussion should be in the SWG files until that point those documents are to be discussed in the TC. SWG documents for TC discussion or voting are to be uploaded to Pending Documents.#
+==== SWG Work Environment
+SWGs are expected to maintain their Portal records in a complete fashion, including presentations made at SWG meetings. Presentations in TC Meetings which the SWG permits to be viewed by general OGC membership should be stored in the TC Meeting folder for that SWG or in the SWG Portal project files with a symbolic link to the TC Meeting folder. All draft documents for SWG discussion should be in the SWG files until that point those documents are to be discussed in the TC. SWG documents for TC discussion or voting are to be uploaded to Pending Documents.
 
 [[swg-use-of-collaboration-environments]]
-===== [lime]#SWG use of collaboration environments#
-[lime]#SWGs are free to use collaboration environments such as GitHub to store text of their draft standard, link that text to developing code, track issues, and manage the document development workflow and milestones. A SWG may also vote to allow non-OGC members to participate in the development of the standard in the collaboration environment. Note that such a vote does not grant access to non-members to the OGC Portal nor does it give those non-members voting rights for SWG approval of any work.#
+===== SWG use of collaboration environments
+SWGs are free to use collaboration environments such as GitHub to store text of their draft standard, link that text to developing code, track issues, and manage the document development workflow and milestones. A SWG may also vote to allow non-OGC members to participate in the development of the standard in the collaboration environment. Note that such a vote does not grant access to non-members to the OGC Portal nor does it give those non-members voting rights for SWG approval of any work.
 
-[lime]#The collaboration environment will be under ultimate control of the OGC. For example, OGC maintains organizational structures in GitHub and SVN under which SWGs can create a project for their use. Non-OGC private repositories or projects may not be used for development of SWG deliverables.#
+The collaboration environment will be under ultimate control of the OGC. For example, OGC maintains organizational structures in GitHub and SVN under which SWGs can create a project for their use. Non-OGC private repositories or projects may not be used for development of SWG deliverables.
 
-[lime]#The collaboration environment must clearly display a message on its home page (e.g., the README file in GitHub) that states the contributions to the work in the collaboration environment belong to OGC, as shown below.#
+The collaboration environment must clearly display a message on its home page (e.g., the README file in GitHub) that states the contributions to the work in the collaboration environment belong to OGC, as shown below.
 
 _______________
-[lime]#The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC standards documents and that all copyright and intellectual property shall be vested to the OGC.#
+The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC standards documents and that all copyright and intellectual property shall be vested to the OGC.
 _______________
 
 [[public-release-of-swg-documents]]
@@ -695,18 +695,18 @@ At any time, the SWG voting members may agree to release any SWG in-progress tec
 [[release-of-documents-for-public-comment]]
 ===== Release of document(s) for public comment
 
-At any time, the SWG can vote to release an in-progress candidate standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is encouraged to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with OGC Communications to generate a press release and properly create the [lime line-through]#Call# [lime]#Request# For Comments (RFC) on the OGC website.
+At any time, the SWG can vote to release an in-progress candidate standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is encouraged to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with OGC Communications to generate a press release and properly create the Request For Comments (RFC) on the OGC website.
 
 [[swg-task-process]]
-==== [lime]#SWG Task approval process#
+==== SWG Task approval process
 
-[lime]#Any new work from a SWG after the primary deliverable must be approved by the TC as a new Task prior to start of that work. The new work can result in an update, extension, or profile of a standard.#
+Any new work from a SWG after the primary deliverable must be approved by the TC as a new Task prior to start of that work. The new work can result in an update, extension, or profile of a standard.
 
-[lime]#The proposed Task must be presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. This presentation should cover the key aspects of the Task, especially the scope of work, the timeline, and the technical discussion related how the work relates to the standard(s) developed by the SWG.#
+The proposed Task must be presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. This presentation should cover the key aspects of the Task, especially the scope of work, the timeline, and the technical discussion related how the work relates to the standard(s) developed by the SWG.
 
-[lime]#Once the proposed Task has been presented to the TC, the TCC will initiate a 21 day TC and public review of the proposed Task. If comments are received in the review period, the SWG shall consider the comments and reissue the proposed Task details, if necessary.#
+Once the proposed Task has been presented to the TC, the TCC will initiate a 21 day TC and public review of the proposed Task. If comments are received in the review period, the SWG shall consider the comments and reissue the proposed Task details, if necessary.
 
-[lime]#The proposed Task will be voted upon by TC Voting Members in a Closing Plenary (see <<voting-at-tc-meetings>>) or by a two-week email vote (see <<tc-or-subgroups-of-the-tc-email-voting>>). Once approved, the Task will be added to the SWG Charter and the updated Charter posted to the SWG Portal files. The SWG may now begin work on the Task.#
+The proposed Task will be voted upon by TC Voting Members in a Closing Plenary (see <<voting-at-tc-meetings>>) or by a two-week email vote (see <<tc-or-subgroups-of-the-tc-email-voting>>). Once approved, the Task will be added to the SWG Charter and the updated Charter posted to the SWG Portal files. The SWG may now begin work on the Task.
 
 [[umbrella-swgs]]
 ==== Umbrella SWGs
@@ -778,44 +778,43 @@ Each Public Engineering Report distributed by the OGC shall include a cover page
 Engineering Reports do not have a version number.
 
 [[best-practices-documents]]
-=== Best Practice [lime]#and Community Practice# Documents
+=== Best Practice and Community Practice Documents
 
-OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practice (BP) [lime]#and Community Practice (CP)# Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. [lime line-through]#A best practice is# [lime]#These documents describe# a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result. [lime]#In some cases, BPs or CPs may transition to full standards through the OGC Consensus Standards process.#
+OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practice (BP) and Community Practice (CP) Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. These documents describe a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result. In some cases, BPs or CPs may transition to full standards through the OGC Consensus Standards process.
 
-BP [lime]#and CP# documents have version numbers that shall start at 1.0.
+BP and CP documents have version numbers that shall start at 1.0.
 
-[lime]#*Best Practice:* a document describing the use of one or more OGC standards, typically to address a domain-specific topic or provide a solution to an interoperability challenge. Best Practices may also describe implemented extensions to or profiles of OGC standards.#
+*Best Practice:* a document describing the use of one or more OGC standards, typically to address a domain-specific topic or provide a solution to an interoperability challenge. Best Practices may also describe implemented extensions to or profiles of OGC standards.
 
-[lime]#*Community Practice:* a document describing implemented standards, specifications, or technologies that originate outside of OGC, but which are relevant to address interoperability requirements in the geospatial and related communities.#
+*Community Practice:* a document describing implemented standards, specifications, or technologies that originate outside of OGC, but which are relevant to address interoperability requirements in the geospatial and related communities.
 
 [[submission-of-documents-to-be-considered-as-an-ogc-best-practice]]
-==== Submission of documents to be considered as an OGC Best Practice [lime]#or Community Practice#
+==== Submission of documents to be considered as an OGC Best Practice or Community Practice
 
-In order to be considered for approval as an OGC BP [lime]#or CP#, the document submitters shall provide the following.
+In order to be considered for approval as an OGC BP or CP, the document submitters shall provide the following.
 
-* [lime]#An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.#*
+* An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.
 * Evidence of implementation. Evidence of implementation shall include but not be limited to: Implementation in commercial product, implementation in open source applications or software, and/or implementation in deployed applications. A single research related implementation is not proper evidence of implementation.
-* [lime line-through]#An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.#
 * Presentation of the contents of the proposed BP at an OGC face-to-face meeting. The presentation may be done remotely using OGC communication tools, such as GoToMeeting.
 * Post the document to OGC Pending Documents on the OGC Members Portal for at least three weeks prior to the face-to-face presentation.
 
 [[approval-of-ogc-best-practice-documents]]
-==== Approval of OGC Best Practice [lime]#and Community Practice# Documents
+==== Approval of OGC Best Practice and Community Practice Documents
 
-[lime line-through]#A BP is# [lime]#Both document types are# an official OGC position statement. Therefore, BP [lime]#and CP# Documents shall be approved by formal electronic vote. Motions to initiate a BP [lime]#and CP# e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
+Both document types are an official OGC position statement. Therefore, BP and CP Documents shall be approved by formal electronic vote. Motions to initiate a BP and CP e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
 
-A BP [lime]#and CP# vote has the same rules as a standards adoption vote (<<tc-electronic-voting>>).
+A BP and CP vote has the same rules as a standards adoption vote (<<tc-electronic-voting>>).
 
-The BP [lime]#and CP# document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP [lime]#or CP# approval e-vote shall be initiated.
+The BP and CP document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP or CP approval e-vote shall be initiated.
 
-Each [lime line-through]#Best Practice Paper# [lime]#BP and CP# distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 7].
+Each BP and CP distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 7].
 
 [[documents-and-distribution]]
 === Documents and Distribution
 
 The numbered document (see <<document-numbers>>) as distributed to members is to be considered the official document of the TC. Electronic mail shall be used for day-to-day discussion of OGC documents. The preferred mechanism for document sharing is the OGC Members-only Portal. OGC Communication shall be used for announcing the availability of new official documents. The actual documents will not be distributed by email unless a member requests receiving a document by email. All official documents will be posted to the Portal. Other electronic forms of documents can be made available at the written request of members.
 
-The Members section of the OGC Portal (http://portal.opengeospatial.org) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution formatfootnote:[Typically, official documents are provided to the public in Word “.doc” format or Adobe PDF format. However, various presentations, draft documents, and so forth can also be distributed in PowerPoint format, HTML, and other formats as provided by the Members. The TCC reserves the right to reject a document that is in a non-industry standard distribution format.] of these documents. [lime line-through]#RFC# [lime]#OGC Consensus Standards# proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in <<other-document-concerns>>. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification Topics and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTMLfootnote:[Initial publications in 2014.].
+The Members section of the OGC Portal (http://portal.opengeospatial.org) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution formatfootnote:[Typically, official documents are provided to the public in Word “.doc” format or Adobe PDF format. However, various presentations, draft documents, and so forth can also be distributed in PowerPoint format, HTML, and other formats as provided by the Members. The TCC reserves the right to reject a document that is in a non-industry standard distribution format.] of these documents. OGC Consensus Standards proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in <<other-document-concerns>>. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification Topics and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTMLfootnote:[Initial publications in 2014.].
 
 [[document-numbers]]
 ==== Document Numbers
@@ -921,22 +920,22 @@ All adoption votes to approve a document as an OGC standard shall be electronic.
 
 The TC e-vote is to recommend to the PC approval of the results of an adoption vote. This will ensure that all TC voting members have the opportunity to vote on the most important work done by the Consortium. Lack of a vote does not count as a vote of Abstain; only an actual vote of Abstain counts as such a vote.footnote:[It is felt that this most important TC vote should encompass the entire Voting TC membership, rather than a portion of a meeting quorum, to allow all OGC Voting TC Members to have control over the issue. Note that the TCC does not cast a vote in the specification adoption process as the TCC vote may only be used in the case of a tie. Under the rules of the new OGC IPR policy, all Specification votes will be by electronic vote. As such, the entire TC voting membership will have the opportunity to vote.]
 
-The policy of the OGC is that proposed standards resulting from a [lime line-through]#RFC# [lime]#OGC Consensus Standards process# evaluation may be recommended to the PC for acceptance conditional on certain changes to the standard, which the TC deems necessary, within a specified time frame.
+The policy of the OGC is that proposed standards resulting from a OGC Consensus Standards process evaluation may be recommended to the PC for acceptance conditional on certain changes to the standard, which the TC deems necessary, within a specified time frame.
 
 Acceptance of the TC recommendation for adoption is always with the caveat that the PC may verify that the standard's sponsor organization(s) is/are in a position to develop (or have developed for the sponsor organization) or commercialize an implementation of the standard. Further, for candidate standards developed external to the OGC and submitted into the OGC process, the PC may verify that the submitting organization has provided a duly executed submission of technology form. In addition, the TC recommends acceptance contingent on the PC’s finding that the sponsoring organization(s) makes the technology available as per the OGC Intellectual Property Policies and Procedures.footnote:[It was felt that it is not within the TC's purview to determine the ability or intent of an OGC member and technology sponsor to commercialize a technology. However, it was felt that the TC's work would be fruitless without such ability and intent. Therefore, recommendations to the PC shall implicitly or explicitly include such caveats.]
 
 [[the-two-track-standards-process-characteristics]]
 === The Two Track Standards Process: Characteristics
 
-There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full standardss track. These two tracks are described below. Regardless of the submission track, the OGC [lime line-through]#Request For Comment (RFC)# [lime]#Consensus Standards# Process shall be used. There are key differences in the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process depending on whether the Community or the Full standards track is being used. The following table summarizes the key aspects and steps in the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process for the two tracks.
+There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full standardss track. These two tracks are described below. Regardless of the submission track, the OGC Consensus Standards Process shall be used. There are key differences in the OGC Consensus Standards process depending on whether the Community or the Full standards track is being used. The following table summarizes the key aspects and steps in the OGC Consensus Standards process for the two tracks.
 
 [cols=",,,,,,,,,",]
 |==================================================================================================================================
 | |SWG |Evidence of Implementation |Modular Spec |Compliance Test |OGC Template |Public Comment |OAB Review |IPR to OGC |Member Vote
 |Community standard |NR* |Strong |NR* |Partial |Yes |Yes |Yes |Yes or Shared |Yes
 |Full standards Track |||||||||
-|[lime]#Draft# standard |Yes |No |Yes |NR* |Yes |Yes |Yes |Yes |Yes
-|standard [lime line-through]#with Compliance Suite# |Yes |Yes |Yes |[lime line-through]#Yes# [lime]#NR*# |Yes |Yes |Yes |Yes |Yes
+|draft standard |Yes |No |Yes |NR* |Yes |Yes |Yes |Yes |Yes
+|standard  |Yes |Yes |Yes |NR* |Yes |Yes |Yes |Yes |Yes
 |==================================================================================================================================
 *NR - Not required.
 
@@ -944,73 +943,71 @@ Community standard: This is a document, developed by communities external to the
 
 Full standards track, which consists of two possible target levels of standard.
 
-[lime]#Draft# Standard: This is a document developed by the OGC membership [lime line-through]#, such as in a Testbed or in a SWG,# for which there is no evidence of implementation or CITE tests. However, the members wish to approve the document as an official OGC document in order to have developers and organizations implement the [lime]#draft# standard and provide feedback. A [lime]#draft# standard [lime line-through]#may at some time be moved forward for approval as a standard with Compliance Suite or it may remain as a standard# is uplifted to a standard once evidence for implementation is provided. [lime]#A draft standard is often derived from output of requirements discussions in DWGs, results of Innovation Program activities, and/or the OGC Technology Strategy which links key innovation activities to anticipate standards needs for emerging technologies.#
+Draft Standard: This is a document developed by the OGC membership for which there is no evidence of implementation or CITE tests. However, the members wish to approve the document as an official OGC document in order to have developers and organizations implement the draft standard and provide feedback. A draft standard is uplifted to a standard once evidence for implementation is provided. A draft standard is often derived from output of requirements discussions in DWGs, results of Innovation Program activities, and/or the OGC Technology Strategy which links key innovation activities to anticipate standards needs for emerging technologies.
 
-Standard [lime line-through]#with Compliance Suite#: This is a mature OGC standard for which there is evidence of implementation [lime line-through]#and for which Compliance tests exist. A standard with Compliance Suite may start as a Community standard or as a standard#. [lime]#This is the final stage in the Full standards track.#
+Standard : This is a mature OGC standard for which there is evidence of implementation This is the final stage in the Full standards track.
 
 [[two-track-standards-process-criteria]]
 ==== Two Track Standards Process Criteria
 
-Evidence of implementation: The TC will judge whether the evidence of implementation for a particular [lime line-through]#Community standard or# standard [lime line-through]#with Compliance Suite# is sufficient to warrant approval of that standard. Strong evidence of implementation as required for the Community standard is generally defined to be implementation in multiple products or environments OR widespread use of the standard in a community, even if in only one or a limited number of products or environments. Evidence of implementation for a standard [lime line-through]#with Compliance Suite# [lime]#in the Full standards track# is defined as three or more documented implementations that [lime line-through]#collectively implement all mandatory requirements of the standard# [lime]#meet the Nature of implementation criteria, below#. The TC may choose to override the minimum number of [lime line-through]#reference# implementations for a specific candidate standard by specifying a lesser number in the electronic adoption vote.
+Evidence of implementation: The TC will judge whether the evidence of implementation for a particular standard is sufficient to warrant approval of that standard. Strong evidence of implementation as required for the Community standard is generally defined to be implementation in multiple products or environments OR widespread use of the standard in a community, even if in only one or a limited number of products or environments. Evidence of implementation for a standard in the Full standards track is defined as three or more documented implementations that meet the Nature of implementation criteria, below. The TC may choose to override the minimum number of implementations for a specific candidate standard by specifying a lesser number in the electronic adoption vote.
 
-[lime]#Nature of implementation: API, service, and exchange protocol standards shall have as evidence of implementation running services which deliver content to another machine (including client software). Encoding standards shall have as evidence of implementation data sets containing content representative of the standard, but not necessarily containing an example of every element in the standard.#
+Nature of implementation: API, service, and exchange protocol standards shall have as evidence of implementation running services which deliver content to another machine (including client software). Encoding standards shall have as evidence of implementation data sets containing content representative of the standard, but not necessarily containing an example of every element in the standard.
 
-[lime]#Conceptual model evidence of implementation: a standard that is conceptual in nature (e.g., cannot be implemented directly) and not being advanced as an Abstract Specification Topic shall only be advanced from a Draft to a final stage once at least one implementation standard based on the conceptual model is approved at the Draft stage.#
+Conceptual model evidence of implementation: a standard that is conceptual in nature (e.g., cannot be implemented directly) and not being advanced as an Abstract Specification Topic shall only be advanced from a Draft to a final stage once at least one implementation standard based on the conceptual model is approved at the Draft stage.
 
-[lime]#Abstract Specification Topics: these standards do not require evidence of implementation due to their foundational nature. Abstract Specification Topics are approved as standards without a Draft stage.#
+Abstract Specification Topics: these standards do not require evidence of implementation due to their foundational nature. Abstract Specification Topics are approved as standards without a Draft stage.
 
 Modular Specification: compliance with the Modular Specification is evidenced by inclusion of clearly defined Requirements and an Abstract Test Suite in the standard document. The OAB will evaluate a standard against this criterion.
 
-[lime line-through]#Compliance Test: a compliance test for an Implementation standard is defined to be an OGC CITE test suite complete for all mandatory requirements in the standard. A compliance test for a Conceptual Model is defined as an approved OGC standard that encodes against the Conceptual Model and which itself has CITE tests.#
-
-IPR: Community standard may contain IPR that is jointly held by the OGC and the submitting organization. The Full standardss track requires that OGC hold the IPR.
+IPR: Community standard may contain IPR that is jointly held by the OGC and the submitting organization. The Full standards track requires that OGC hold the IPR.
 
 [[status-of-standards-approved-before-the-two-track-standards-process]]
 ==== Status of Standards Approved Before the Two Track Standards Process
 
-OGC standards approved prior to the effective date of Revision 24 of these Policies and Procedures (05-020r24) will automatically be classified as “standards” under the Full standards track. [lime line-through]#These standards can be advanced to a standard with Compliance Suite per the process defined in <<specific-policies-regarding-approval-of-a-standard-with-compliance-suite>>.#
+OGC standards approved prior to the effective date of Revision 24 of these Policies and Procedures (05-020r24) will automatically be classified as “standards” under the Full standards track.
 
 [[adoption-andor-revision-to-a-standard---general]]
 === Adoption and/or Revision to a Standard - General
 
-The [lime line-through]#Request for Comment (RFC)# [lime]#OGC Consensus Standards# Process (<<policies-for-the-standard-process>>) is the only way for a candidate standard to move through the review and approval process. This is the approach for proposing a new candidate standard, submitting an externally developed community specification into the OGC process, extensions to an existing standard, profiles of an existing standard, or an application schema for consideration by the membership. For the Full standards track, a SWG manages the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process.
+The OGC Consensus Standards Process (<<policies-for-the-standard-process>>) is the only way for a candidate standard to move through the review and approval process. This is the approach for proposing a new candidate standard, submitting an externally developed community specification into the OGC process, extensions to an existing standard, profiles of an existing standard, or an application schema for consideration by the membership. For the Full standards track, a SWG manages the OGC Consensus Standards process.
 
-Please note: A new standards activity can also be initiated when there are outstanding change request proposals. Change Request Proposals (CRPs) (<<change-request-proposals-crp-to-an-ogc-document>>) provide details for revisions to existing Abstract Specifications or standards. A CRP describes proposed changes or enhancements to an existing standard. A CRP may be submitted by one or more OGC member organizations. One or more CRs against an existing OGC standard is evidence that a revision process for that standard should be initiated. In this case, the TCC may request members consider a standards activity using the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process.
+Please note: A new standards activity can also be initiated when there are outstanding change request proposals. Change Request Proposals (CRPs) (<<change-request-proposals-crp-to-an-ogc-document>>) provide details for revisions to existing Abstract Specifications or standards. A CRP describes proposed changes or enhancements to an existing standard. A CRP may be submitted by one or more OGC member organizations. One or more CRs against an existing OGC standard is evidence that a revision process for that standard should be initiated. In this case, the TCC may request members consider a standards activity using the OGC Consensus Standards process.
 
 The following section provides details on the OGC standard development processes.
 
 [[policies-for-the-standard-process]]
-=== Policies for the [lime line-through]#Request for Comment (RFC)# [lime]#OGC Consensus Standards# Process
+=== Policies for the OGC Consensus Standards Process
 
-The following sections details the requirements, policies, and procedures for adoption of a candidate standard using the OGC [lime line-through]#RFC# [lime]#Consensus Standards# process. Each section specifies whether that step or requirement in the process is for All submissions, Community standard only, or Full standards track only. Please also refer to  <<annex-b-standard-process-outline-full-ogc-standard>> of this document for a synopsis of the steps in the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process for the Full standards track.
+The following sections details the requirements, policies, and procedures for adoption of a candidate standard using the OGC Consensus Standards process. Each section specifies whether that step or requirement in the process is for All submissions, Community standard only, or Full standards track only. Please also refer to  <<annex-b-standard-process-outline-full-ogc-standard>> of this document for a synopsis of the steps in the OGC Consensus Standards process for the Full standards track.
 
 [[conditions-for-submission-of-an-candidate-standard]]
-==== Conditions for Submission of a [lime line-through]#RFC# [lime]#Candidate Standard#
+==== Conditions for Submission of a Candidate Standard
 
-Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate standard or a proposal for the development of a new candidate standard using the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process given that for the submission, the following conditions are met.
+Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate standard or a proposal for the development of a new candidate standard using the OGC Consensus Standards process given that for the submission, the following conditions are met.
 
-* Three different Member organizations endorse the submission [lime]#; evidence of the endorsement via a letter or email to the submitter must be provided to the TC Chair#.
+* Three different Member organizations endorse the submission; evidence of the endorsement via a letter or email to the submitter must be provided to the TC Chair.
 * A Voting Member is the lead for the submission team.
-* For a candidate Community standard, [lime line-through]#or a candidate standard with Compliance Suite# there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.
+* For a candidate Community standard, there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.
 * For a Community standard, the submission team completes a written justification as to why the Community standard track is being requested. This step is described in more detail below.
-* All required documents (see below) must be ready for submission to the OGC for consideration through a [lime line-through]#Request for Comment (RFC)# [lime]#OGC Consensus Standards# process.
+* All required documents (see below) must be ready for submission to the OGC for consideration through a OGC Consensus Standards process.
 
 [[intent-to-submit-an-candidate-standard-all]]
-==== Intent to Submit a [lime line-through]#RFC# [lime]#Candidate Standard# (All)
+==== Intent to Submit a Candidate Standard (All)
 
-Any organization that intends to submit a candidate standard via the [lime line-through]#RFC# [lime]#OGC Consensus Standards# submission process must inform the TCC via email or written correspondence that a new candidate standard is being submitted. At least three different OGC Member organizations must commit to being part of the submission team. The primary submitter must be a TC Voting Member. The TCC will announce via OGC Communications that there is intent to submit a candidate standard.
+Any organization that intends to submit a candidate standard via the OGC Consensus Standards submission process must inform the TCC via email or written correspondence that a new candidate standard is being submitted. At least three different OGC Member organizations must commit to being part of the submission team. The primary submitter must be a TC Voting Member. The TCC will announce via OGC Communications that there is intent to submit a candidate standard.
 
 [[terms-and-conditions-for-candidate-standard-submissions-all]]
-==== Terms and Conditions for [lime line-through]#RFC# [lime]#OGC Candidate Standard process# submissions (All)
+==== Terms and Conditions for OGC Candidate Standard process submissions (All)
 
-In the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process, the submitters agree to the following set of terms and conditions.
+In the OGC Consensus Standards process, the submitters agree to the following set of terms and conditions.
 
 * For a Community standard, work with OGC Staff to develop and submit a justification for submitting a candidate community standard
 * For a Full standards track submission, work with OGC staff to develop a new SWG Charter or to revise the Charter of an existing SWG.
-* All [lime line-through]#RFC# [lime]#OGC Consensus Standards process# submissions originating from work done external to the OGC consensus process and then submitted into the OGC for consideration as an OGC standard may require a signed original of the OGC Submission of Technology Formfootnote:[If a candidate standard is developed entirely within the OGC process, then a SoT is not required.]. Work with OGC staff to determine if a SoT form is required. This form shall be provided to the OGC prior to the adoption vote.
+* All OGC Consensus Standards process submissions originating from work done external to the OGC consensus process and then submitted into the OGC for consideration as an OGC standard may require a signed original of the OGC Submission of Technology Formfootnote:[If a candidate standard is developed entirely within the OGC process, then a SoT is not required.]. Work with OGC staff to determine if a SoT form is required. This form shall be provided to the OGC prior to the adoption vote.
 * The Submission team has reviewed the current Policy Regarding Intellectual Property Rights of OGC and agrees that its submission is being made in full compliance with those Policies.
 * Proprietary and confidential material may not be included in any submission to the OGC.
-* [lime line-through]#RFC# [lime]#OGC Candidate Standard# submitters must provide an agreement to grant OGC a non-exclusive, royalty-free, paid-up, worldwide license to copy and distribute their submission to the OGC membership, and, if adopted by OGC, the right to modify, enhance, and make derivative works from the standard and to copy and distribute the standard, modifications, enhancements, and derivative works both inside and outside of the OGC membership.
+* OGC Candidate Standard submitters must provide an agreement to grant OGC a non-exclusive, royalty-free, paid-up, worldwide license to copy and distribute their submission to the OGC membership, and, if adopted by OGC, the right to modify, enhance, and make derivative works from the standard and to copy and distribute the standard, modifications, enhancements, and derivative works both inside and outside of the OGC membership.
 * The Submitters agree that the OGC may copy, distribute and otherwise make available this submission for the purpose of evaluation, and that in the event that the submission is accepted, that OGC will own the copyright in the resulting standard or amendment and all rights therein, including the rights of distribution. This agreement shall not in any way deprive the Submitter of any patent or other IPR relating to the technology to which its submission relates.
 * OGC standards may reference other OGC standards or standards from other standards organizations. Incorporating standards by reference requires that the standard clearly designate what portions of the other standard are referenced, the version of the other standard, a complete reference to the other standard, and complete information on how to obtain the other standard. Whenever possible, submitting organizations are asked to make available to OGC the referenced standard in soft or hard copy form.
 
@@ -1038,14 +1035,12 @@ Once the justification document is posted to pending, the TCC shall:
 
 * Announce a three week OGC Member review period. Comments may be provided.
 * Coordinate a broad community announcement that the OGC is considering accepting a Community standard into the OGC standards process; and
-* [lime]#Have the proposed Community standard submitters present the justification to the TC at a Plenary or via a web meeting and# ask the full TC if there are any objections to [lime line-through]#accepting# [lime]#starting an electronic vote on# the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.#
-
-[lime line-through]#Please note that there is also an official TC Voting Member vote to approve the use of the Community standard process.#
+* Have the proposed Community standard submitters present the justification to the TC at a Plenary or via a web meeting and ask the full TC if there are any objections to starting an electronic vote on the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.
 
 [[approval-of-the-proposed-community-standard-as-an-ogc-work-item]]
-===== Approval of the proposed Community standard [lime line-through]#as an OGC# work item
+===== Approval of the proposed Community standard work item
 
-[lime line-through]#Concurrent with the Member# [lime]#Upon completion of the# review and comment process, the TCC shall initiate an official e-vote to approve (or not) the proposed work item for processing a Community standard. This vote shall follow the e-vote process and policies as defined in <<tc-electronic-voting>> of the OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns. [lime]#A Community standard Work Item is valid for six months: within this time period the draft Community standard must be scheduled for OAB review or else the Work Item must be renewed through a new submission.#
+Upon completion of the review and comment process, the TCC shall initiate an official e-vote to approve (or not) the proposed work item for processing a Community standard. This vote shall follow the e-vote process and policies as defined in <<tc-electronic-voting>> of the OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns. A Community standard Work Item is valid for six months: within this time period the draft Community standard must be scheduled for OAB review or else the Work Item must be renewed through a new submission.
 
 [[processing-comments-received-during-the-community-standard-work-item-approval-vote]]
 ===== Processing Comments received during the Community standard work item approval vote
@@ -1053,14 +1048,14 @@ Once the justification document is posted to pending, the TCC shall:
 If comments are received as part of the approval vote for using the Community standard process, the submission team shall follow the process as defined in <<review-of-the-received-comments-all>>.
 
 [[required-components-of-the-standard-submission-package]]
-==== Required components of the [lime line-through]#RFC# [lime]#OGC Consensus Standards process# Submission Package
+==== Required components of the OGC Consensus Standards process Submission Package
 
-In addition to the candidate standard document, all [lime line-through]#RFC# [lime]#OGC Consensus Standards process# submissions must include a signed Cover Letter and if required a signed OGC Technology Submission form for each submission.
+In addition to the candidate standard document, all OGC Consensus Standards process submissions must include a signed Cover Letter and if required a signed OGC Technology Submission form for each submission.
 
 [[submission-cover-letter-all]]
 ===== Submission Cover Letter (All)
 
-The lead organization on each [lime line-through]#RFC# [lime]#OGC Consensus Standards process# submission shall provide a Cover Letter stating the intent of the organization to support the SWG and related [lime line-through]#RFC# [lime]#OGC Consensus Standards# process. The cover letter may be in the form of an email correspondence.
+The lead organization on each OGC Consensus Standards process submission shall provide a Cover Letter stating the intent of the organization to support the SWG and related OGC Consensus Standards process. The cover letter may be in the form of an email correspondence.
 
 [[ogc-technology-submission-form-externally-developed-submissions-only]]
 ===== OGC Technology Submission Form (Externally developed submissions only)
@@ -1069,7 +1064,7 @@ The following clause applies to candidate standards developed external to the OG
 
 Assurances are required at the time of submission that the Intellectual Property Rights inherent in the submissions will, if the submission is approved as an OGC standard, be made available under license to all implementers, members and non-members alike.
 
-In order to assure this result, any organization submitting a [lime line-through]#RFC# [lime]#OGC Consensus Standards process# Proposal Package where the candidate standard was developed outside the OGC SWG or DWG process may be required to complete, sign and deliver a Submission of Technology Form (SoT). Please contact OGC staff to discuss whether a SoT is required. If required, the signed SoT shall be provided prior to the adoption vote.
+In order to assure this result, any organization submitting a OGC Consensus Standards process Proposal Package where the candidate standard was developed outside the OGC SWG or DWG process may be required to complete, sign and deliver a Submission of Technology Form (SoT). Please contact OGC staff to discuss whether a SoT is required. If required, the signed SoT shall be provided prior to the adoption vote.
 
 [[additional-member-endorsements-all]]
 ===== Additional Member endorsements (All)
@@ -1077,14 +1072,14 @@ In order to assure this result, any organization submitting a [lime line-through
 Any submission requires that three or more distinct Member organizations support the submission. In addition to the submission team lead, each other organization supporting the submission share provide the TCC with an email stating their organization’s support of the submission.
 
 [[main-steps-in-the-standard-process]]
-==== Main Steps in the [lime line-through]#RFC# [lime]#OGC Consensus Standards# Process
+==== Main Steps in the OGC Consensus Standards Process
 
-The steps in the OGC [lime line-through]#RFC# [lime]#Consensus Standards# Process are as follows.
+The steps in the OGC Consensus Standards Process are as follows.
 
 [[submission-of-the-standard-package-to-the-ogc-all]]
-===== Submission of the [lime line-through]#RFC# [lime]#OGC Consensus Standards process# package to the OGC (All)
+===== Submission of the OGC Consensus Standards process package to the OGC (All)
 
-The [lime line-through]#RFC# [lime]#OGC Consensus Standards process# Submission team shall provide the submission package to the OGC TCC. The TCC shall review the proposal in terms of required documents.
+The OGC Consensus Standards process Submission team shall provide the submission package to the OGC TCC. The TCC shall review the proposal in terms of required documents.
 
 For a Community standard, the submission package shall include:
 
@@ -1101,21 +1096,21 @@ For a Full standard, the submission package shall include:
 * SWG Charter (See below), and
 * Candidate standard document if one exists. For proposed new standard, providing a document is not required.
 
-Documents being submitted as Full standards shall use the https://portal.opengeospatial.org/files/?artifact_id=56777/[document formatting and content], in common use by the OGC at the time of submission, of standards submitted under the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process. There is a detailed https://portal.opengeospatial.org/files/?artifact_id=3244/[guidance document] for using the template.
+Documents being submitted as Full standards shall use the https://portal.opengeospatial.org/files/?artifact_id=56777/[document formatting and content], in common use by the OGC at the time of submission, of standards submitted under the OGC Consensus Standards process. There is a detailed https://portal.opengeospatial.org/files/?artifact_id=3244/[guidance document] for using the template.
 
 Documents being submitted as Community standards do not need to follow the OGC document template for an OGC standard. However, the submission team for a Community standard is strongly encouraged to provide the candidate standard to the OGC using the document template.
 
 Proposals that require changes to the Abstract Specification must include acceptable documentation (at the discretion of the OGC TC) of these changes.
 
 [[formation-of-a-new-swg-to-work-on-the-standard-submission-full-standard]]
-===== Formation of a new SWG to work on the [lime line-through]#RFC# [lime]#OGC Consensus Standards process# submission (Full standards)
+===== Formation of a new SWG to work on the OGC Consensus Standards process submission (Full standards)
 
 See <<swg-charter-approval-and-formation>> on the Policies specific to the formation of a new SWG and SWG processes.
 
 [[release-of-candidate-standard-for-internal-review-and-public-comment-all]]
 ===== Release of candidate standard for internal review and Public Comment (All)
 
-At any time in the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process, the SWG may vote to release a candidate standard for public comment. These interim public comment periods do not require OAB review or OGC Naming Authority review. However, there shall be at a minimum one official 30 day public comment period.
+At any time in the OGC Consensus Standards process, the SWG may vote to release a candidate standard for public comment. These interim public comment periods do not require OAB review or OGC Naming Authority review. However, there shall be at a minimum one official 30 day public comment period.
 
 Full standard: Once the SWG determines that the candidate standard is ready for OAB and OGC-NA review and public comment, the SWG shall have a vote to release the document for public review. Upon a simple majority vote by the voting members of the SWG, the candidate standard will be released for a 30-day public comment period. The OAB shall review a candidate standard prior to the actual release for public comment.
 
@@ -1124,12 +1119,12 @@ Community standard: The community standard submission team and the TCC must agre
 [[review-by-the-ogc-architecture-board-all]]
 ===== Review by the OGC Architecture Board (All)
 
-Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the [lime line-through]#RFC# [lime]#OGC candidate standard# submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full standards compliance with the Modular Specification Policyfootnote:[https://portal.opengeospatial.org/files/?artifact_id=34762[_The Specification Model - A Standard for Modular specifications (08-131r3)_]], and how the proposal is consistentfootnote:[This information is to be provided in the Community Standard Justification document. A Community standard is not required to align with the current OGC standards baseline or may overlap existing OGC standards functionality.] with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.
+Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the OGC candidate standard submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full standards compliance with the Modular Specification Policyfootnote:[https://portal.opengeospatial.org/files/?artifact_id=34762[_The Specification Model - A Standard for Modular specifications (08-131r3)_]], and how the proposal is consistentfootnote:[This information is to be provided in the Community Standard Justification document. A Community standard is not required to align with the current OGC standards baseline or may overlap existing OGC standards functionality.] with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.
 
 [[review-of-ogc-identifiers-http-uris-etc-by-the-ogc-naming-authority-all]]
 ===== Review of OGC Identifiers (http URIs, etc) by the OGC Naming Authority (All)
 
-Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in [lime line-through]#“Policy Directives for Writing and Publishing OGC Standards: TC Decisions”.footnote:[http://portal.opengeospatial.org/files/?artifact_id=40077]# [lime]#the http://www.opengeospatial.org/ogc/policies/directives/[TC Policy Directives].#
+Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in the http://www.opengeospatial.org/ogc/policies/directives/[TC Policy Directives].
 
 The candidate standard document/repository will also be provided to the OGC-NA to ensure that document tags and formatting are consistent with the OGC standard template and suitable for ingestion into the OGC Knowledge Management database.
 
@@ -1143,7 +1138,7 @@ The candidate standard is released for a 30-day public comment periodfootnote:[T
 [[review-of-the-received-comments-all]]
 ===== Review of the Received Comments (All)
 
-Once the RFC comment period closes, the [lime line-through]#RFC# [lime]#candidate standard# submission team “collects” the comments and integrates them into a single RFC comment document. The team reviews the comments and determines how each comment will be responded to. The team may decide to:
+Once the RFC comment period closes, the candidate standard submission team “collects” the comments and integrates them into a single RFC comment document. The team reviews the comments and determines how each comment will be responded to. The team may decide to:
 
 * Accepts the comment as is and edits the candidate standard accordingly;
 * Accepts the comment with modification and edits the candidate standard accordingly;
@@ -1156,9 +1151,9 @@ In all cases, the team shall document their decision in the RFC comment document
 
 The comment response document shall be a public document. The comment responses can be provided in a document or a Wiki.
 
-Finally, the team may need to make a decision as to the fate of the [lime line-through]#RFC# [lime]#OGC Consensus Standards process#. If the team decides that comments received are sufficient to halt the [lime line-through]#RFC# [lime]#OGC Consensus Standards process#, then the [lime line-through]#RFC# [lime]#OGC Consensus Standards process# "fails" and adoption of the proposal halts. The submitter(s) may then make changes and resubmit the [lime line-through]#RFC# [lime]#OGC Consensus Standards process# proposal.
+Finally, the team may need to make a decision as to the fate of the OGC Consensus Standards process. If the team decides that comments received are sufficient to halt the OGC Consensus Standards process, then the OGC Consensus Standards process "fails" and adoption of the proposal halts. The submitter(s) may then make changes and resubmit the OGC Consensus Standards process proposal.
 
-If, however, the comments received do not cause the team to halt the [lime line-through]#RFC# [lime]#OGC Consensus Standards process#, then the team edits the document based on the comments received during the comment period (See above).
+If, however, the comments received do not cause the team to halt the OGC Consensus Standards process, then the team edits the document based on the comments received during the comment period (See above).
 
 If the RFC comments result in a significant change to the candidate standard, then the TCC may request that the revised candidate standard be reviewed by the OAB once more prior to the TC adoption vote.
 
@@ -1177,9 +1172,9 @@ Upon approval of the TC to start an electronic vote, the TCC will initiate a 45-
 A YES vote by the TC to recommend approval by the PC will initiate a PC vote, further described in the PC Policies and Procedures.
 
 [[specific-policies-regarding-approval-of-a-standard-uplift]]
-==== Specific policies regarding approval of [lime line-through]#a standard with Compliance Suite# [lime]#uplift of a Draft standard to a standard#
+==== Specific policies regarding approval of uplift of a draft standard to a standard
 
-A [lime]#Draft# standard proposed to be approved as a standard [lime line-through]#with Compliance Suite# must be submitted by the SWG to the TCC with written documentation that the standard meets the criteria for [lime line-through]#Reference Implementations and presence of a Compliance Test# [lime]#evidence of implementation per the <<two-track-standards-process-criteria>>. The candidate standard [lime line-through]#with Compliance Suite# must then proceed with the [lime line-through]#OAB Review (<<review-by-the-ogc-architecture-board-all>>)# [lime]#RFC (<<release-for-public-comment-period-all>>)# through Voting (<<vote-to-approve-candidate-standard-all>>) steps.
+A draft standard proposed to be approved as a standard must be submitted by the SWG to the TCC with written documentation that the standard meets the criteria for evidence of implementation per the <<two-track-standards-process-criteria>>. The candidate standard must then proceed with the RFC (<<release-for-public-comment-period-all>>) through Voting (<<vote-to-approve-candidate-standard-all>>) steps.
 
 [[specific-policies-regarding-profiles-moving-from-a-best-practice-to-a-standard]]
 ==== Specific policies regarding profiles moving from a Best Practice to a standard
@@ -1219,8 +1214,8 @@ The level of detail of the AS is at the discretion of the Technical Committee as
 
 There are two categories of potentially unacceptable Abstract Specification change proposals, including:
 
-* Proposals that directly affect the content of an outstanding [lime line-through]#RFC# [lime]#OGC Consensus Standards process effort# (a decision made by the subgroup responsible for processing the proposed changes); and
-* Proposals that affect the content of a completed [lime line-through]#RFC# [lime]#OGC standard# (these issues should be handled in the revision process because they potentially affect both the Abstract Specification and Implementation standards).
+* Proposals that directly affect the content of an outstanding OGC Consensus Standards process effort (a decision made by the subgroup responsible for processing the proposed changes); and
+* Proposals that affect the content of a completed OGC standard (these issues should be handled in the revision process because they potentially affect both the Abstract Specification and Implementation standards).
 
 
 [[authoritative-sdo-documents-as-ogc-abstract-specifications]]
@@ -1250,11 +1245,11 @@ NOTE: for this case, the TCC will need to ensure that a copy of the Authoritativ
 For this case, the OGC and the Authoritative SDO have agreed to have a joint standards development activity. This decision is captured by approval of the Authoritative SDO (in the case of ISO / TC 211 as an official New Work Item Proposal (NWIP)) and approval of an official OGC SWG Charter. The OGC SWG shall be open to participation by both OGC and the Authoritative SDO members. The work of the SWG shall be under the OGC PnP for all activities related to the development and approval of an OGC standard. There will also be a parallel Edit Committee or equivalent in the Authoritative SDO to process all of the Authoritative SDO requirements for editing, review, and approval of an Authoritative SDO Standard. The SWG Chair shall have responsibility of communicating and coordinating the joint activity.
 
 [[submissions-ogc-standard-to-other-sdo]]
-=== [lime]#Submission of an OGC standard for consideration by another SDO#
-[lime]#OGC membership may choose to submit an approved OGC standard to another SDO for adoption of the standard by that SDO. A number of OGC standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.#
+=== Submission of an OGC standard for consideration by another SDO
+OGC membership may choose to submit an approved OGC standard to another SDO for adoption of the standard by that SDO. A number of OGC standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.
 
-* [lime]#The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and#
-* [lime]#the TC will vote in a Closing Plenary or by email to approve the submission per the rules for <<voting-during-and-between-tc-meetings>>.#
+* The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and
+* the TC will vote in a Closing Plenary or by email to approve the submission per the rules for <<voting-during-and-between-tc-meetings>>.
 
 [[appeals-process]]
 === Appeals Process
@@ -1313,16 +1308,16 @@ When a SWG has processed a CRP, the status of the CRP will be changed on the OGC
 [[the-standard-revision-process-full-standard]]
 === The Standard Revision Process (Full standard)
 
-A primary function of a Standards Working Group (SWG) is to edit a candidate standard based on either a) comments received as part of the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process or b) the contents of one or more official OGC Change Request Proposal(s). If any member feels that a standard needs to be changed, edited, or enhanced, they must submit a Change Request Proposal.
+A primary function of a Standards Working Group (SWG) is to edit a candidate standard based on either a) comments received as part of the OGC Consensus Standards process or b) the contents of one or more official OGC Change Request Proposal(s). If any member feels that a standard needs to be changed, edited, or enhanced, they must submit a Change Request Proposal.
 
 All voting in a SWG, whether for processing a candidate standard or for revisions to an existing standard will follow the rules as defined for <<swg-voting>>.
 
 [[the-revision-process]]
 ==== The Revision Process
 
-The SWG reviews requests for revisions and corrections to a standard. Requests for revisions must be in the form of comments received during any public review period, such as for the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process, or in the form of official CRPs. Ad-hoc emails and verbal requests at meetings will not be considered as official CRPs. However, the SWG may vote to discuss issues that have not been submitted as CRPs, and may vote to direct one or more of its members to create official CRPs to document an agreement reached as the result of those discussions.
+The SWG reviews requests for revisions and corrections to a standard. Requests for revisions must be in the form of comments received during any public review period, such as for the OGC Consensus Standards process, or in the form of official CRPs. Ad-hoc emails and verbal requests at meetings will not be considered as official CRPs. However, the SWG may vote to discuss issues that have not been submitted as CRPs, and may vote to direct one or more of its members to create official CRPs to document an agreement reached as the result of those discussions.
 
-[lime]#A major or minor version revision of a standard follows the process of the Full standards track with the initial revision approved as a Draft standard. A Corrigendum to a standard does not require new evidence of implementation and the Corrigendum is approved at the final stage of a standard.#
+A major or minor version revision of a standard follows the process of the Full standards track with the initial revision approved as a Draft standard. A Corrigendum to a standard does not require new evidence of implementation and the Corrigendum is approved at the final stage of a standard.
 
 [[swg-review-of-change-proposals]]
 ===== SWG Review of Change Proposals
@@ -1359,14 +1354,14 @@ The SWG shall perform the following tasks.
 * Endeavor to reflect their perception of the consensus of the TC.
 
 [[the-standard-revision-process-community-standard]]
-=== [lime]#The Standard Revision Process (Community standard)#
+=== The Standard Revision Process (Community standard)
 
-[lime]#Revision of a Community standard is treated as a new Community standard submission and all processes for approval of a Community standard from submission of a Work Item to vote for final approval are required.#
+Revision of a Community standard is treated as a new Community standard submission and all processes for approval of a Community standard from submission of a Work Item to vote for final approval are required.
 
 [[corrigendum-errata-changes-to-ogc-standards]]
-=== Corrigendum (errata) Changes to OGC Standards [lime line-through]#(Full standard)#
+=== Corrigendum (errata) Changes to OGC Standards
 
-From time to time, members and the public will discover errors in a published and approved OGC standard. In such cases, a process is required to document and publish the corrections without forming a SWGfootnote:[The members may determine that a SWG should be formed to properly discuss the necessary changes to correct the deficiencies. In this case, the SWG Revision P&P will be followed.] [lime]#or submitting a new Community standard Work Item# and that follows the formal TC review and voting process. Under the corrigendum process, an error (or errors) in a published document discovered after adoption and publication is shown with its correction(s) under a separate sheet (or addendum). [lime line-through]#This process is very similar to the ISO Technical Corrigendum Process#
+From time to time, members and the public will discover errors in a published and approved OGC standard. In such cases, a process is required to document and publish the corrections without forming a SWGfootnote:[The members may determine that a SWG should be formed to properly discuss the necessary changes to correct the deficiencies. In this case, the SWG Revision P&P will be followed.] or submitting a new Community standard Work Item and that follows the formal TC review and voting process. Under the corrigendum process, an error (or errors) in a published document discovered after adoption and publication is shown with its correction(s) under a separate sheet (or addendum).
 
 This process operates as follows.
 
@@ -1375,7 +1370,7 @@ This process operates as follows.
 3.  The TCC or designee communicates the documented error to the editor/author of the specified standard.
 4.  The editor/author checks the validity of the error and then communicates this information to the OGC membership for comment using standard OGC communications. The reason for the TC broadcast is that there may be many implementations of the standard for which an error has been documented.
 5.  If there is concurrence that the corrigendum documents a valid error, the editor/author writes the corrigendum and submits back to the TCC or his designee.
-6.  The Membership votes to release (or not) the error (deficiency) correction as a corrigendum. A Corrigendum vote will ask if there is any objection to unanimous consent. In order to speed the process, these votes will last for only two weeks [lime]#or occur in a TC Meeting Closing Plenary# and there is no IPR review requirement.
+6.  The Membership votes to release (or not) the error (deficiency) correction as a corrigendum. A Corrigendum vote will ask if there is any objection to unanimous consent. In order to speed the process, these votes will last for only two weeks or occur in a TC Meeting Closing Plenary and there is no IPR review requirement.
 7.  The corrigendum is published via OGC communications.
 
 [[backwards-compatibility-full-standard]]
@@ -1449,4 +1444,4 @@ The Technical Committee may temporarily override specific procedures set forth i
 [[adoption-of-this-policy-document]]
 == Adoption of This Policy Document
 
-In order to be accepted or modified, this document must be ratified by [lime line-through]#a two-thirds (2/3) vote (under the rules herein) at a TC meeting, electronic, or via# electronic vote [lime]#per <<tc-electronic-voting>> rules#. [lime line-through]#Changes to this document are to be presented to the TC, included in the meeting's minutes, and ratified by the same procedure. Meetings in which a vote on acceptance or modification of this document is to occur must include the change in the published agenda for the meeting. Alternatively, the OGC PC can make changes to these Policies and Procedures by its normal operational process.#
+In order to be accepted or modified, this document must be ratified by electronic vote per <<tc-electronic-voting>> rules.

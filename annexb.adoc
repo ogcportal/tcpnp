@@ -1,6 +1,6 @@
 [[appendix]]
 [[annex-b-standard-process-outline-full-ogc-standard]]
-== Annex B: [lime line-through]#RFC# [lime]#OGC Consensus Standards# Process Outline: Draft OGC Standard
+== Annex B: OGC Consensus Standards Process Outline: Draft OGC Standard
 
 
 
