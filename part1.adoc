@@ -989,7 +989,7 @@ The following sections details the requirements, policies, and procedures for ad
 
 Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate standard or a proposal for the development of a new candidate standard using the [lime line-through]#RFC# [lime]#OGC Consensus Standards# process given that for the submission, the following conditions are met.
 
-* Three different Member organizations endorse the submission.
+* Three different Member organizations endorse the submission [lime]#; evidence of the endorsement via a letter or email to the submitter must be provided to the TC Chair#.
 * A Voting Member is the lead for the submission team.
 * For a candidate Community standard, [lime line-through]#or a candidate standard with Compliance Suite# there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.
 * For a Community standard, the submission team completes a written justification as to why the Community standard track is being requested. This step is described in more detail below.
@@ -1029,7 +1029,7 @@ The companies <list of companies/organizations> have granted the Open Geospatial
 
 The submission team shall provide a written justification as to why the Community standard process can be used. This justification shall also include the reasons why the candidate standard may not need to be aligned with the OGC Abstract Specification and Standards Baseline. There is a template for this justification (OGC 16-113, Community Standard Justification Template).
 
-Once the submission team completes a draft of the justification document, they shall provide the TCC the draft. The TCC shall review the draft and provide comments and guidance back to the submission team. The Submission Team reviews the TCC comments and modifies the justification as required. When the Submission Team agrees that the justification document is complete, the convener shall post the justification document to pending documents. The document shall be posted as a Public document!
+Once the submission team completes a draft of the justification document, they shall provide the TCC the draft. The TCC shall review the draft and provide comments and guidance back to the submission team. The Submission Team reviews the TCC comments and modifies the justification as required. When the Submission Team agrees that the justification document is complete, the convener shall post the justification document to pending documents. The document shall be posted as a Public document.
 
 [[submission-justification-document-member-review-process]]
 ===== Submission justification document: Member review process
@@ -1037,15 +1037,15 @@ Once the submission team completes a draft of the justification document, they s
 Once the justification document is posted to pending, the TCC shall:
 
 * Announce a three week OGC Member review period. Comments may be provided.
-* Coordinate a broad community announcement that the OGC is considering accepting a Community standard into the OGC standards process;
-* Ask the full TC if there are any objections to accepting the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.
+* Coordinate a broad community announcement that the OGC is considering accepting a Community standard into the OGC standards process; and
+* [lime]#Have the proposed Community standard submitters present the justification to the TC at a Plenary or via a web meeting and# ask the full TC if there are any objections to [lime line-through]#accepting# [lime]#starting an electronic vote on# the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.#
 
-Please note that there is also an official TC Voting Member vote to approve the use of the Community standard process.
+[lime line-through]#Please note that there is also an official TC Voting Member vote to approve the use of the Community standard process.#
 
 [[approval-of-the-proposed-community-standard-as-an-ogc-work-item]]
-===== Approval of the proposed Community standard as an OGC work item
+===== Approval of the proposed Community standard [lime line-through]#as an OGC# work item
 
-Concurrent with the Member review and comment process, the TCC shall initiate an official e-vote to approve (or not) the proposed work item for processing a Community standard. This vote shall follow the e-vote process and policies as defined in <<tc-electronic-voting>> of the OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns. [lime]#A Community standard Work Item is valid for six months: within this time period the draft Community standard must be scheduled for OAB review or else the Work Item must be renewed through a new submission.#
+[lime line-through]#Concurrent with the Member# [lime]#Upon completion of the# review and comment process, the TCC shall initiate an official e-vote to approve (or not) the proposed work item for processing a Community standard. This vote shall follow the e-vote process and policies as defined in <<tc-electronic-voting>> of the OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns. [lime]#A Community standard Work Item is valid for six months: within this time period the draft Community standard must be scheduled for OAB review or else the Work Item must be renewed through a new submission.#
 
 [[processing-comments-received-during-the-community-standard-work-item-approval-vote]]
 ===== Processing Comments received during the Community standard work item approval vote
