@@ -14,13 +14,17 @@ BP (Best Practice Document): A document containing discussion of best practices 
 
 Candidate standard: An engineering document that describes an existing, operational standard that one or more OGC Voting TC Members wish to sponsor as an RFC submission under the Bylaws of the OGC.
 
+[lime]#Draft standard: A standard which has been approved by OGC membership, but which lacks evidence of implementation.#
+
 Deprecated Document: An official standard of the OGC but no longer maintained. An OGC document shall be deprecated by a vote of the OGC Voting Members, usually as part of a standards adoption vote.
 
 ER (Engineering Report): An ER Report is a document that reports on some technical activity in an Interoperability Program Initiative. An ER Report may also be a candidate standard or a formal change request proposal for an approved standard. An ER Report documents are submitted to the OGC TC for review and comment. An ER Report is not a publicly available document unless approved for release by the OGC membership. An ER Report does not represent the official position of the OGC nor of the OGC Technical Committee.
 
+[lime]#Extension: An extension is a set of one or more conformance clauses that defines new options for an existing standard. Extensions are generally designed to add additional capabilities that are not part of the core standard. An example is OGC GeoPackage Extension for Tiled Gridded Coverage Data.#
+
 Invited Guest: A liaison representative appointed by an external organization which has reciprocal liaison status with the OGC, or an individual who has received an invitation to attend meetings of the TC. The OGC staff or Voting TC Members may issue invitations. It is the policy of the OGC to freely allow guests and observers, so long as they provide a request to attend to the OGC staff and pay the appropriate meeting fees.
 
-IP (OGC Interoperability Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standard Development Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.
+IP (OGC Innovation Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standards Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.
 
 IPR (Intellectual Property Rights): An umbrella term used to refer to the object of a variety of laws, including patent law, copyright law, trademark law, trade secret law, industrial design law, and potentially others.
 
@@ -36,7 +40,7 @@ OAB (OGC Architecture Board) - The OGC Architecture Board works with the TC and 
 
 OGC Communication: A communication by any means, including posting on the WWW Site (http://www.opengeospatial.org), electronic mail, facsimile transmission, or by regular post. The primary forms of communication will be either via email or using the OGC Members Only Portal. Any member desiring delivery by other than electronic means (WWW site or electronic mail) must state so in written form to OGC staff.
 
-OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts.
+OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts. OGC standards generally have evidence of implementation.
 
 OGC Member, or Member: Any member in good standing.
 
@@ -44,21 +48,23 @@ OGC Member Portal: A members’ only accessible component of the OGC web site. T
 
 OGC Standards Program: Provides an industry consensus process to plan, review and officially adopt OGC Standards for interfaces and protocols that enable interoperable geoprocessing services, data, and applications. The OGC bodies involved in the Standard Program are the Technical Committee, Planning Committee, and Strategic Member Advisory Committee.
 
-Profile: [ISO 19109] A profile is a strict subset of a standard applicable to multiple Application Schemas. An example of a profile is the GML Simple Feature Profile.
+Profile: [lime line-through]#[ISO 19109] A profile is a strict subset of a standard applicable to multiple Application Schemas# [lime]#[ISO 19106:2004, Type 1 Profile] A profile is a pure subset of an existing standard including restrictions on or deletions of conformance clauses related to the subsetting#. An example of a profile is the GML Simple Feature Profile.
+
+[lime]#Profile with Extension: A profile with extension is a set of one or more conformance clauses from a base standard that includes at least one new conformance clause (extension). An example is OpenGIS® Web Map Services - Profile for EO Products.#
 
 PC (Planning Committee) − The OGC Planning Committee is granted authority to operate by the OGC Bylaws. Principal Membership is available for organizations that wish to participate in the planning and management of the Consortium's technology development process.
 
 RAND: Reasonable and Non-discriminatory.
 
-Request for Comment, or RFC (See Section 9.4): An explicit request to the industry for comments concerning a particular candidate standard that a Standards Working Group is considering for adoption as a standard satisfying a portion of the Abstract Specification. An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.
+Request for Comment (RFC): An explicit request to the industry for comments concerning a particular candidate standard that [lime line-through]#a Standards Working Group# [lime]#OGC membership# is considering for adoption as a standard satisfying a portion of the Abstract Specification. [lime line-through]#An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.#
 
 Retired Document: An OGC document that, by Member approval, is no longer an official or supported document of the OGC. As such, retired documents should not be referenced in any procurement, policy statement, or other OGC document. Retired documents are made available on the OGC website for historical purposes.
 
-SAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.
+SMAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.
 
 Standards Development Process: The operational details of the discussing and evaluating technologies relevant to the OGC standards baseline, standard revision, and the RFC processes to propose, review, recommend modifications to, and recommend adoption of candidate standards.
 
-Standards Baseline: The complete set of member approved abstract specifications standards, including profiles and extensions, and Community standards.
+Standards Baseline: The complete set of member approved abstract specifications, standards (including profiles and extensions), and Community standards.
 
 TC (Technical Committee) See Section 5: The OGC TC has been granted authority to operate by the OGC Bylaws. The OGC Technical Committee is composed of individuals representing organizations that are duly recognized members in good standing of the OGC.
 
@@ -67,4 +73,3 @@ TC Member: Any member in good standing of the TC.
 Voting TC Member: Any member of the TC who may vote on TC Items and Issues. Voting TC Members are the Technical Representatives of OGC Technical Committee Members, Principal Members, and Strategic Members. Only the designated Technical Representative from a given member organization may be a Voting TC Member.
 
 WP (White Paper): An OGC member approved publication released by the OGC to the Public that states a position on one or more technical or other subject that is germane to the work of the OGC, often including a high-level explanation of a standards based architecture or framework of a solution. A White Paper often explains the results or conclusions of research. A White Paper is not an official position of the OGC.
-

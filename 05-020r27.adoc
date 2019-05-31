@@ -17,12 +17,12 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2018-02-14
-|Approval Date:   2018-06-05
-|Publication Date:   2018-07-24
+|Submission Date: YYYY-MM-DD
+|Approval Date:   YYYY-MM-DD
+|Publication Date:   YYYY-MM-DD
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/26.0
-|Internal reference number of this OGC(R) document:    05-020r26
-|Version: 26.0
+|Internal reference number of this OGC(R) document:    05-020r27
+|Version: 27.0
 |Category: OGC(R) Policy
 |Editor:   Scott Simmons
 |===
@@ -50,7 +50,7 @@ This document is an OGC Policies and Procedures Document. The document is subjec
 |===
 |Document type:   	OGC® Policy
 |Document subtype:
-|Document stage:   	Approved for public release
+|Document stage:   	Draft
 |Document language: 	English
 |===
 

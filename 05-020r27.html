@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.6.2">
+<meta name="generator" content="Asciidoctor 1.5.5">
 <title>Technical Committee Policies and Procedures</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -89,12 +89,13 @@ strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
 ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol{margin-left:1.5em}
+ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.no-bullet{list-style:none}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -130,11 +131,7 @@ strong strong{font-weight:400}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
-.menuseq,.menuref{color:#000}
-.menuseq b:not(.caret),.menuref{font-weight:inherit}
-.menuseq{word-spacing:-.02em}
-.menuseq b.caret{font-size:1.25em;line-height:.8}
-.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+.menuseq,.menu{color:rgba(0,0,0,.8)}
 b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
 b.button:before{content:"[";padding:0 3px 0 2px}
 b.button:after{content:"]";padding:0 2px 0 3px}
@@ -201,7 +198,7 @@ table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
 table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:initial}
+.admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
@@ -257,13 +254,13 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
-table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
-table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
-table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px 0}
-table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0 0}
-table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
-table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
+table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
+table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
+table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
+table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
+table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
+table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
 table.frame-all{border-width:1px}
 table.frame-sides{border-width:0 1px}
 table.frame-topbot{border-width:1px 0}
@@ -284,12 +281,10 @@ ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
 ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
-ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
-ul.unstyled,ol.unstyled{margin-left:0}
-ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
+ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
+ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
 ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
 ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
 ul.inline>li>*{display:block}
@@ -306,8 +301,7 @@ ol.lowergreek{list-style-type:lower-greek}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist>table tr>td:first-of-type{padding:.4em .75em 0 .75em;line-height:1;vertical-align:top}
-.colist>table tr>td:first-of-type img{max-width:initial}
+.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
 .colist>table tr>td:last-of-type{padding:.25em 0}
 .thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
 .imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
@@ -370,7 +364,6 @@ div.unbreakable{page-break-inside:avoid}
 .yellow{color:#bfbf00}
 .yellow-background{background-color:#fafa00}
 span.icon>.fa{cursor:default}
-a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
 .admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
 .admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
@@ -516,22 +509,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">Open Geospatial Consortium</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Submission Date: 2018-02-14</p></td>
+<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Submission Date: YYYY-MM-DD</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Approval Date:   2018-06-05</p></td>
+<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Approval Date:   YYYY-MM-DD</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Publication Date:   2018-07-24</p></td>
+<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Publication Date:   YYYY-MM-DD</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">External identifier of this OGC&#174; document: <a href="http://www.opengis.net/doc/pol/tcpnp/26.0" class="bare">http://www.opengis.net/doc/pol/tcpnp/26.0</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Internal reference number of this OGC&#174; document:    05-020r26</p></td>
+<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Internal reference number of this OGC&#174; document:    05-020r27</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 26.0</p></td>
+<td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 27.0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Category: OGC&#174; Policy</p></td>
@@ -592,7 +585,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document subtype:</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document stage:   	Approved for public release</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document stage:   	Draft</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document language: 	English</p></td>
@@ -692,14 +685,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#charter-members-of-the-swg">7.7.2. “Charter” members of the SWG</a></li>
 <li><a href="#participating-in-a-swg-opting-in">7.7.3. Participating in a SWG – Opting In</a></li>
 <li><a href="#swg-voting-members">7.7.4. SWG voting members</a></li>
-<li><a href="#opting-out-of-a-swg">7.7.5. Opting Out of a SWG</a></li>
+<li><a href="#opting-out-of-a-swg">7.7.5. Opting out of a SWG</a></li>
 <li><a href="#election-of-swg-chair-and-co-chair">7.7.6. Election of SWG Chair and Co-Chair</a></li>
-<li><a href="#cross-swg-communication">7.7.7. Cross SWG Communication</a></li>
-<li><a href="#responsibilities-of-the-swg-chair-and-co-chair">7.7.8. Responsibilities of the SWG Chair and Co-Chair</a></li>
-<li><a href="#swg-voting">7.7.9. SWG Voting</a></li>
-<li><a href="#caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis">7.7.10. Caveat on Voting Rights – If you do not participate on a regular basis</a></li>
-<li><a href="#public-release-of-swg-documents">7.7.11. Public Release of SWG Documents</a></li>
-<li><a href="#umbrella-swgs">7.7.12. Umbrella SWGs</a></li>
+<li><a href="#responsibilities-of-the-swg-chair-and-co-chair">7.7.7. Responsibilities of the SWG Chair and Co-Chair</a></li>
+<li><a href="#swg-voting">7.7.8. SWG Voting</a></li>
+<li><a href="#caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis">7.7.9. Caveat on Voting Rights – If you do not participate on a regular basis</a></li>
+<li><a href="#cross-swg-communication">7.7.10. Cross SWG communication</a></li>
+<li><a href="#swg-work-environment">7.7.11. <span class="lime">SWG Work Environment</span></a></li>
+<li><a href="#public-release-of-swg-documents">7.7.12. Public Release of SWG documents</a></li>
+<li><a href="#swg-task-process">7.7.13. <span class="lime">SWG Task approval process</span></a></li>
+<li><a href="#umbrella-swgs">7.7.14. Umbrella SWGs</a></li>
 </ul>
 </li>
 </ul>
@@ -711,10 +706,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#the-ogc-reference-model">8.3. The OGC Reference Model</a></li>
 <li><a href="#discussion-papers">8.4. Discussion Papers</a></li>
 <li><a href="#public-engineering-reports">8.5. Public Engineering Reports</a></li>
-<li><a href="#best-practices-documents">8.6. Best Practices Documents</a>
+<li><a href="#best-practices-documents">8.6. Best Practice <span class="lime">and Community Practice</span> Documents</a>
 <ul class="sectlevel3">
-<li><a href="#submission-of-documents-to-be-considered-as-an-ogc-best-practice">8.6.1. Submission of documents to be considered as an OGC Best Practice</a></li>
-<li><a href="#approval-of-ogc-best-practice-documents">8.6.2. Approval of OGC Best Practice Documents</a></li>
+<li><a href="#submission-of-documents-to-be-considered-as-an-ogc-best-practice">8.6.1. Submission of documents to be considered as an OGC Best Practice <span class="lime">or Community Practice</span></a></li>
+<li><a href="#approval-of-ogc-best-practice-documents">8.6.2. Approval of OGC Best Practice <span class="lime">and Community Practice</span> Documents</a></li>
 </ul>
 </li>
 <li><a href="#documents-and-distribution">8.7. Documents and Distribution</a>
@@ -738,15 +733,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#adoption-andor-revision-to-a-standard---general">9.3. Adoption and/or Revision to a Standard - General</a></li>
-<li><a href="#policies-for-the-request-for-comment-rfc-process">9.4. Policies for the Request for Comment (RFC) Process</a>
+<li><a href="#policies-for-the-standard-process">9.4. Policies for the <span class="lime line-through">Request for Comment (RFC)</span> <span class="lime">OGC Consensus Standards</span> Process</a>
 <ul class="sectlevel3">
-<li><a href="#conditions-for-submission-of-an-rfc">9.4.1. Conditions for Submission of an RFC</a></li>
-<li><a href="#intent-to-submit-an-rfc-all">9.4.2. Intent to Submit an RFC (All)</a></li>
-<li><a href="#terms-and-conditions-for-rfc-submissions-all">9.4.3. Terms and Conditions for RFC submissions (All)</a></li>
+<li><a href="#conditions-for-submission-of-an-candidate-standard">9.4.1. Conditions for Submission of a <span class="lime line-through">RFC</span> <span class="lime">Candidate Standard</span></a></li>
+<li><a href="#intent-to-submit-an-candidate-standard-all">9.4.2. Intent to Submit a <span class="lime line-through">RFC</span> <span class="lime">Candidate Standard</span> (All)</a></li>
+<li><a href="#terms-and-conditions-for-candidate-standard-submissions-all">9.4.3. Terms and Conditions for <span class="lime line-through">RFC</span> <span class="lime">OGC Candidate Standard process</span> submissions (All)</a></li>
 <li><a href="#specific-process-requirements-for-the-submission-of-a-community-standard-cs">9.4.4. Specific process requirements for the submission of a Community standard (CS)</a></li>
-<li><a href="#required-components-of-the-rfc-submission-package">9.4.5. Required components of the RFC Submission Package</a></li>
-<li><a href="#main-steps-in-the-rfc-process">9.4.6. Main Steps in the RFC Process</a></li>
-<li><a href="#specific-policies-regarding-approval-of-a-standard-with-compliance-suite">9.4.7. Specific policies regarding approval of a standard with Compliance Suite</a></li>
+<li><a href="#required-components-of-the-standard-submission-package">9.4.5. Required components of the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> Submission Package</a></li>
+<li><a href="#main-steps-in-the-standard-process">9.4.6. Main Steps in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> Process</a></li>
+<li><a href="#specific-policies-regarding-approval-of-a-standard-uplift">9.4.7. Specific policies regarding approval of <span class="lime line-through">a standard with Compliance Suite</span> <span class="lime">uplift of a Draft standard to a standard</span></a></li>
 <li><a href="#specific-policies-regarding-profiles-moving-from-a-best-practice-to-a-standard">9.4.8. Specific policies regarding profiles moving from a Best Practice to a standard</a></li>
 </ul>
 </li>
@@ -757,24 +752,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#authoritative-sdo-documents-as-ogc-abstract-specifications">9.5.3. Authoritative SDO Documents as OGC Abstract Specifications</a></li>
 </ul>
 </li>
-<li><a href="#appeals-process">9.6. Appeals Process</a></li>
-<li><a href="#the-standard-editor">9.7. The Standard Editor</a></li>
-<li><a href="#change-request-proposals-crp-to-an-ogc-document">9.8. Change Request Proposals (CRP) to an OGC document</a>
+<li><a href="#submissions-ogc-standard-to-other-sdo">9.6. <span class="lime">Submission of an OGC standard for consideration by another SDO</span></a></li>
+<li><a href="#appeals-process">9.7. Appeals Process</a></li>
+<li><a href="#the-standard-editor">9.8. The Standard Editor</a></li>
+<li><a href="#change-request-proposals-crp-to-an-ogc-document">9.9. Change Request Proposals (CRP) to an OGC document</a>
 <ul class="sectlevel3">
-<li><a href="#submission-of-change-request-proposals">9.8.1. Submission of Change Request Proposals</a></li>
-<li><a href="#evaluation-of-a-change-request-proposal">9.8.2. Evaluation of a Change Request Proposal</a></li>
-<li><a href="#completion-of-a-change-request-proposal">9.8.3. Completion of a Change Request Proposal</a></li>
+<li><a href="#submission-of-change-request-proposals">9.9.1. Submission of Change Request Proposals</a></li>
+<li><a href="#evaluation-of-a-change-request-proposal">9.9.2. Evaluation of a Change Request Proposal</a></li>
+<li><a href="#completion-of-a-change-request-proposal">9.9.3. Completion of a Change Request Proposal</a></li>
 </ul>
 </li>
-<li><a href="#the-standard-revision-process-full-standard">9.9. The Standard Revision Process (Full Standard)</a>
+<li><a href="#the-standard-revision-process-full-standard">9.10. The Standard Revision Process (Full standard)</a>
 <ul class="sectlevel3">
-<li><a href="#the-revision-process">9.9.1. The Revision Process</a></li>
-<li><a href="#cut-off-date-for-accepting-new-change-request-proposals">9.9.2. Cut-off date for accepting new Change Request Proposals</a></li>
-<li><a href="#additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process">9.9.3. Additional Guidance and Responsibilities of a SWG during the revision process</a></li>
+<li><a href="#the-revision-process">9.10.1. The Revision Process</a></li>
+<li><a href="#cut-off-date-for-accepting-new-change-request-proposals">9.10.2. Cut-off date for accepting new Change Request Proposals</a></li>
+<li><a href="#additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process">9.10.3. Additional Guidance and Responsibilities of a SWG during the revision process</a></li>
 </ul>
 </li>
-<li><a href="#corrigendum-errata-changes-to-ogc-standards-full-standard">9.10. Corrigendum (errata) Changes to OGC Standards (Full Standard)</a></li>
-<li><a href="#backwards-compatibility-full-standard">9.11. Backwards Compatibility (Full Standard)</a></li>
+<li><a href="#the-standard-revision-process-community-standard">9.11. <span class="lime">The Standard Revision Process (Community standard)</span></a></li>
+<li><a href="#corrigendum-errata-changes-to-ogc-standards">9.12. Corrigendum (errata) Changes to OGC Standards <span class="lime line-through">(Full standard)</span></a></li>
+<li><a href="#backwards-compatibility-full-standard">9.13. Backwards Compatibility (Full standard)</a></li>
 </ul>
 </li>
 <li><a href="#proprietary-rights-copyrights-and-disclosure">10. Proprietary Rights, Copyrights, and Disclosure</a>
@@ -794,7 +791,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#temporarily-overriding-specified-procedures">12. Temporarily Overriding Specified Procedures</a></li>
 <li><a href="#adoption-of-this-policy-document">13. Adoption of This Policy Document</a></li>
 <li><a href="#annex-a-terms-and-definitions">Annex A: Terms and Definitions</a></li>
-<li><a href="#annex-b-rfc-process-outline-full-ogc-standard">Annex B: RFC Process Outline: Full OGC Standard</a></li>
+<li><a href="#annex-b-standard-process-outline-full-ogc-standard">Annex B: <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> Process Outline: Draft OGC Standard</a></li>
 <li><a href="#annex-c---community-standard">Annex C - Community Standard</a>
 <ul class="sectlevel2">
 <li><a href="#c.1-qualification-checklist-community-standards">C.1 Qualification Checklist – Community Standards</a></li>
@@ -810,7 +807,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="abstract"><a class="anchor" href="#abstract"></a>1. Abstract</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The OGC provides a collaborative, consensus process for developing and approving open, international standards for the geospatial domain. “International standards”<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup> are those adopted by an international standardizing/standards organization and made available to the public. Specifically, an OGC standard is:</p>
+<p>The <a href="http://www.opengeospatial.org/">OGC</a> provides a collaborative, consensus process for developing and approving open, international standards for the geospatial domain. “International standards”<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup> are those adopted by an international standardizing/standards organization and made available to the public. Specifically, an OGC standard is:</p>
 </div>
 <div class="paragraph">
 <p>A document, established by consensus and approved by the OGC Membership, that provides, for common and repeated use, rules, guidelines or characteristics for activities or their results, aimed at the achievement of the optimum degree of order in a given context.</p>
@@ -819,7 +816,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>To guide an open standards development and approval process, a member approved Policies and Procedures is required.</p>
 </div>
 <div class="paragraph">
-<p>This document describes the OGC Technical Committee (TC) policies and procedures (P&amp;P). The TC has been granted authority to operate by the OGC Bylaws. The TC is composed of individuals representing organizations that are duly recognized members in good standing of the OGC. The Technical Committee Chair (TCC - see Section 3.2) facilitates the TC process.</p>
+<p>This document describes the OGC Technical Committee (TC) policies and procedures (P&amp;P). The TC has been granted authority to operate by the OGC Bylaws. The TC is composed of individuals representing organizations that are duly recognized members in good standing of the OGC. The Technical Committee Chair (TCC - see <a href="#role-of-the-technical-committee-chair-tcc">Role of the Technical Committee Chair (TCC)</a>) facilitates the TC process.</p>
 </div>
 <div class="paragraph">
 <p>The TC P&amp;P:</p>
@@ -847,7 +844,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>The OGC Technical Committee provides an open, collaborative forum for professional discussion related to the consensus development and/or evaluation, approval, and revision of OGC international standards. The primary use of approved OGC standards is to provide the ability to build and deploy interoperable geospatial solutions in the larger Information Technology (IT) domain.</p>
 </div>
 <div class="paragraph">
-<p>The OGC Principles of Conduct govern personal and public interactions in any TC activity.</p>
+<p>The OGC <a href="http://www.opengeospatial.org/ogc/policies/conduct/">Principles of Conduct</a> govern personal and public interactions in any TC activity.</p>
 </div>
 </div>
 </div>
@@ -875,7 +872,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Has as its primary goal(s) the creation and/or promotion of international standards (most commonly in the IT area);</p>
 </li>
 <li>
-<p>Creates what would be acknowledged to be "open" standards made available on Reasonable and Non-Discriminatory (RAND) terms; and</p>
+<p>Creates what would be acknowledged to be "open" standards made available on Reasonable and Non-Discriminatory (<a href="https://en.wikipedia.org/wiki/Reasonable_and_non-discriminatory_licensing/">RAND</a>) terms; and</p>
 </li>
 <li>
 <p>May engage in additional activities, such as the creation of white papers, training and certification, but which rarely becomes a "trade association" in the non-tax sense.</p>
@@ -896,7 +893,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Design and maintain an Abstract Specification for a computing technology independent application environment for interoperable geo-processing and geospatial data products;</p>
+<p>Design and maintain an <a href="http://www.opengeospatial.org/docs/as/">Abstract Specification</a> for a computing technology independent application environment for interoperable geo-processing and geospatial data products;</p>
 </li>
 <li>
 <p>Use the Abstract Specification as a reference to solicit, propose, review, recommend revisions to, and recommend adoption of standards, also known as OGC standards;</p>
@@ -905,7 +902,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Provide the forum for discussing, reviewing, and adopting changes to existing approved OGC standards;</p>
 </li>
 <li>
-<p>Accept, discuss, review, and recommend action on documents developed in the OGC Innovation Program and then submitted to the TC;</p>
+<p>Accept, discuss, review, and recommend action on documents developed in the OGC <a href="http://www.opengeospatial.org/ogc/programs/ip/">Innovation Program</a> and then submitted to the TC;</p>
 </li>
 <li>
 <p>Discuss, review, and recommend action with regard to standards and relevant standards developed in other standards organizations; and</p>
@@ -1014,7 +1011,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>WGs will be formed, carry out their work, and when their work is completed, be dissolved. Working Group Policies and Procedures are defined in the section 7.0.</p>
+<p>WGs will be formed, carry out their work, and when their work is completed, be dissolved. Working Group Policies and Procedures are defined in <a href="#policies-and-procedures-for-subgroups-of-the-tc">Policies and Procedures for Subgroups of the TC</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="ogc-naming-authority-ogc-na"><a class="anchor" href="#ogc-naming-authority-ogc-na"></a>4.1. OGC Naming Authority (OGC-NA)</h3>
@@ -1025,7 +1022,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="subcommittee-sc-of-the-tc"><a class="anchor" href="#subcommittee-sc-of-the-tc"></a>4.2. Subcommittee (SC) of the TC</h3>
 <div class="paragraph">
-<p>A standing group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and Invited Guests, with a mission to provide recommendations to the TC in some general area. A Subcommittee does not generate a standard nor does it work on a standard.</p>
+<p>A standing group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and Invited Guests, with a mission to provide recommendations to the TC in some general area. A <a href="http://www.opengeospatial.org/projects/groups/sc/">Subcommittee</a> does not generate a standard nor does it work on a standard.</p>
 </div>
 <div class="paragraph">
 <p>SCs have Voting TC Member-only voting. As with all OGC groups, each Voting TC Member has only one vote per SC. SCs are long-standing entities with general portfolios or mission. OGC staff can chair TC SCs. Any OGC member can attend a SC meeting and participate.</p>
@@ -1040,12 +1037,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the TC. A Group is not a subcommittee as outlined by the Bylaws of the OGC.</p>
 </div>
 <div class="paragraph">
-<p>There are two types of Working Groups in the TC: Domain Working Groups (DWGs) and Standards Working Groups (SWGs). The reason that there are two different type of Working Groups is due to the OGC Intellectual Property Policy. The OGC IP Policy can be downloaded from <a href="http://www.opengeospatial.org/ogc/policies" class="bare">http://www.opengeospatial.org/ogc/policies</a>.</p>
+<p>There are two types of Working Groups in the TC: <a href="http://www.opengeospatial.org/projects/groups/wg/">Domain Working Groups</a> (DWGs) and <a href="http://www.opengeospatial.org/projects/groups/swg/">Standards Working Groups</a> (SWGs). The reason that there are two different type of Working Groups is due to the OGC Intellectual Property Policy. The OGC IP Policy can be downloaded from <a href="http://www.opengeospatial.org/ogc/policies" class="bare">http://www.opengeospatial.org/ogc/policies</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="domain-working-group"><a class="anchor" href="#domain-working-group"></a>4.3.1. Domain Working Group</h4>
 <div class="paragraph">
-<p>A group (organizationally, a subgroup of the TC – Section 7.5) of individuals composed of members of the TC and invited guests, with the specific intent of discussing and/or solving some particular problem or problems in a particular domain or technology arena for recommendation to the TC. Key functions of the Domain Working Group (DWG) are to:</p>
+<p>A group (organizationally, a subgroup of the TC – <a href="#policies-specific-to-a-domain-working-group">Policies Specific to a Domain Working Group</a>) of individuals composed of members of the TC and invited guests, with the specific intent of discussing and/or solving some particular problem or problems in a particular domain or technology arena for recommendation to the TC. Key functions of the Domain Working Group (DWG) are to:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1076,7 +1073,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>A DWG Does Not work on RFC submissions, candidate standards, or revisions to existing OGC standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a SWG.</p>
+<p>A DWG Does Not work on [lime line-through]<span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submissions, candidate standards, or revisions to existing OGC standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a SWG.</p>
 </div>
 <div class="paragraph">
 <p>By default, a DWG will allow public collaboration, such as in teleconference, email discussions, or a public twiki. A DWG has the option to make a motion to the TC to remove public participation in the DWG.</p>
@@ -1085,7 +1082,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="standards-working-group-swg"><a class="anchor" href="#standards-working-group-swg"></a>4.3.2. Standards Working Group (SWG)</h4>
 <div class="paragraph">
-<p>A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests with the specific intent of working on a candidate standard prior to approval as an OGC standard or on making revisions to an existing OGC standard. Please see section 7.7 for details on the policies and procedures for SWGs. The following is a general overview.</p>
+<p>A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests with the specific intent of working on a candidate standard prior to approval as an OGC standard or on making revisions to an existing OGC standard. Please see <a href="#policies-specific-to-a-standards-working-group-swg">Policies Specific to a Standards Working Group (SWG)</a> for details on the policies and procedures for SWGs. The following is a general overview.</p>
 </div>
 <div class="paragraph">
 <p>Specific work items for a SWG could be:</p>
@@ -1096,10 +1093,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Have a formal approved charter that defines the SWGs Scope of Work and estimated timeline for completion of the work;</p>
 </li>
 <li>
-<p>Develop a new candidate standard in preparation of that document as an RFC submission.</p>
+<p>Develop a new candidate standard in preparation of that document as an <span class="[lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submission.</p>
 </li>
 <li>
-<p>Process a new RFC submission candidate standard once approved by the OAB;</p>
+<p>Process a new <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submission <span class="lime line-through">candidate standard</span> once approved by the OAB;</p>
 </li>
 <li>
 <p>Consider official Change Request Proposals to an existing OGC standard and make changes to the standard as necessary: from this perspective, a SWG does all the work that was formerly performed by a Revision Working Group;</p>
@@ -1143,7 +1140,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="attendance-at-tc-meetings"><a class="anchor" href="#attendance-at-tc-meetings"></a>5.2. Attendance at TC Meetings</h3>
 <div class="paragraph">
-<p>Only members of the OGC, Invited Speakers, and Invited Guests are welcome at TC meetings. Any TC member may send another representative of his or her organization as a substitute to a TC meeting (please note paragraph 6.2). Subgroups may only meet by being formally scheduled by the TCC or designee during the course of regularly scheduled TC meetings (subgroups cannot have alternative meetings that overlap temporally with the TC Meeting without approval of the TCC or PC).</p>
+<p>Only members of the OGC, Invited Speakers, and Invited Guests are welcome at TC meetings. Any TC member may send another representative of his or her organization as a substitute to a TC meeting (please note <a href="#proxy-for-voting">Proxy for Voting</a>). Subgroups may only meet by being formally scheduled by the TCC or designee during the course of regularly scheduled TC meetings (subgroups cannot have alternative meetings that overlap temporally with the TC Meeting without approval of the TCC or PC).</p>
 </div>
 </div>
 <div class="sect2">
@@ -1309,10 +1306,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Many votes usually occur in the Opening or Closing TC Plenary. The following is a matrix of possible votes and who can vote.</p>
 </div>
-<div class="paragraph">
-<p>Table 1</p>
-</div>
-<table class="tableblock frame-all grid-all spread">
+<table id="Table-1" class="tableblock frame-all grid-all spread">
+<caption class="title">Table 1. Vote types and allowed voters</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -1357,6 +1352,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Approval to start electronic vote for a new SWG or Community standard work activity</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">TC Voting Member</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><span class="lime">Approval of a new SWG Task</span></p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><span class="lime">TC Voting Member</span></p></td>
 </tr>
 </tbody>
 </table>
@@ -1410,7 +1409,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="tc-electronic-voting"><a class="anchor" href="#tc-electronic-voting"></a>6.4. TC Electronic Voting</h3>
 <div class="paragraph">
-<p>At any time, the TCC, the TC, or a subgroup of the TC may recommend starting an electronic vote. Initiation of electronic votes may be brought by motion and second at a TC plenary meeting, a WG meeting, or by direct action of the TCC. Please refer to Table 1 for what membership level is allowed to vote for any particular vote. The following rules are for official OGC votes related to:</p>
+<p>At any time, the TCC, the TC, or a subgroup of the TC may recommend starting an electronic vote. Initiation of electronic votes may be brought by motion and second at a TC plenary meeting, a WG meeting, or by direct action of the TCC. Please refer to <a href="#Table-1">Vote types and allowed voters</a> for what membership level is allowed to vote for any particular vote. The following rules are for official OGC votes related to:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1437,18 +1436,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="duration"><a class="anchor" href="#duration"></a>6.4.1. Duration</h4>
 <div class="paragraph">
-<p>Unless otherwise stated by the TCC or designee, the normal deadline for response to an electronic vote shall be 45 days from the date of issuance of the electronic vote. There are no extensions for NO votes or insufficient votes (see Sufficiency). The start and end dates for any given vote are set by OGC staff and are posted with the ballot and announced.</p>
+<p>Unless otherwise stated by the TCC or designee, the normal deadline for response to an electronic vote shall be 45 days from the date of issuance of the electronic vote. There are no extensions for NO votes or insufficient votes (see <a href="#sufficiency">Sufficiency</a>). The start and end dates for any given vote are set by OGC staff and are posted with the ballot and announced.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="continuity"><a class="anchor" href="#continuity"></a>6.4.2. Continuity</h4>
 <div class="paragraph">
-<p>Except for the following reasons, an electronic vote shall remain open for the duration as stated in Duration (6.5.1):</p>
+<p>Except for the following reasons, an electronic vote shall remain open for the duration as stated in <a href="#duration">Duration</a>:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>A WG withdraws the motion to approve a candidate standard (see Withdrawal); or</p>
+<p>A WG withdraws the motion to approve a candidate standard (see <a href="#withdrawal">Withdrawal</a>); or</p>
 </li>
 <li>
 <p>The TCC, the OAB, or the WG identifies a procedural error and requests the vote be stopped.</p>
@@ -1477,7 +1476,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="sufficiency"><a class="anchor" href="#sufficiency"></a>6.4.6. Sufficiency</h4>
 <div class="paragraph">
-<p>For all votes on any OGC document or OGC policy, sufficiency requires 1/3 of the Eligible voters to vote. Further, 15% of the total number of Eligible voters must vote YES.<a id="h.ibgvebo139os"></a></p>
+<p>For all votes on any OGC document or OGC policy, sufficiency requires 1/3 of the Eligible voters to vote. Further, 15% of the total number of Eligible voters must vote YES.</p>
 </div>
 <div class="paragraph">
 <p>If during the vote there is a new TC Voting Member, that Member may vote but does not change the Sufficiency rule.</p>
@@ -1495,7 +1494,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="comments"><a class="anchor" href="#comments"></a>6.4.8. Comments</h4>
 <div class="paragraph">
-<p>Any Eligible Voter that votes may submit a written comment. If an Eligible Voter votes NO, then that Voter shall also submit a written comment explaining their reason for voting NO. For a standard adoption vote, then the SWG shall respond in writing to all comments within 30 days of the completion of the vote. For other votes, then the appropriate TC sub-group shall respond to the comments. The written response to comments shall be in an OGC document and made available to the OGC Membership. If a motion is withdrawn (See Withdrawal) then no response to comments is required.</p>
+<p>Any Eligible Voter that votes may submit a written comment. If an Eligible Voter votes NO, then that Voter shall also submit a written comment explaining their reason for voting NO. For a standard adoption vote, then the SWG shall respond in writing to all comments within 30 days of the completion of the vote. For other votes, then the appropriate TC sub-group shall respond to the comments. The written response to comments shall be in an OGC document and made available to the OGC Membership. If a motion is withdrawn (See <a href="#withdrawal">Withdrawal</a>) then no response to comments is required.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1515,13 +1514,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>If a WG withdrew a motion and there is no content change to the document, the WG can at any time request the TCC initiate new vote.</p>
 </li>
 <li>
-<p>If a WG withdrew a motion and the content of the document is changed, then the WG needs to restart the approval process (in the case of a RFC: OAB review, public comment, vote).</p>
+<p>If a WG withdrew a motion and the content of the document is changed, then the WG needs to restart the approval process (in the case of a <span class="lime line-through">RFC</span> <span class="lime">standard</span>: OAB review, public comment, vote).</p>
 </li>
 <li>
 <p>If the vote was stopped for procedural problem(s), fix the problem(s), and initiate a new vote.</p>
 </li>
 <li>
-<p>If failure to approve the motion (See Approval and Sufficiency), then the appropriate OGC group needs to address all comments, revise the document and restart the RFC approval process with an OAB review, public comment, final edits to the document and a new adoption vote.</p>
+<p>If failure to approve the motion (See Approval and Sufficiency), then the appropriate OGC group needs to address all comments, revise the document and restart the <span class="lime line-through">RFC</span> <span class="lime">standard</span> approval process with an OAB review, public comment, final edits to the document and a new adoption vote.</p>
 </li>
 </ul>
 </div>
@@ -1668,7 +1667,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Any OGC member organization may send representatives to attend any meeting of the TC or any subgroup of the TC. The exception is for SWGs. In order to attend a meeting of a SWG, the representative must have opted into the SWG in order to participate (section 7.7.3).</p>
+<p>Any OGC member organization may send representatives to attend any meeting of the TC or any subgroup of the TC. The exception is for SWGs. In order to attend a meeting of a SWG, the representative must have opted into the SWG in order to participate (<a href="#participating-in-a-swg-opting-in">Participating in a SWG – Opting In</a>).</p>
 </li>
 <li>
 <p>Invited guests may actively participate at the sole discretion of the subgroup’s chair. That is, in the interests of ensuring the efficient operation of any meeting, the chair may limit or eliminate the opportunity of any invited guest to participate in discussion at any meeting. Invited guests cannot vote.</p>
@@ -1735,7 +1734,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="subgroup-meetings"><a class="anchor" href="#subgroup-meetings"></a>7.4. Subgroup Meetings</h3>
 <div class="paragraph">
-<p>Subgroups except as noted above may set their own meeting schedules. In particular, they do not have to meet every time their parent body meets, nor are they prevented from organizing meetings not co-located with those of the parent body, provided that in every case the relevant meeting notice and reporting criteria are met (see section 5.1).</p>
+<p>Subgroups except as noted above may set their own meeting schedules. In particular, they do not have to meet every time their parent body meets, nor are they prevented from organizing meetings not co-located with those of the parent body, provided that in every case the relevant meeting notice and reporting criteria are met (see <a href="#meetings-of-the-tc">Meetings of the TC</a>).</p>
 </div>
 </div>
 <div class="sect2">
@@ -1761,7 +1760,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="approval-of-a-sub-group-charter"><a class="anchor" href="#approval-of-a-sub-group-charter"></a>7.5.3. Approval of a Sub-Group Charter</h4>
 <div class="paragraph">
-<p>Once the Charter is completed and agreed to by the members of the Ad-hoc<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnote_11" title="View footnote.">11</a>]</sup>, the following process if followed for approval of the Charter. NOTE: For a SWG Charter, please review section 7.7 for specific requirements related to the formation of a Standards Working Group (SWG).</p>
+<p>Once the Charter is completed and agreed to by the members of the Ad-hoc<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnote_11" title="View footnote.">11</a>]</sup>, the following process if followed for approval of the Charter. NOTE: For a SWG Charter, please review <a href="#policies-specific-to-a-standards-working-group-swg">Policies Specific to a Standards Working Group (SWG)</a> for specific requirements related to the formation of a Standards Working Group (SWG).</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1778,7 +1777,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>The availability of the draft charter is announced to the TC and to the public and a three-week public review period begins. There is a formal press release with a general call for comments.</p>
 </li>
 <li>
-<p>If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this document or video should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.</p>
+<p>If possible, the draft charter is presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. NOTE: For a SWG, this <span class="lime line-through">document or video</span> <span class="lime">presentation</span> should cover the key aspects of the charter, especially the scope of work, the timeline, and the technical discussion related how the standards work aligns with the current OGC standards baseline.</p>
 </li>
 <li>
 <p>Comments received during the comment period are considered by the ad-hoc members and any necessary changes to the draft charter are completed.</p>
@@ -1796,10 +1795,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Committees: Charters for and formation of subcommittees and committees may be approved by a simple majority vote of the membership. These votes happen at the Closing Plenary during a Face-to-Face TC meeting or by email vote per Section 6.6.</p>
+<p>Committees: Charters for and formation of subcommittees and committees may be approved by a simple majority vote of the membership. These votes happen at the Closing Plenary during a Face-to-Face TC meeting or by email vote per <a href="#tc-or-subgroups-of-the-tc-email-voting">TC or Subgroups of the TC Email Voting</a>.</p>
 </li>
 <li>
-<p>WG: This is a TC Voting Member vote. Approval of the charter is a simple majority. The TCC initiates a vote to approve the Charter and the formation of the WG. This is an electronic vote under the e-vote rules as stated in section 6.5 (e-votes) above. The TCC shall also send an informational email to the full TC membership asking if there are any final comments or objections to the formation of the new WG.</p>
+<p>WG: This is a TC Voting Member vote. Approval of the charter is a simple majority. The TCC initiates a vote to approve the Charter and the formation of the WG. This is an electronic vote under the e-vote rules as stated in <a href="#tc-electronic-voting">TC Electronic Voting</a>. The TCC shall also send an informational email to the full TC membership asking if there are any final comments or objections to the formation of the new WG.</p>
 </li>
 </ul>
 </div>
@@ -1822,7 +1821,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>If the TCC judges the changes to reflect a natural progression of the WG work, then the TCC shall notify the full membership of the proposed changes. The amended charter shall be posted to pending documents for a 3-week member review and comment period. The review period is followed by an approval vote by the TC at a Closing Plenary or through an email vote.</p>
 </li>
 <li>
-<p>If the TCC judges the changes to reflect a major shift in scope of the WG, then the revised charter shall proceed through the same approval process as a new WG charter in Section 7.5.3.</p>
+<p>If the TCC judges the changes to reflect a major shift in scope of the WG, then the revised charter shall proceed through the same approval process as a new WG charter in <a href="#approval-of-a-sub-group-charter">Approval of a Sub-Group Charter</a>.</p>
 </li>
 <li>
 <p>When the recharter vote is requested to start to the TC, the TC has the option to override the TCC vote type recommendation. For instance, if the TCC recommends a vote at the Closing Plenary, the TC can demand instead that a full 45-day electronic vote be held because the TC feels the scope of the revised charter is too different from the original charter.</p>
@@ -1851,16 +1850,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Three or more members provide an RFC submission for a candidate standard;</p>
+<p>Three or more members provide a <span class="lime line-through">RFC</span> submission for a candidate standard;</p>
 </li>
 <li>
 <p>One or more Change Request Proposals for a given adopted OGC standard have been submitted to the public Change Request repository on the OGC web site;</p>
 </li>
 <li>
-<p>Three or more members wish to define and document a new candidate OGC standard that will be submitted using the OGC RFC process; The new candidate standard could be an interface, encoding, profile, application schema, or extension package; and/or</p>
+<p>Three or more members wish to define and document a new candidate OGC standard that will be submitted using the OGC <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process; The new candidate standard could be an interface, encoding, profile, application schema, or extension package; and/or</p>
 </li>
 <li>
-<p>Three or more members wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the RFC process.</p>
+<p>Three or more members wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process.</p>
 </li>
 </ul>
 </div>
@@ -1871,7 +1870,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Whenever a SWG needs to be formed, the first order of business is to inform the TCC The TCC will discuss the process and next steps. The TCC shall announce to the full Membership via OGC communications that there is an intent to start a new SWG (standards) activity.</p>
 </div>
 <div class="paragraph">
-<p>The submission team then writes a SWG Charter. Please review the OGC ad-hoc meeting and charter creation and approval process as outlined above in section 7.5.3. The policies and procedures defined below are in addition to the requirements to form an OGC Domain WG.</p>
+<p>The submission team then writes a SWG Charter. Please review the OGC ad-hoc meeting and charter creation and approval process as outlined above in <a href="#approval-of-a-sub-group-charter">Approval of a Sub-Group Charter</a>. The policies and procedures defined below are in addition to the requirements to form an OGC Domain WG.</p>
 </div>
 <div class="sect3">
 <h4 id="the-swg-charter"><a class="anchor" href="#the-swg-charter"></a>7.7.1. The SWG Charter</h4>
@@ -1880,6 +1879,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="paragraph">
 <p><a href="https://portal.opengeospatial.org/?m=public&amp;subtab=templates&amp;tab=1" class="bare">https://portal.opengeospatial.org/?m=public&amp;subtab=templates&amp;tab=1</a></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">SWG are chartered to create a primary delivery (a new standard), maintain that standard, and optionally update, extend, or profile that standard through a <a href="#swg-task-process"><span class="lime">SWG Task approval process</span></a>. At a minimum, the scope of the primary delivery is provided in the SWG charter.</span></p>
 </div>
 <div class="sect4">
 <h5 id="ipr-rules-for-a-new-swg"><a class="anchor" href="#ipr-rules-for-a-new-swg"></a>IPR rules for a new SWG</h5>
@@ -1898,11 +1900,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>By default, OGC SWGs are persistent until the SWG elects to become inactive or disband. Persistence supports the ability to maintain the standard products of the SWG, work on multiple revisions of an existing OGC standard, or to insure that long-term collaboration with other SWGs can be maintained. There may be reasons why a SWG is chartered not to be persistent and such reasons must be described in the charter. The Charter template has a section that specifies whether a SWG is persistent or not.</p>
 </div>
+<div class="paragraph">
+<p><span class="lime">After a SWG completes its primary delivery, each new proposed SWG deliverable under its in-force charter shall be approved via the <a href="#swg-task-process"><span class="lime">SWG Task approval process</span></a>.</span></p>
+</div>
 </div>
 <div class="sect4">
 <h5 id="swg-charter-approval-and-formation"><a class="anchor" href="#swg-charter-approval-and-formation"></a>SWG Charter Approval and Formation</h5>
 <div class="paragraph">
-<p>The TCC will work with either the candidate standard submission team or an interested group of members that wish to craft a new OGC standard to write the draft SWG Charter. Once a draft is completed, the charter review and approval process as defined in Section 7.5.3 shall be followed. For the purposes of charter development and approval, consider that the ad-hoc group and a submission team are equivalent in that a submission team is an ad-hoc group.</p>
+<p>The TCC will work with either the candidate standard submission team or an interested group of members that wish to craft a new OGC standard to write the draft SWG Charter. Once a draft is completed, the charter review and approval process as defined in <a href="#approval-of-a-sub-group-charter">Approval of a Sub-Group Charter</a> shall be followed. For the purposes of charter development and approval, consider that the ad-hoc group and a submission team are equivalent in that a submission team is an ad-hoc group.</p>
 </div>
 <div class="paragraph">
 <p>The SWG cannot begin business until the charter is approved.</p>
@@ -1923,7 +1928,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Any members that are part of an RFC submission team;</p>
+<p>Any members that are part of a <span class="lime line-through">RFC</span> <span class="lime">candidate standard</span> submission team;</p>
 </li>
 <li>
 <p>Any member who asks to join the SWG during the three-week SWG Charter review period; and</p>
@@ -1959,7 +1964,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="opting-out-of-a-swg"><a class="anchor" href="#opting-out-of-a-swg"></a>7.7.5. Opting Out of a SWG</h4>
+<h4 id="opting-out-of-a-swg"><a class="anchor" href="#opting-out-of-a-swg"></a>7.7.5. Opting out of a SWG</h4>
 <div class="paragraph">
 <p>If during the 30-day waiting period, any member representative may elect to opt-out of a SWG without having the Member having to declare any Necessary Claims. A member representative can opt-out by notifying the TCC and/or designee representative.</p>
 </div>
@@ -1971,15 +1976,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="cross-swg-communication"><a class="anchor" href="#cross-swg-communication"></a>7.7.7. Cross SWG Communication</h4>
+<h4 id="responsibilities-of-the-swg-chair-and-co-chair"><a class="anchor" href="#responsibilities-of-the-swg-chair-and-co-chair"></a>7.7.7. Responsibilities of the SWG Chair and Co-Chair</h4>
 <div class="paragraph">
-<p>Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="responsibilities-of-the-swg-chair-and-co-chair"><a class="anchor" href="#responsibilities-of-the-swg-chair-and-co-chair"></a>7.7.8. Responsibilities of the SWG Chair and Co-Chair</h4>
-<div class="paragraph">
-<p>In addition to the sub-group Chair and Co-chair responsibilities as outlined in Section 7.2, the SWG Chair is responsible for organizing the activities of the SWG, including the following.</p>
+<p>In addition to the sub-group Chair and Co-chair responsibilities as outlined in <a href="#role-of-subgroup-chairs">Role of Subgroup Chairs</a>, the SWG Chair is responsible for organizing the activities of the SWG, including the following.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2018,13 +2017,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="swg-voting"><a class="anchor" href="#swg-voting"></a>7.7.9. SWG Voting</h4>
+<h4 id="swg-voting"><a class="anchor" href="#swg-voting"></a>7.7.8. SWG Voting</h4>
 <div class="paragraph">
-<p>SWGs operate under the same general voting rules as other sub-groups of the TC, namely Votes in an SWG follow the same guidelines as for the Technical Committee except that quorum is 1/2 of active voting members (see Section 7.7.10) unless the SWG votes to have a larger fraction be quorum. See Section 6.5 for votes for sub-groups of the TC. The one notable exception related to SWG votes is that only member representatives who have opted into the SWG may vote.</p>
+<p>SWGs operate under the same general voting rules as other sub-groups of the TC, namely Votes in an SWG follow the same guidelines as for the Technical Committee except that quorum is 1/2 of active voting members (see <a href="#caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis">Caveat on Voting Rights – If you do not participate on a regular basis</a>) unless the SWG votes to have a larger fraction be quorum. See <a href="#subgroups-of-the-tc-electronic-voting">Subgroups of the TC Electronic Voting</a> for electronic votes for sub-groups of the TC. The one notable exception related to SWG votes is that only member representatives who have opted into the SWG may vote.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis"><a class="anchor" href="#caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis"></a>7.7.10. Caveat on Voting Rights – If you do not participate on a regular basis</h4>
+<h4 id="caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis"><a class="anchor" href="#caveat-on-voting-rights-if-you-do-not-participate-on-a-regular-basis"></a>7.7.9. Caveat on Voting Rights – If you do not participate on a regular basis</h4>
 <div class="paragraph">
 <p>If you join a SWG and have voting privileges, you have a responsibility to participate in the teleconference and email dialogues. If you do not participate in the teleconferences and email discussions and vote on items and issues, you will lose your voting privileges and have your SWG member status changed from “Voting” to “Group Member”. The SWG Chair has the authority and the ability to make these changes based on the following policy.</p>
 </div>
@@ -2033,19 +2032,65 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="public-release-of-swg-documents"><a class="anchor" href="#public-release-of-swg-documents"></a>7.7.11. Public Release of SWG Documents</h4>
+<h4 id="cross-swg-communication"><a class="anchor" href="#cross-swg-communication"></a>7.7.10. Cross SWG communication</h4>
 <div class="paragraph">
-<p>At any time, the SWG voting members may agree to release any SWG in-progress technical document into a public forum, to another standards organization, or to the public for comment. Such an action requires a formal SWG motion and SWG vote as per 7.7.10.</p>
+<p>Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="swg-work-environment"><a class="anchor" href="#swg-work-environment"></a>7.7.11. <span class="lime">SWG Work Environment</span></h4>
+<div class="paragraph">
+<p><span class="lime">SWGs are expected to maintain their Portal records in a complete fashion, including presentations made at SWG meetings. Presentations in TC Meetings which the SWG permits to be viewed by general OGC membership should be stored in the TC Meeting folder for that SWG or in the SWG Portal project files with a symbolic link to the TC Meeting folder. All draft documents for SWG discussion should be in the SWG files until that point those documents are to be discussed in the TC. SWG documents for TC discussion or voting are to be uploaded to Pending Documents.</span></p>
 </div>
 <div class="sect4">
-<h5 id="release-of-documents-for-public-comment"><a class="anchor" href="#release-of-documents-for-public-comment"></a>Release of document(s) for public comment</h5>
+<h5 id="swg-use-of-collaboration-environments"><a class="anchor" href="#swg-use-of-collaboration-environments"></a><span class="lime">SWG use of collaboration environments</span></h5>
 <div class="paragraph">
-<p>At any time, the SWG can vote to release an in-progress candidate standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is encouraged to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with OGC Communications to generate a press release and properly create the Call for Comments (RFC) on the OGC website.</p>
+<p><span class="lime">SWGs are free to use collaboration environments such as GitHub to store text of their draft standard, link that text to developing code, track issues, and manage the document development workflow and milestones. A SWG may also vote to allow non-OGC members to participate in the development of the standard in the collaboration environment. Note that such a vote does not grant access to non-members to the OGC Portal nor does it give those non-members voting rights for SWG approval of any work.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">The collaboration environment will be under ultimate control of the OGC. For example, OGC maintains organizational structures in GitHub and SVN under which SWGs can create a project for their use. Non-OGC private repositories or projects may not be used for development of SWG deliverables.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">The collaboration environment must clearly display a message on its home page (e.g., the README file in GitHub) that states the contributions to the work in the collaboration environment belong to OGC, as shown below.</span></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p><span class="lime">The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC standards documents and that all copyright and intellectual property shall be vested to the OGC.</span></p>
+</div>
+</blockquote>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="umbrella-swgs"><a class="anchor" href="#umbrella-swgs"></a>7.7.12. Umbrella SWGs</h4>
+<h4 id="public-release-of-swg-documents"><a class="anchor" href="#public-release-of-swg-documents"></a>7.7.12. Public Release of SWG documents</h4>
+<div class="paragraph">
+<p>At any time, the SWG voting members may agree to release any SWG in-progress technical document into a public forum, to another standards organization, or to the public for comment. Such an action requires a formal SWG motion and SWG vote as per <a href="#swg-voting">SWG Voting</a>.</p>
+</div>
+<div class="sect4">
+<h5 id="release-of-documents-for-public-comment"><a class="anchor" href="#release-of-documents-for-public-comment"></a>Release of document(s) for public comment</h5>
+<div class="paragraph">
+<p>At any time, the SWG can vote to release an in-progress candidate standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is encouraged to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with OGC Communications to generate a press release and properly create the <span class="lime line-through">Call</span> <span class="lime">Request</span> For Comments (RFC) on the OGC website.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="swg-task-process"><a class="anchor" href="#swg-task-process"></a>7.7.13. <span class="lime">SWG Task approval process</span></h4>
+<div class="paragraph">
+<p><span class="lime">Any new work from a SWG after the primary deliverable must be approved by the TC as a new Task prior to start of that work. The new work can result in an update, extension, or profile of a standard.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">The proposed Task must be presented to the TC at a plenary. Otherwise, a PowerPoint or video presentation will be developed and posted to the Portal. This presentation should cover the key aspects of the Task, especially the scope of work, the timeline, and the technical discussion related how the work relates to the standard(s) developed by the SWG.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">Once the proposed Task has been presented to the TC, the TCC will initiate a 21 day TC and public review of the proposed Task. If comments are received in the review period, the SWG shall consider the comments and reissue the proposed Task details, if necessary.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">The proposed Task will be voted upon by TC Voting Members in a Closing Plenary (see <a href="#voting-at-tc-meetings">Voting at TC Meetings</a>) or by a two-week email vote (see <a href="#tc-or-subgroups-of-the-tc-email-voting">TC or Subgroups of the TC Email Voting</a>). Once approved, the Task will be added to the SWG Charter and the updated Charter posted to the SWG Portal files. The SWG may now begin work on the Task.</span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="umbrella-swgs"><a class="anchor" href="#umbrella-swgs"></a>7.7.14. Umbrella SWGs</h4>
 <div class="paragraph">
 <p>From time to time, two or more existing SWGs need to collaborate and coordinate on a regular basis. In such cases, the SWGs may propose to create an umbrella SWG. To create an umbrella SWG:</p>
 </div>
@@ -2078,7 +2123,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="an-ogc-policy-document"><a class="anchor" href="#an-ogc-policy-document"></a>8.1. An OGC Policy Document</h3>
 <div class="paragraph">
-<p>A policy is a principle, rule or process that guide decisions to achieve rational outcome(s). The work of the OGC is guided by a number of Member approved policies and processes. These policies and processes are documented in various OGC Policies and Procedures documents. These shall be known as “Policy” documents. This TC P&amp;P is a policy document. Policy documents are either maintained by the Members or by OGC staff. In all cases, new policy documents or revisions to existing policy documents shall be reviewed and approved by both the Technical and Planning Committees. Approval of a policy document shall follow the e-voting rules as defined in section 5.5 above. If the TC approves the Policy document, then a simple majority of the PC Voting Members must approve the TC recommendation.</p>
+<p>A policy is a principle, rule or process that guide decisions to achieve rational outcome(s). The work of the OGC is guided by a number of Member approved policies and processes. These policies and processes are documented in various OGC Policies and Procedures documents. These shall be known as “Policy” documents. This TC P&amp;P is a policy document. Policy documents are either maintained by the Members or by OGC staff. In all cases, new policy documents or revisions to existing policy documents shall be reviewed and approved by both the Technical and Planning Committees. Approval of a policy document shall follow the e-voting rules as defined in <a href="#tc-electronic-voting">TC Electronic Voting</a>. If the TC approves the Policy document, then a simple majority of the PC Voting Members must approve the TC recommendation.</p>
 </div>
 <div class="paragraph">
 <p>Policy documents have version numbers that shall start at 1.0</p>
@@ -2090,13 +2135,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>An OGC standards document is the principal document type that captures the work and the consensus of the OGC membership. Standards documents must use the OGC standards document template (with the exception of Community standards<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnote_14" title="View footnote.">14</a>]</sup>) that can be downloaded in Word format from: <a href="https://portal.opengeospatial.org/?m=public&amp;subtab=templates&amp;tab=1" class="bare">https://portal.opengeospatial.org/?m=public&amp;subtab=templates&amp;tab=1</a> or which is available in the OGC GitHub repository as a series of AsciiDoc files.</p>
 </div>
 <div class="paragraph">
-<p>OGC uses a multi-track standards policy with three possible states: OGC Community standard, OGC standard, and OGC standard with Compliance Suite. These are described in Section 9.3.</p>
+<p>OGC uses a multi-track standards policy with three possible states: OGC Community standard, OGC standard, and OGC standard with Compliance Suite. These are described in <a href="#the-two-track-standards-process-characteristics">The Two Track Standards Process: Characteristics</a>.</p>
 </div>
 <div class="paragraph">
-<p>Approval of an OGC standard is described in section 9.0 of this document.</p>
+<p>Approval of an OGC standard is described in <a href="#policies-and-procedures-for-adoption-andor-revisions-of-standards">Policies and Procedures for Adoption and/or Revisions of Standards</a>.</p>
 </div>
 <div class="paragraph">
-<p>Each standard distributed by the OGC shall include a cover page with the statement as specified in section 4 of the Policy Directives for Writing and Publishing OGC Standards: TC Decisions.</p>
+<p>Each standard distributed by the OGC shall include a cover page with the statement as specified in <a href="https://portal.opengeospatial.org/public_ogc/directives/directives.php">Policy Directive 4</a>.</p>
 </div>
 <div class="paragraph">
 <p>Standards documents have version numbers that shall start at 1.0.</p>
@@ -2123,7 +2168,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Motions to approve release of a document as a Discussion Paper may originate from a WG or SC with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.</p>
 </div>
 <div class="paragraph">
-<p>While these Discussion Papers shall be distributed by the OGC, and might in fact lead to adopted standards later, they do not represent an official position of the OGC TC or the OGC itself. Each Discussion Paper distributed by the OGC shall include a cover page with the statement as specified in section 4 of the Policy Directives for Writing and Publishing OGC Standards: TC Decisions.</p>
+<p>While these Discussion Papers shall be distributed by the OGC, and might in fact lead to adopted standards later, they do not represent an official position of the OGC TC or the OGC itself. Each Discussion Paper distributed by the OGC shall include a cover page with the statement as specified in <a href="https://portal.opengeospatial.org/public_ogc/directives/directives.php">Policy Directive 5</a>.</p>
 </div>
 <div class="paragraph">
 <p>Discussion Papers do not have a version number.</p>
@@ -2141,32 +2186,41 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Motions to approve release of a document as an Engineering Report may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.</p>
 </div>
 <div class="paragraph">
-<p>Each Public Engineering Report distributed by the OGC shall include a cover page with the statement as specified in section 4 of the Policy Directives for Writing and Publishing OGC Standards: TC Decisions.</p>
+<p>Each Public Engineering Report distributed by the OGC shall include a cover page with the statement as specified in <a href="https://portal.opengeospatial.org/public_ogc/directives/directives.php">Policy Directive 6</a>.</p>
 </div>
 <div class="paragraph">
 <p>Engineering Reports do not have a version number.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="best-practices-documents"><a class="anchor" href="#best-practices-documents"></a>8.6. Best Practices Documents</h3>
+<h3 id="best-practices-documents"><a class="anchor" href="#best-practices-documents"></a>8.6. Best Practice <span class="lime">and Community Practice</span> Documents</h3>
 <div class="paragraph">
-<p>OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practices (BP) Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. A best practice is a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result.</p>
+<p>OGC Members, TC subgroups, or Interoperability Initiatives may generate Best Practice (BP) <span class="lime">and Community Practice (CP)</span> Documents for the industry covering best practices related to the use of an OGC standard or other technology relevant to one or more OGC standards. <span class="lime line-through">A best practice is</span> <span class="lime">These documents describe</span> a technique or methodology that, through experience, implementation and research, has proven to reliably lead to a desired result. <span class="lime">In some cases, BPs or CPs may transition to full standards through the OGC Consensus Standards process.</span></p>
 </div>
 <div class="paragraph">
-<p>BP documents have version numbers that shall start at 1.0.</p>
+<p>BP <span class="lime">and CP</span> documents have version numbers that shall start at 1.0.</p>
+</div>
+<div class="paragraph">
+<p><span class="lime"><strong>Best Practice:</strong> a document describing the use of one or more OGC standards, typically to address a domain-specific topic or provide a solution to an interoperability challenge. Best Practices may also describe implemented extensions to or profiles of OGC standards.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime"><strong>Community Practice:</strong> a document describing implemented standards, specifications, or technologies that originate outside of OGC, but which are relevant to address interoperability requirements in the geospatial and related communities.</span></p>
 </div>
 <div class="sect3">
-<h4 id="submission-of-documents-to-be-considered-as-an-ogc-best-practice"><a class="anchor" href="#submission-of-documents-to-be-considered-as-an-ogc-best-practice"></a>8.6.1. Submission of documents to be considered as an OGC Best Practice</h4>
+<h4 id="submission-of-documents-to-be-considered-as-an-ogc-best-practice"><a class="anchor" href="#submission-of-documents-to-be-considered-as-an-ogc-best-practice"></a>8.6.1. Submission of documents to be considered as an OGC Best Practice <span class="lime">or Community Practice</span></h4>
 <div class="paragraph">
-<p>In order to be considered for approval as an OGC BP, the document submitters shall provide the following.</p>
+<p>In order to be considered for approval as an OGC BP <span class="lime">or CP</span>, the document submitters shall provide the following.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
+<p><span class="lime">An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.</span>*</p>
+</li>
+<li>
 <p>Evidence of implementation. Evidence of implementation shall include but not be limited to: Implementation in commercial product, implementation in open source applications or software, and/or implementation in deployed applications. A single research related implementation is not proper evidence of implementation.</p>
 </li>
 <li>
-<p>An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.</p>
+<p><span class="lime line-through">An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.</span></p>
 </li>
 <li>
 <p>Presentation of the contents of the proposed BP at an OGC face-to-face meeting. The presentation may be done remotely using OGC communication tools, such as GoToMeeting.</p>
@@ -2178,28 +2232,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="approval-of-ogc-best-practice-documents"><a class="anchor" href="#approval-of-ogc-best-practice-documents"></a>8.6.2. Approval of OGC Best Practice Documents</h4>
+<h4 id="approval-of-ogc-best-practice-documents"><a class="anchor" href="#approval-of-ogc-best-practice-documents"></a>8.6.2. Approval of OGC Best Practice <span class="lime">and Community Practice</span> Documents</h4>
 <div class="paragraph">
-<p>A BP is an official OGC position statement. Therefore, BP Documents shall be approved by formal electronic vote. Motions to initiate a BP e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.</p>
+<p><span class="lime line-through">A BP is</span> <span class="lime">Both document types are</span> an official OGC position statement. Therefore, BP <span class="lime">and CP</span> Documents shall be approved by formal electronic vote. Motions to initiate a BP <span class="lime">and CP</span> e-vote may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.</p>
 </div>
 <div class="paragraph">
-<p>A BP vote has the same rules as a standards adoption vote (Section 6.5).</p>
+<p>A BP <span class="lime">and CP</span> vote has the same rules as a standards adoption vote (<a href="#tc-electronic-voting">TC Electronic Voting</a>).</p>
 </div>
 <div class="paragraph">
-<p>The BP document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP approval e-vote shall be initiated.</p>
+<p>The BP <span class="lime">and CP</span> document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP <span class="lime">or CP</span> approval e-vote shall be initiated.</p>
 </div>
 <div class="paragraph">
-<p>Each Best Practice Paper distributed by the OGC shall include a cover page with the statement as specified in section 4 of the Policy Directives for Writing and Publishing OGC Standards: TC Decisions.</p>
+<p>Each <span class="lime line-through">Best Practice Paper</span> <span class="lime">BP and CP</span> distributed by the OGC shall include a cover page with the statement as specified in <a href="https://portal.opengeospatial.org/public_ogc/directives/directives.php">Policy Directive 7</a>.</p>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="documents-and-distribution"><a class="anchor" href="#documents-and-distribution"></a>8.7. Documents and Distribution</h3>
 <div class="paragraph">
-<p>The numbered document (see 8.7.1) as distributed to members is to be considered the official document of the TC. Electronic mail shall be used for day-to-day discussion of OGC documents. The preferred mechanism for document sharing is the OGC Members-only Portal. OGC Communication shall be used for announcing the availability of new official documents. The actual documents will not be distributed by email unless a member requests receiving a document by email. All official documents will be posted to the Portal. Other electronic forms of documents can be made available at the written request of members.</p>
+<p>The numbered document (see <a href="#document-numbers">Document Numbers</a>) as distributed to members is to be considered the official document of the TC. Electronic mail shall be used for day-to-day discussion of OGC documents. The preferred mechanism for document sharing is the OGC Members-only Portal. OGC Communication shall be used for announcing the availability of new official documents. The actual documents will not be distributed by email unless a member requests receiving a document by email. All official documents will be posted to the Portal. Other electronic forms of documents can be made available at the written request of members.</p>
 </div>
 <div class="paragraph">
-<p>The Members section of the OGC Portal (<a href="http://portal.opengeospatial.org" class="bare">http://portal.opengeospatial.org</a>) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution format<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnote_15" title="View footnote.">15</a>]</sup> of these documents. RFC proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in Section 8.7.4. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTML<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnote_16" title="View footnote.">16</a>]</sup>.</p>
+<p>The Members section of the OGC Portal (<a href="http://portal.opengeospatial.org" class="bare">http://portal.opengeospatial.org</a>) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution format<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnote_15" title="View footnote.">15</a>]</sup> of these documents. <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in <a href="#other-document-concerns">Other Document Concerns</a>. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification Topics and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTML<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnote_16" title="View footnote.">16</a>]</sup>.</p>
 </div>
 <div class="sect3">
 <h4 id="document-numbers"><a class="anchor" href="#document-numbers"></a>8.7.1. Document Numbers</h4>
@@ -2234,20 +2288,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>See also <a href="https://portal.opengeospatial.org/public_ogc/directives/directives.php">Policy Directive 18</a>.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="change-proposal-format"><a class="anchor" href="#change-proposal-format"></a>8.7.3. Change Proposal Format</h4>
 <div class="paragraph">
-<p>Change Proposals for any OGC document shall use the procedures and format as documented in Section 9.8.</p>
+<p>Change Proposals for any OGC document shall use the procedures and format as documented in <a href="#change-request-proposals-crp-to-an-ogc-document">Change Request Proposals (CRP) to an OGC document</a>.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="other-document-concerns"><a class="anchor" href="#other-document-concerns"></a>8.7.4. Other Document Concerns</h4>
 <div class="paragraph">
-<p>All documents with official OGC Document Numbers that are to be considered and discussed at a TC face to face meeting shall be made available electronically to all members at least three (3) weeks before the next TC meeting. However, this clause does not apply to informational documents for which there will not be any motions or actions. Numbered documents shall be posted to Pending Documents.</p>
+<p>All documents with official OGC Document Numbers that are to be considered and discussed at a TC face to face meeting shall be made available electronically to all members at least three (3) weeks before the next TC meeting. However, this clause does not apply to informational documents for which there will not be any motions or actions. Numbered documents shall be posted to <a href="https://portal.opengeospatial.org/index.php?m=public&amp;orderby=default&amp;tab=1">Pending Documents</a>.</p>
 </div>
 <div class="paragraph">
-<p>The TC will enforce this policy under the conditions described in Section 6.3.</p>
+<p>The TC will enforce this policy under the conditions described for the <a href="#three-week-rule">Three Week Rule</a>.</p>
 </div>
 <div class="paragraph">
 <p>All documents shall be made available in one or more of the following formats:</p>
@@ -2340,7 +2397,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>In the case of Policies and Procedures, approval of a revision automatically deprecates the previous version.</p>
 </li>
 <li>
-<p>Standards and Best Practices may be deprecated by vote of the TC. Deprecation must be preceded by a 60-day public comment period informing the community that the standard is proposed for deprecation and requesting evidence to support or reject deprecation. Any comments received during the public comment period must be presented to the TC during the request to deprecate the standard<sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnote_19" title="View footnote.">19</a>]</sup>. Where the document is proposed for deprecation because a new version of the document is to be approved, the deprecation vote may be part of the adoption vote for the new document. In this case, when the motion is made to the TC at a face-to-face meeting or email vote to approve the start of an electronic vote for a standard or Best Practice, that motion shall include a request to deprecate the previous version, if the previous version is recommended for deprecation by the WG. Where the document is proposed for deprecation and no future version is in consideration, then an electronic vote is required as described in Section 8.7.5.</p>
+<p>Standards and Best Practices may be deprecated by vote of the TC. Deprecation must be preceded by a 60-day public comment period informing the community that the standard is proposed for deprecation and requesting evidence to support or reject deprecation. Any comments received during the public comment period must be presented to the TC during the request to deprecate the standard<sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnote_19" title="View footnote.">19</a>]</sup>. Where the document is proposed for deprecation because a new version of the document is to be approved, the deprecation vote may be part of the adoption vote for the new document. In this case, when the motion is made to the TC at a face-to-face meeting or email vote to approve the start of an electronic vote for a standard or Best Practice, that motion shall include a request to deprecate the previous version, if the previous version is recommended for deprecation by the WG. Where the document is proposed for deprecation and no future version is in consideration, then an electronic vote is required as described for <a href="#retiring-ogc-documents">Retiring OGC Documents</a>.</p>
 </li>
 </ul>
 </div>
@@ -2364,7 +2421,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ol>
 </div>
 <div class="paragraph">
-<p>A standard is rescinded by electronic vote of the TC as described in Section 8.7.5.</p>
+<p>A standard is rescinded by electronic vote of the TC as described for <a href="#retiring-ogc-documents">Retiring OGC Documents</a>.</p>
 </div>
 </div>
 </div>
@@ -2389,7 +2446,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>The TC e-vote is to recommend to the PC approval of the results of an adoption vote. This will ensure that all TC voting members have the opportunity to vote on the most important work done by the Consortium. Lack of a vote does not count as a vote of Abstain; only an actual vote of Abstain counts as such a vote.<sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnote_20" title="View footnote.">20</a>]</sup></p>
 </div>
 <div class="paragraph">
-<p>The policy of the OGC is that proposed standards resulting from an RFC evaluation may be recommended to the PC for acceptance conditional on certain changes to the standard, which the TC deems necessary, within a specified time frame.</p>
+<p>The policy of the OGC is that proposed standards resulting from a <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> evaluation may be recommended to the PC for acceptance conditional on certain changes to the standard, which the TC deems necessary, within a specified time frame.</p>
 </div>
 <div class="paragraph">
 <p>Acceptance of the TC recommendation for adoption is always with the caveat that the PC may verify that the standard&#8217;s sponsor organization(s) is/are in a position to develop (or have developed for the sponsor organization) or commercialize an implementation of the standard. Further, for candidate standards developed external to the OGC and submitted into the OGC process, the PC may verify that the submitting organization has provided a duly executed submission of technology form. In addition, the TC recommends acceptance contingent on the PC’s finding that the sponsoring organization(s) makes the technology available as per the OGC Intellectual Property Policies and Procedures.<sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnote_21" title="View footnote.">21</a>]</sup></p>
@@ -2398,7 +2455,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="the-two-track-standards-process-characteristics"><a class="anchor" href="#the-two-track-standards-process-characteristics"></a>9.2. The Two Track Standards Process: Characteristics</h3>
 <div class="paragraph">
-<p>There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full Standards track. These two tracks are described below. Regardless of the submission track, the OGC Request For Comment (RFC) Process shall be used. There are key differences in the RFC process depending on whether the Community or the Full Standard track is being used. The following table summarizes the key aspects and steps in the RFC process for the two tracks.</p>
+<p>There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full standardss track. These two tracks are described below. Regardless of the submission track, the OGC <span class="lime line-through">Request For Comment (RFC)</span> <span class="lime">Consensus Standards</span> Process shall be used. There are key differences in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process depending on whether the Community or the Full standards track is being used. The following table summarizes the key aspects and steps in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process for the two tracks.</p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -2417,7 +2474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">SWG</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Evidence of Implmentation</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Evidence of Implementation</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Modular Spec</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Compliance Test</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">OGC Template</p></td>
@@ -2439,9 +2496,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Full Standard Track</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Full standards Track</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">standard</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><span class="lime">Draft</span> standard</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">No</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
@@ -2449,13 +2516,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">standard <span class="lime line-through">with Compliance Suite</span></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">standard with Compliance Suite</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><span class="lime line-through">Yes</span> <span class="lime">NR*</span></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Yes</p></td>
@@ -2471,57 +2540,66 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Community standard: This is a document, developed by communities external to the OGC, such as GeoRSS, that OGC members wish to bring into the OGC process. The key consideration for a Community standard submission is that there is very strong evidence of implementation. At the same time, the community owning the standard may not want to allow normative changes (except for errors) to the document, may not wish to follow the OGC Modular Specification Policy, nor do they wish to develop CITE tests. Please visit Section 9.5 and Annex C to read more about the requirements for submitting a Community standard as well as a checklist of steps in the Community standard submission, review, and approval process.</p>
 </div>
 <div class="paragraph">
-<p>Full OGC standards track, which consists of two possible target levels of standard.</p>
+<p>Full standards track, which consists of two possible target levels of standard.</p>
 </div>
 <div class="paragraph">
-<p>Standard: This is a document developed by the OGC membership, such as in a Testbed or in a SWG, for which there is no evidence of implementation or CITE tests. However, the members wish to approve the document as an official OGC document in order to have developers and organizations implement the standard and provide feedback. A standard may at some time be moved forward for approval as a standard with Compliance Suite or it may remain as a standard.</p>
+<p><span class="lime">Draft</span> Standard: This is a document developed by the OGC membership <span class="lime line-through">, such as in a Testbed or in a SWG,</span> for which there is no evidence of implementation or CITE tests. However, the members wish to approve the document as an official OGC document in order to have developers and organizations implement the <span class="lime">draft</span> standard and provide feedback. A <span class="lime">draft</span> standard <span class="lime line-through">may at some time be moved forward for approval as a standard with Compliance Suite or it may remain as a standard</span> is uplifted to a standard once evidence for implementation is provided. <span class="lime">A draft standard is often derived from output of requirements discussions in DWGs, results of Innovation Program activities, and/or the OGC Technology Strategy which links key innovation activities to anticipate standards needs for emerging technologies.</span></p>
 </div>
 <div class="paragraph">
-<p>Standard with Compliance Suite: This is a mature OGC standard for which there is evidence of implementation and for which Compliance tests exist. A standard with Compliance Suite may start as a Community standard or as a standard.</p>
+<p>Standard <span class="lime line-through">with Compliance Suite</span>: This is a mature OGC standard for which there is evidence of implementation <span class="lime line-through">and for which Compliance tests exist. A standard with Compliance Suite may start as a Community standard or as a standard</span>. <span class="lime">This is the final stage in the Full standards track.</span></p>
 </div>
 <div class="sect3">
 <h4 id="two-track-standards-process-criteria"><a class="anchor" href="#two-track-standards-process-criteria"></a>9.2.1. Two Track Standards Process Criteria</h4>
 <div class="paragraph">
-<p>Evidence of implementation: The TC will judge whether the evidence of implementation for a particular Community standard or standard with Compliance Suite is sufficient to warrant approval of that standard. Strong evidence of implementation as required for the Community standard is generally defined to be implementation in multiple products or environments OR widespread use of the standard in a community, even if in only one or a limited number of products or environments. Evidence of implementation for a standard with Compliance Suite is defined as three or more documented implementations that collectively implement all mandatory requirements of the standard. The TC may choose to override the minimum number of reference implementations for a specific candidate standard by specifying a lesser number in the electronic adoption vote.</p>
+<p>Evidence of implementation: The TC will judge whether the evidence of implementation for a particular <span class="lime line-through">Community standard or</span> standard <span class="lime line-through">with Compliance Suite</span> is sufficient to warrant approval of that standard. Strong evidence of implementation as required for the Community standard is generally defined to be implementation in multiple products or environments OR widespread use of the standard in a community, even if in only one or a limited number of products or environments. Evidence of implementation for a standard <span class="lime line-through">with Compliance Suite</span> <span class="lime">in the Full standards track</span> is defined as three or more documented implementations that <span class="lime line-through">collectively implement all mandatory requirements of the standard</span> <span class="lime">meet the Nature of implementation criteria, below</span>. The TC may choose to override the minimum number of <span class="lime line-through">reference</span> implementations for a specific candidate standard by specifying a lesser number in the electronic adoption vote.</p>
+</div>
+<div class="paragraph">
+<p><span class="lime">Nature of implementation: API, service, and exchange protocol standards shall have as evidence of implementation running services which deliver content to another machine (including client software). Encoding standards shall have as evidence of implementation data sets containing content representative of the standard, but not necessarily containing an example of every element in the standard.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">Conceptual model evidence of implementation: a standard that is conceptual in nature (e.g., cannot be implemented directly) and not being advanced as an Abstract Specification Topic shall only be advanced from a Draft to a final stage once at least one implementation standard based on the conceptual model is approved at the Draft stage.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="lime">Abstract Specification Topics: these standards do not require evidence of implementation due to their foundational nature. Abstract Specification Topics are approved as standards without a Draft stage.</span></p>
 </div>
 <div class="paragraph">
 <p>Modular Specification: compliance with the Modular Specification is evidenced by inclusion of clearly defined Requirements and an Abstract Test Suite in the standard document. The OAB will evaluate a standard against this criterion.</p>
 </div>
 <div class="paragraph">
-<p>Compliance Test: a compliance test for an Implementation standard is defined to be an OGC CITE test suite complete for all mandatory requirements in the standard. A compliance test for a Conceptual Model is defined as an approved OGC standard that encodes against the Conceptual Model and which itself has CITE tests.</p>
+<p><span class="lime line-through">Compliance Test: a compliance test for an Implementation standard is defined to be an OGC CITE test suite complete for all mandatory requirements in the standard. A compliance test for a Conceptual Model is defined as an approved OGC standard that encodes against the Conceptual Model and which itself has CITE tests.</span></p>
 </div>
 <div class="paragraph">
-<p>IPR: Community standard may contain IPR that is jointly held by the OGC and the submitting organization. The Full Standards track requires that OGC hold the IPR.</p>
+<p>IPR: Community standard may contain IPR that is jointly held by the OGC and the submitting organization. The Full standardss track requires that OGC hold the IPR.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="status-of-standards-approved-before-the-two-track-standards-process"><a class="anchor" href="#status-of-standards-approved-before-the-two-track-standards-process"></a>9.2.2. Status of Standards Approved Before the Two Track Standards Process</h4>
 <div class="paragraph">
-<p>OGC standards approved prior to the effective date of Revision 24 of these Policies and Procedures (05-020r24) will automatically be classified as “standards” under the Full Standard track. These standards can be advanced to a standard with Compliance Suite per the process defined in Section 9.5.7.</p>
+<p>OGC standards approved prior to the effective date of Revision 24 of these Policies and Procedures (05-020r24) will automatically be classified as “standards” under the Full standards track. <span class="lime line-through">These standards can be advanced to a standard with Compliance Suite per the process defined in <a href="#specific-policies-regarding-approval-of-a-standard-with-compliance-suite">[specific-policies-regarding-approval-of-a-standard-with-compliance-suite]</a>.</span></p>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="adoption-andor-revision-to-a-standard---general"><a class="anchor" href="#adoption-andor-revision-to-a-standard---general"></a>9.3. Adoption and/or Revision to a Standard - General</h3>
 <div class="paragraph">
-<p>The Request for Comment (RFC) Process (Section 9.5) is the only way for a candidate standard to move through the review and approval process. This is the approach for proposing a new candidate standard, submitting an externally developed community specification into the OGC process, extensions to an existing standard, profiles of an existing standard, or an application schema for consideration by the membership. For the Full Standards track, a SWG manages the RFC process.</p>
+<p>The <span class="lime line-through">Request for Comment (RFC)</span> <span class="lime">OGC Consensus Standards</span> Process (<a href="#policies-for-the-standard-process">Policies for the <span class="lime line-through">Request for Comment (RFC)</span> <span class="lime">OGC Consensus Standards</span> Process</a>) is the only way for a candidate standard to move through the review and approval process. This is the approach for proposing a new candidate standard, submitting an externally developed community specification into the OGC process, extensions to an existing standard, profiles of an existing standard, or an application schema for consideration by the membership. For the Full standards track, a SWG manages the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process.</p>
 </div>
 <div class="paragraph">
-<p>Please note: A new standards activity can also be initiated when there are outstanding change request proposals. Change Request Proposals (CRPs) (Section 9.11) provide details for revisions to existing Abstract Specifications or standards. A CRP describes proposed changes or enhancements to an existing standard. A CRP may be submitted by one or more OGC member organizations. One or more CRs against an existing OGC standard is evidence that a revision process for that standard should be initiated. In this case, the TCC may request members consider a standards activity using the RFC process.</p>
+<p>Please note: A new standards activity can also be initiated when there are outstanding change request proposals. Change Request Proposals (CRPs) (<a href="#change-request-proposals-crp-to-an-ogc-document">Change Request Proposals (CRP) to an OGC document</a>) provide details for revisions to existing Abstract Specifications or standards. A CRP describes proposed changes or enhancements to an existing standard. A CRP may be submitted by one or more OGC member organizations. One or more CRs against an existing OGC standard is evidence that a revision process for that standard should be initiated. In this case, the TCC may request members consider a standards activity using the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process.</p>
 </div>
 <div class="paragraph">
 <p>The following section provides details on the OGC standard development processes.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="policies-for-the-request-for-comment-rfc-process"><a class="anchor" href="#policies-for-the-request-for-comment-rfc-process"></a>9.4. Policies for the Request for Comment (RFC) Process</h3>
+<h3 id="policies-for-the-standard-process"><a class="anchor" href="#policies-for-the-standard-process"></a>9.4. Policies for the <span class="lime line-through">Request for Comment (RFC)</span> <span class="lime">OGC Consensus Standards</span> Process</h3>
 <div class="paragraph">
-<p>The following sections details the requirements, policies, and procedures for adoption of a candidate standard using the OGC RFC process. Each section specifies whether that step or requirement in the process is for All submissions, Community standard only, or Full Standard track only. Please also refer to Annex B of this document for a synopsis of the steps in the RFC process for the Full Standard track.</p>
+<p>The following sections details the requirements, policies, and procedures for adoption of a candidate standard using the OGC <span class="lime line-through">RFC</span> <span class="lime">Consensus Standards</span> process. Each section specifies whether that step or requirement in the process is for All submissions, Community standard only, or Full standards track only. Please also refer to  <a href="#annex-b-standard-process-outline-full-ogc-standard">Annex B: <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> Process Outline: Draft OGC Standard</a> of this document for a synopsis of the steps in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process for the Full standards track.</p>
 </div>
 <div class="sect3">
-<h4 id="conditions-for-submission-of-an-rfc"><a class="anchor" href="#conditions-for-submission-of-an-rfc"></a>9.4.1. Conditions for Submission of an RFC</h4>
+<h4 id="conditions-for-submission-of-an-candidate-standard"><a class="anchor" href="#conditions-for-submission-of-an-candidate-standard"></a>9.4.1. Conditions for Submission of a <span class="lime line-through">RFC</span> <span class="lime">Candidate Standard</span></h4>
 <div class="paragraph">
-<p>Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate standard or a proposal for the development of a new candidate standard using the RFC process given that for the submission, the following conditions are met.</p>
+<p>Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate standard or a proposal for the development of a new candidate standard using the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process given that for the submission, the following conditions are met.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2532,27 +2610,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>A Voting Member is the lead for the submission team.</p>
 </li>
 <li>
-<p>For a candidate Community standard or a candidate standard with Compliance Suite there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.</p>
+<p>For a candidate Community standard, <span class="lime line-through">or a candidate standard with Compliance Suite</span> there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.</p>
 </li>
 <li>
 <p>For a Community standard, the submission team completes a written justification as to why the Community standard track is being requested. This step is described in more detail below.</p>
 </li>
 <li>
-<p>All required documents (see below) must be ready for submission to the OGC for consideration through a Request for Comment (RFC) process.</p>
+<p>All required documents (see below) must be ready for submission to the OGC for consideration through a <span class="lime line-through">Request for Comment (RFC)</span> <span class="lime">OGC Consensus Standards</span> process.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="intent-to-submit-an-rfc-all"><a class="anchor" href="#intent-to-submit-an-rfc-all"></a>9.4.2. Intent to Submit an RFC (All)</h4>
+<h4 id="intent-to-submit-an-candidate-standard-all"><a class="anchor" href="#intent-to-submit-an-candidate-standard-all"></a>9.4.2. Intent to Submit a <span class="lime line-through">RFC</span> <span class="lime">Candidate Standard</span> (All)</h4>
 <div class="paragraph">
-<p>Any organization that intends to submit a candidate standard via the RFC submission process must inform the TCC via email or written correspondence that a new candidate standard is being submitted. At least three different OGC Member organizations must commit to being part of the submission team. The primary submitter must be a TC Voting Member. The TCC will announce via OGC Communications that there is intent to submit a candidate standard.</p>
+<p>Any organization that intends to submit a candidate standard via the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> submission process must inform the TCC via email or written correspondence that a new candidate standard is being submitted. At least three different OGC Member organizations must commit to being part of the submission team. The primary submitter must be a TC Voting Member. The TCC will announce via OGC Communications that there is intent to submit a candidate standard.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="terms-and-conditions-for-rfc-submissions-all"><a class="anchor" href="#terms-and-conditions-for-rfc-submissions-all"></a>9.4.3. Terms and Conditions for RFC submissions (All)</h4>
+<h4 id="terms-and-conditions-for-candidate-standard-submissions-all"><a class="anchor" href="#terms-and-conditions-for-candidate-standard-submissions-all"></a>9.4.3. Terms and Conditions for <span class="lime line-through">RFC</span> <span class="lime">OGC Candidate Standard process</span> submissions (All)</h4>
 <div class="paragraph">
-<p>In the RFC process, the submitters agree to the following set of terms and conditions.</p>
+<p>In the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process, the submitters agree to the following set of terms and conditions.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2560,10 +2638,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>For a Community standard, work with OGC Staff to develop and submit a justification for submitting a candidate community standard</p>
 </li>
 <li>
-<p>For a Full Standard track submission, work with OGC staff to develop a new SWG Charter or to revise the Charter of an existing SWG.</p>
+<p>For a Full standards track submission, work with OGC staff to develop a new SWG Charter or to revise the Charter of an existing SWG.</p>
 </li>
 <li>
-<p>All RFC submissions originating from work done external to the OGC consensus process and then submitted into the OGC for consideration as an OGC standard may require a signed original of the OGC Submission of Technology Form<sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnote_22" title="View footnote.">22</a>]</sup>. Work with OGC staff to determine if a SoT form is required. This form shall be provided to the OGC prior to the adoption vote.</p>
+<p>All <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submissions originating from work done external to the OGC consensus process and then submitted into the OGC for consideration as an OGC standard may require a signed original of the OGC Submission of Technology Form<sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnote_22" title="View footnote.">22</a>]</sup>. Work with OGC staff to determine if a SoT form is required. This form shall be provided to the OGC prior to the adoption vote.</p>
 </li>
 <li>
 <p>The Submission team has reviewed the current Policy Regarding Intellectual Property Rights of OGC and agrees that its submission is being made in full compliance with those Policies.</p>
@@ -2572,7 +2650,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Proprietary and confidential material may not be included in any submission to the OGC.</p>
 </li>
 <li>
-<p>RFC submitters must provide an agreement to grant OGC a non-exclusive, royalty-free, paid-up, worldwide license to copy and distribute their submission to the OGC membership, and, if adopted by OGC, the right to modify, enhance, and make derivative works from the standard and to copy and distribute the standard, modifications, enhancements, and derivative works both inside and outside of the OGC membership.</p>
+<p><span class="lime line-through">RFC</span> <span class="lime">OGC Candidate Standard</span> submitters must provide an agreement to grant OGC a non-exclusive, royalty-free, paid-up, worldwide license to copy and distribute their submission to the OGC membership, and, if adopted by OGC, the right to modify, enhance, and make derivative works from the standard and to copy and distribute the standard, modifications, enhancements, and derivative works both inside and outside of the OGC membership.</p>
 </li>
 <li>
 <p>The Submitters agree that the OGC may copy, distribute and otherwise make available this submission for the purpose of evaluation, and that in the event that the submission is accepted, that OGC will own the copyright in the resulting standard or amendment and all rights therein, including the rights of distribution. This agreement shall not in any way deprive the Submitter of any patent or other IPR relating to the technology to which its submission relates.</p>
@@ -2597,7 +2675,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect4">
 <h5 id="submission-justification-document-process"><a class="anchor" href="#submission-justification-document-process"></a>Submission justification document process</h5>
 <div class="paragraph">
-<p>The submission team shall provide a written justification as to why the Community standard process can be used. This justification shall also include the reasons why the candidate standard may not need to be aligned with the OGC Abstract Specification and Standards Baseline. There is a template for this justification (OGC 16-113r1, Community Standard Justification Template).</p>
+<p>The submission team shall provide a written justification as to why the Community standard process can be used. This justification shall also include the reasons why the candidate standard may not need to be aligned with the OGC Abstract Specification and Standards Baseline. There is a template for this justification (OGC 16-113, Community Standard Justification Template).</p>
 </div>
 <div class="paragraph">
 <p>Once the submission team completes a draft of the justification document, they shall provide the TCC the draft. The TCC shall review the draft and provide comments and guidance back to the submission team. The Submission Team reviews the TCC comments and modifies the justification as required. When the Submission Team agrees that the justification document is complete, the convener shall post the justification document to pending documents. The document shall be posted as a Public document!</p>
@@ -2614,48 +2692,39 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Announce a three week OGC Member review period. Comments may be provided.</p>
 </li>
 <li>
-<p>Coordinate a broad community announcement that the OGC is considering accepting a Community standard into the OGC standards process;</p>
+<p>Coordinate a broad community announcement that the OGC is considering accepting a Community standard into the OGC standards process; and</p>
 </li>
 <li>
-<p>Ask the full TC if there are any objections to accepting the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.</p>
+<p><span class="lime">Have the proposed Community standard submitters present the justification to the TC at a Plenary or via a web meeting and</span> ask the full TC if there are any objections to <span class="lime line-through">accepting</span> <span class="lime">starting an electronic vote on</span> the proposed candidate Community standard as an official OGC work item. If there are objections, comments shall be provided.#</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Please note that there is also an official TC Voting Member vote to approve the use of the Community standard process.</p>
+<p><span class="lime line-through">Please note that there is also an official TC Voting Member vote to approve the use of the Community standard process.</span></p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="approval-of-the-proposed-community-standard-as-an-ogc-work-item"><a class="anchor" href="#approval-of-the-proposed-community-standard-as-an-ogc-work-item"></a>Approval of the proposed Community standard as an OGC work item</h5>
+<h5 id="approval-of-the-proposed-community-standard-as-an-ogc-work-item"><a class="anchor" href="#approval-of-the-proposed-community-standard-as-an-ogc-work-item"></a>Approval of the proposed Community standard <span class="lime line-through">as an OGC</span> work item</h5>
 <div class="paragraph">
-<p>Concurrent with the Member review and comment process, the TCC shall initiate an</p>
-</div>
-<div class="paragraph">
-<p>official e-vote to approve (or not) the proposed work item for processing a Community</p>
-</div>
-<div class="paragraph">
-<p>standard. This vote shall follow the e-vote process and policies as defined in section 6.5 of the</p>
-</div>
-<div class="paragraph">
-<p>OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns.</p>
+<p><span class="lime line-through">Concurrent with the Member</span> <span class="lime">Upon completion of the</span> review and comment process, the TCC shall initiate an official e-vote to approve (or not) the proposed work item for processing a Community standard. This vote shall follow the e-vote process and policies as defined in <a href="#tc-electronic-voting">TC Electronic Voting</a> of the OGC Technical Committee Policies and procedures. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community standard after addressing Member concerns. <span class="lime">A Community standard Work Item is valid for six months: within this time period the draft Community standard must be scheduled for OAB review or else the Work Item must be renewed through a new submission.</span></p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="processing-comments-received-during-the-community-standard-work-item-approval-vote"><a class="anchor" href="#processing-comments-received-during-the-community-standard-work-item-approval-vote"></a>Processing Comments received during the Community standard work item approval vote</h5>
 <div class="paragraph">
-<p>If comments are received as part of the approval vote for using the Community standard process, the submission team shall follow the process as defined in 9.5.5.7.</p>
+<p>If comments are received as part of the approval vote for using the Community standard process, the submission team shall follow the process as defined in <a href="#review-of-the-received-comments-all">Review of the Received Comments (All)</a>.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="required-components-of-the-rfc-submission-package"><a class="anchor" href="#required-components-of-the-rfc-submission-package"></a>9.4.5. Required components of the RFC Submission Package</h4>
+<h4 id="required-components-of-the-standard-submission-package"><a class="anchor" href="#required-components-of-the-standard-submission-package"></a>9.4.5. Required components of the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> Submission Package</h4>
 <div class="paragraph">
-<p>In addition to the candidate standard document, all RFC submissions must include a signed Cover Letter and if required a signed OGC Technology Submission form for each submission.</p>
+<p>In addition to the candidate standard document, all <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submissions must include a signed Cover Letter and if required a signed OGC Technology Submission form for each submission.</p>
 </div>
 <div class="sect4">
 <h5 id="submission-cover-letter-all"><a class="anchor" href="#submission-cover-letter-all"></a>Submission Cover Letter (All)</h5>
 <div class="paragraph">
-<p>The lead organization on each RFC submission shall provide a Cover Letter stating the intent of the organization to support the SWG and related RFC process. The cover letter may be in the form of an email correspondence.</p>
+<p>The lead organization on each <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submission shall provide a Cover Letter stating the intent of the organization to support the SWG and related <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process. The cover letter may be in the form of an email correspondence.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2667,7 +2736,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Assurances are required at the time of submission that the Intellectual Property Rights inherent in the submissions will, if the submission is approved as an OGC standard, be made available under license to all implementers, members and non-members alike.</p>
 </div>
 <div class="paragraph">
-<p>In order to assure this result, any organization submitting a RFC Proposal Package where the candidate standard was developed outside the OGC SWG or DWG process may be required to complete, sign and deliver a Submission of Technology Form (SoT). Please contact OGC staff to discuss whether a SoT is required. If required, the signed SoT shall be provided prior to the adoption vote.</p>
+<p>In order to assure this result, any organization submitting a <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> Proposal Package where the candidate standard was developed outside the OGC SWG or DWG process may be required to complete, sign and deliver a Submission of Technology Form (SoT). Please contact OGC staff to discuss whether a SoT is required. If required, the signed SoT shall be provided prior to the adoption vote.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2678,14 +2747,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="main-steps-in-the-rfc-process"><a class="anchor" href="#main-steps-in-the-rfc-process"></a>9.4.6. Main Steps in the RFC Process</h4>
+<h4 id="main-steps-in-the-standard-process"><a class="anchor" href="#main-steps-in-the-standard-process"></a>9.4.6. Main Steps in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> Process</h4>
 <div class="paragraph">
-<p>The steps in the OGC RFC Process are as follows.</p>
+<p>The steps in the OGC <span class="lime line-through">RFC</span> <span class="lime">Consensus Standards</span> Process are as follows.</p>
 </div>
 <div class="sect4">
-<h5 id="submission-of-the-rfc-package-to-the-ogc-all"><a class="anchor" href="#submission-of-the-rfc-package-to-the-ogc-all"></a>Submission of the RFC package to the OGC (All)</h5>
+<h5 id="submission-of-the-standard-package-to-the-ogc-all"><a class="anchor" href="#submission-of-the-standard-package-to-the-ogc-all"></a>Submission of the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> package to the OGC (All)</h5>
 <div class="paragraph">
-<p>The RFC Submission team shall provide the submission package to the OGC TCC. The TCC shall review the proposal in terms of required documents.</p>
+<p>The <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> Submission team shall provide the submission package to the OGC TCC. The TCC shall review the proposal in terms of required documents.</p>
 </div>
 <div class="paragraph">
 <p>For a Community standard, the submission package shall include:</p>
@@ -2699,10 +2768,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Endorsements,</p>
 </li>
 <li>
-<p>Justification document (see above 9.5.4.2),</p>
+<p>Justification document (see <a href="#submission-justification-document-process">Submission justification document process</a>),</p>
 </li>
 <li>
-<p>Agreement in writing that the OGC has rights to use, modify, copy, and distribute the candidate standard (See above 9.5.4.1), and</p>
+<p>Agreement in writing that the OGC has rights to use, modify, copy, and distribute the candidate standard (See <a href="#ogc-technology-submission-form-externally-developed-submissions-only">OGC Technology Submission Form (Externally developed submissions only)</a>), and</p>
 </li>
 <li>
 <p>Candidate standard document.</p>
@@ -2710,7 +2779,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>For a Full Standard, the submission package shall include:</p>
+<p>For a Full standard, the submission package shall include:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2729,7 +2798,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>Documents being submitted as Full Standards shall use the document formatting and content, in common use by the OGC at the time of submission, of standards submitted under the RFC process. There is a detailed guidance document for using the template.</p>
+<p>Documents being submitted as Full standards shall use the <a href="https://portal.opengeospatial.org/files/?artifact_id=56777/">document formatting and content</a>, in common use by the OGC at the time of submission, of standards submitted under the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process. There is a detailed <a href="https://portal.opengeospatial.org/files/?artifact_id=3244/">guidance document</a> for using the template.</p>
 </div>
 <div class="paragraph">
 <p>Documents being submitted as Community standards do not need to follow the OGC document template for an OGC standard. However, the submission team for a Community standard is strongly encouraged to provide the candidate standard to the OGC using the document template.</p>
@@ -2739,15 +2808,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect4">
-<h5 id="formation-of-a-new-swg-to-work-on-the-rfc-submission-full-standard"><a class="anchor" href="#formation-of-a-new-swg-to-work-on-the-rfc-submission-full-standard"></a>Formation of a new SWG to work on the RFC submission (Full Standard)</h5>
+<h5 id="formation-of-a-new-swg-to-work-on-the-standard-submission-full-standard"><a class="anchor" href="#formation-of-a-new-swg-to-work-on-the-standard-submission-full-standard"></a>Formation of a new SWG to work on the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> submission (Full standards)</h5>
 <div class="paragraph">
-<p>See section 7.7 on the Policies specific to the formation of a new SWG and SWG processes.</p>
+<p>See <a href="#swg-charter-approval-and-formation">SWG Charter Approval and Formation</a> on the Policies specific to the formation of a new SWG and SWG processes.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="release-of-candidate-standard-for-internal-review-and-public-comment-all"><a class="anchor" href="#release-of-candidate-standard-for-internal-review-and-public-comment-all"></a>Release of candidate standard for internal review and Public Comment (All)</h5>
 <div class="paragraph">
-<p>At any time in the RFC process the SWG may vote to release a candidate standard for public comment. These interim public comment periods do not require OAB review or OGC Naming Authority review. However, there shall be at a minimum one official 30 day public comment period.</p>
+<p>At any time in the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process, the SWG may vote to release a candidate standard for public comment. These interim public comment periods do not require OAB review or OGC Naming Authority review. However, there shall be at a minimum one official 30 day public comment period.</p>
 </div>
 <div class="paragraph">
 <p>Full standard: Once the SWG determines that the candidate standard is ready for OAB and OGC-NA review and public comment, the SWG shall have a vote to release the document for public review. Upon a simple majority vote by the voting members of the SWG, the candidate standard will be released for a 30-day public comment period. The OAB shall review a candidate standard prior to the actual release for public comment.</p>
@@ -2757,15 +2826,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect4">
-<h5 id="review-by-the-ogc-architecture-board-all"><a class="anchor" href="#review-by-the-ogc-architecture-board-all"></a><a id="h.oimfpud5ijel"></a><a id="id.u2cccfj2twd6"></a>Review by the OGC Architecture Board (All)</h5>
+<h5 id="review-by-the-ogc-architecture-board-all"><a class="anchor" href="#review-by-the-ogc-architecture-board-all"></a>Review by the OGC Architecture Board (All)</h5>
 <div class="paragraph">
-<p>Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the RFC submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full Standards compliance with the Modular Specification Policy<sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnote_23" title="View footnote.">23</a>]</sup>], and how the proposal is consistent<sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnote_24" title="View footnote.">24</a>]</sup> with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.</p>
+<p>Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the <span class="lime line-through">RFC</span> <span class="lime">OGC candidate standard</span> submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full standards compliance with the Modular Specification Policy<sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnote_23" title="View footnote.">23</a>]</sup>, and how the proposal is consistent<sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnote_24" title="View footnote.">24</a>]</sup> with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="review-of-ogc-identifiers-http-uris-etc-by-the-ogc-naming-authority-all"><a class="anchor" href="#review-of-ogc-identifiers-http-uris-etc-by-the-ogc-naming-authority-all"></a>Review of OGC Identifiers (http URIs, etc) by the OGC Naming Authority (All)</h5>
 <div class="paragraph">
-<p>Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in “Policy Directives for Writing and Publishing OGC Standards: TC Decisions”.<sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnote_25" title="View footnote.">25</a>]</sup></p>
+<p>Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in <span class="lime line-through">“Policy Directives for Writing and Publishing OGC Standards: TC Decisions”.<sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnote_25" title="View footnote.">25</a>]</sup></span> <span class="lime">the <a href="http://www.opengeospatial.org/ogc/policies/directives/">TC Policy Directives</a>.</span></p>
 </div>
 <div class="paragraph">
 <p>The candidate standard document/repository will also be provided to the OGC-NA to ensure that document tags and formatting are consistent with the OGC standard template and suitable for ingestion into the OGC Knowledge Management database.</p>
@@ -2783,7 +2852,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect4">
 <h5 id="review-of-the-received-comments-all"><a class="anchor" href="#review-of-the-received-comments-all"></a>Review of the Received Comments (All)</h5>
 <div class="paragraph">
-<p>Once the RFC comment period closes, the RFC submission team “collects” the comments and integrates them into a single RFC comment document. The team reviews the comments and determines how each comment will be responded to. The team may decide to:</p>
+<p>Once the RFC comment period closes, the <span class="lime line-through">RFC</span> <span class="lime">candidate standard</span> submission team “collects” the comments and integrates them into a single RFC comment document. The team reviews the comments and determines how each comment will be responded to. The team may decide to:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2820,10 +2889,10 @@ the team cannot accept a comment that makes a normative change to a Community st
 <p>The comment response document shall be a public document. The comment responses can be provided in a document or a Wiki.</p>
 </div>
 <div class="paragraph">
-<p>Finally, the team may need to make a decision as to the fate of the RFC. If the team decides that comments received are sufficient to halt the RFC, then the RFC "fails" and adoption of the proposal halts. The submitter(s) may then make changes and resubmit the RFC proposal.</p>
+<p>Finally, the team may need to make a decision as to the fate of the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span>. If the team decides that comments received are sufficient to halt the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span>, then the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> "fails" and adoption of the proposal halts. The submitter(s) may then make changes and resubmit the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span> proposal.</p>
 </div>
 <div class="paragraph">
-<p>If, however, the comments received do not cause the team to halt the RFC, then the team edits the document based on the comments received during the comment period (See above).</p>
+<p>If, however, the comments received do not cause the team to halt the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process</span>, then the team edits the document based on the comments received during the comment period (See above).</p>
 </div>
 <div class="paragraph">
 <p>If the RFC comments result in a significant change to the candidate standard, then the TCC may request that the revised candidate standard be reviewed by the OAB once more prior to the TC adoption vote.</p>
@@ -2838,10 +2907,10 @@ the team cannot accept a comment that makes a normative change to a Community st
 <div class="sect4">
 <h5 id="vote-to-approve-candidate-standard-all"><a class="anchor" href="#vote-to-approve-candidate-standard-all"></a>Vote to Approve Candidate standard (All)</h5>
 <div class="paragraph">
-<p>After the candidate standard has been briefed to the TC, the TCC will request that the TC approve the start of an electronic vote to recommend approval of the candidate standard by the PC. This vote can occur in a Plenary (see Section 6.4.2) or via email (see Section 6.7).</p>
+<p>After the candidate standard has been briefed to the TC, the TCC will request that the TC approve the start of an electronic vote to recommend approval of the candidate standard by the PC. This vote can occur in a Plenary (see <a href="#votes-that-can-occur-in-a-tc-plenary">Votes that can occur in a TC Plenary</a>) or via email (see <a href="#tc-or-subgroups-of-the-tc-email-voting">TC or Subgroups of the TC Email Voting</a>).</p>
 </div>
 <div class="paragraph">
-<p>Upon approval of the TC to start an electronic vote, the TCC will initiate a 45-day electronic vote to recommend approval of the candidate standard by the PC. This vote will follow the rules specified in Section 6.5.</p>
+<p>Upon approval of the TC to start an electronic vote, the TCC will initiate a 45-day electronic vote to recommend approval of the candidate standard by the PC. This vote will follow the rules specified in <a href="#tc-electronic-voting">TC Electronic Voting</a>.</p>
 </div>
 <div class="paragraph">
 <p>A YES vote by the TC to recommend approval by the PC will initiate a PC vote, further described in the PC Policies and Procedures.</p>
@@ -2849,9 +2918,9 @@ the team cannot accept a comment that makes a normative change to a Community st
 </div>
 </div>
 <div class="sect3">
-<h4 id="specific-policies-regarding-approval-of-a-standard-with-compliance-suite"><a class="anchor" href="#specific-policies-regarding-approval-of-a-standard-with-compliance-suite"></a>9.4.7. Specific policies regarding approval of a standard with Compliance Suite</h4>
+<h4 id="specific-policies-regarding-approval-of-a-standard-uplift"><a class="anchor" href="#specific-policies-regarding-approval-of-a-standard-uplift"></a>9.4.7. Specific policies regarding approval of <span class="lime line-through">a standard with Compliance Suite</span> <span class="lime">uplift of a Draft standard to a standard</span></h4>
 <div class="paragraph">
-<p>A standard proposed to be approved as a standard with Compliance Suite must be submitted by the SWG to the TCC with written documentation that the standard meets the criteria for Reference Implementations and presence of a Compliance Test per Section 9.3.1. The candidate standard with Compliance Suite must then proceed with the OAB Review through Voting steps highlighted in Sections 9.5.6.4, 9.5.6.5, 9.5.6.6, 9.5.6.7, 9.5.6.8, and 9.5.6.9.</p>
+<p>A <span class="lime">Draft</span> standard proposed to be approved as a standard <span class="lime line-through">with Compliance Suite</span> must be submitted by the SWG to the TCC with written documentation that the standard meets the criteria for <span class="lime line-through">Reference Implementations and presence of a Compliance Test</span> <span class="lime">evidence of implementation per the <a href="#two-track-standards-process-criteria">Two Track Standards Process Criteria</a>. The candidate standard [lime line-through]#with Compliance Suite</span> must then proceed with the <span class="lime line-through">OAB Review (<a href="#review-by-the-ogc-architecture-board-all">Review by the OGC Architecture Board (All)</a>)</span> <span class="lime">RFC (<a href="#release-for-public-comment-period-all">Release for Public Comment Period (All)</a>)</span> through Voting (<a href="#vote-to-approve-candidate-standard-all">Vote to Approve Candidate standard (All)</a>) steps.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2892,7 +2961,7 @@ if the Best Practice is a profile combined from multiple standards, then the pro
 <p>Comments are reviewed and addressed by the submitters to the satisfaction of the TCC.</p>
 </li>
 <li>
-<p>The candidate standard is voted upon by the TC and PC per Section 9.4.6.9. Note that the Best Practice was already approved by the TC and PC, so a presentation to and request to start a vote from the TC will not be required.</p>
+<p>The candidate standard is voted upon by the TC and PC per <a href="#vote-to-approve-candidate-standard-all">Vote to Approve Candidate standard (All)</a>. Note that the Best Practice was already approved by the TC and PC, so a presentation to and request to start a vote from the TC will not be required.</p>
 </li>
 </ol>
 </div>
@@ -2929,10 +2998,10 @@ if the Best Practice is a profile combined from multiple standards, then the pro
 <div class="ulist">
 <ul>
 <li>
-<p>Proposals that directly affect the content of an outstanding RFC (a decision made by the subgroup responsible for processing the proposed changes); and</p>
+<p>Proposals that directly affect the content of an outstanding <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards process effort</span> (a decision made by the subgroup responsible for processing the proposed changes); and</p>
 </li>
 <li>
-<p>Proposals that affect the content of a completed RFC (these issues should be handled in the revision process because they potentially affect both the Abstract Specification and Implementation standards).</p>
+<p>Proposals that affect the content of a completed <span class="lime line-through">RFC</span> <span class="lime">OGC standard</span> (these issues should be handled in the revision process because they potentially affect both the Abstract Specification and Implementation standards).</p>
 </li>
 </ul>
 </div>
@@ -2971,7 +3040,7 @@ if the Best Practice is a profile combined from multiple standards, then the pro
 <p>A minimum three-week review period is required prior to issuance of an adoption e-vote.</p>
 </li>
 <li>
-<p>The adoption e-vote is initiated and conducted as per the E-vote policy as defined in section 6.5 of this document.</p>
+<p>The adoption e-vote is initiated and conducted as per the E-vote policy as defined in <a href="#tc-electronic-voting">TC Electronic Voting</a>.</p>
 </li>
 </ul>
 </div>
@@ -2997,13 +3066,29 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect2">
-<h3 id="appeals-process"><a class="anchor" href="#appeals-process"></a>9.6. Appeals Process</h3>
+<h3 id="submissions-ogc-standard-to-other-sdo"><a class="anchor" href="#submissions-ogc-standard-to-other-sdo"></a>9.6. <span class="lime">Submission of an OGC standard for consideration by another SDO</span></h3>
+<div class="paragraph">
+<p><span class="lime">OGC membership may choose to submit an approved OGC standard to another SDO for adoption of the standard by that SDO. A number of OGC standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="lime">The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and</span></p>
+</li>
+<li>
+<p><span class="lime">the TC will vote in a Closing Plenary or by email to approve the submission per the rules for <a href="#voting-during-and-between-tc-meetings">Voting During and Between TC Meetings</a>.</span></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="appeals-process"><a class="anchor" href="#appeals-process"></a>9.7. Appeals Process</h3>
 <div class="paragraph">
 <p>Appeals by any OGC member must be made before the OGC Architecture Board (OAB). Each appeal or issue will be taken on a case-by-case basis, but rulings made by the OAB with approval of the Planning Committee that affect the process will be reflected in these Policies and Procedures. If the member making the appeal is not satisfied by the decision made at the OAB level, the OGC Board of Directors may be presented with the case for final deliberation.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="the-standard-editor"><a class="anchor" href="#the-standard-editor"></a>9.7. The Standard Editor</h3>
+<h3 id="the-standard-editor"><a class="anchor" href="#the-standard-editor"></a>9.8. The Standard Editor</h3>
 <div class="paragraph">
 <p>In addition to the formation of a SWG, there is a requirement for an editor or editors who will maintain the content of the candidate standard based on member input and the decisions of the SWG. One or more members can fill the Editor position. The Editor has the responsibility for managing the actual physical editing and maintenance of the standard document. The editor is neither the author, nor the owner of the document. By way of guidance, the Editor is responsible for:</p>
 </div>
@@ -3028,9 +3113,9 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect2">
-<h3 id="change-request-proposals-crp-to-an-ogc-document"><a class="anchor" href="#change-request-proposals-crp-to-an-ogc-document"></a>9.8. Change Request Proposals (CRP) to an OGC document</h3>
+<h3 id="change-request-proposals-crp-to-an-ogc-document"><a class="anchor" href="#change-request-proposals-crp-to-an-ogc-document"></a>9.9. Change Request Proposals (CRP) to an OGC document</h3>
 <div class="paragraph">
-<p>At any time, any OGC member or non-member can submit a CRP. A CRP allows for the formal documentation of a proposed change to an existing, adopted OGC standard or abstract specification. The change could be an identified error (see section 9.11, Corrigendum Changes), an inconsistency, a requested enhancement, or a major proposed enhancement. Completed CRP’s shall be submitted on-line using the CR submission application on the OGC web site. Submitted CRP’s are catalogued and stored on a publicly accessible site.</p>
+<p>At any time, any OGC member or non-member can submit a CRP. A CRP allows for the formal documentation of a proposed change to an existing, adopted OGC standard or abstract specification. The change could be an identified error (see <a href="#corrigendum-errata-changes-to-ogc-standards-full-standard">[corrigendum-errata-changes-to-ogc-standards-full-standard]</a>), an inconsistency, a requested enhancement, or a major proposed enhancement. Completed CRP’s shall be submitted on-line using the CR submission application on the OGC web site. Submitted CRP’s are catalogued and stored on a publicly accessible site.</p>
 </div>
 <div class="paragraph">
 <p>The CR App URL is: <a href="http://ogc.standardstracker.org/" class="bare">http://ogc.standardstracker.org/</a></p>
@@ -3039,16 +3124,16 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>CRP’s are used as the basis for new SWG work items. The SWG will only consider proposed changes and enhancements to an adopted implementation that have been documented using the CRP template.</p>
 </div>
 <div class="paragraph">
-<p>If a SWG does not exist for a given standard and there are CRP proposals for that standard, the TCC shall constitute a new SWG under the P&amp;P outlined in section 7.7.</p>
+<p>If a SWG does not exist for a given standard and there are CRP proposals for that standard, the TCC shall constitute a new SWG under the P&amp;P outlined in the <a href="#policies-specific-to-a-domain-working-group">Policies Specific to a Domain Working Group</a>.</p>
 </div>
 <div class="sect3">
-<h4 id="submission-of-change-request-proposals"><a class="anchor" href="#submission-of-change-request-proposals"></a>9.8.1. Submission of Change Request Proposals</h4>
+<h4 id="submission-of-change-request-proposals"><a class="anchor" href="#submission-of-change-request-proposals"></a>9.9.1. Submission of Change Request Proposals</h4>
 <div class="paragraph">
-<p>Once a CRP is completed, it shall be submitted to the OGC by posting to the Public Change Request page. If a CRP is to be discussed during a face to face SWG meeting, such as during a TC meeting, then change requests should be submitted to the CRP archive by the meeting 3-week rule. All CRPs shall be publicly available.</p>
+<p>Once a CRP is completed, it shall be submitted to the OGC by posting to the <a href="http://ogc.standardstracker.org/">Public Change Request</a> page. If a CRP is to be discussed during a face to face SWG meeting, such as during a TC meeting, then change requests should be submitted to the CRP archive by the meeting 3-week rule. All CRPs shall be publicly available.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="evaluation-of-a-change-request-proposal"><a class="anchor" href="#evaluation-of-a-change-request-proposal"></a>9.8.2. Evaluation of a Change Request Proposal</h4>
+<h4 id="evaluation-of-a-change-request-proposal"><a class="anchor" href="#evaluation-of-a-change-request-proposal"></a>9.9.2. Evaluation of a Change Request Proposal</h4>
 <div class="paragraph">
 <p>A CRP is processed by appropriate SWG. The SWG shall discuss the proposed CRP and then vote on how the CRP should be processed:</p>
 </div>
@@ -3073,7 +3158,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect3">
-<h4 id="completion-of-a-change-request-proposal"><a class="anchor" href="#completion-of-a-change-request-proposal"></a>9.8.3. Completion of a Change Request Proposal</h4>
+<h4 id="completion-of-a-change-request-proposal"><a class="anchor" href="#completion-of-a-change-request-proposal"></a>9.9.3. Completion of a Change Request Proposal</h4>
 <div class="paragraph">
 <p>When a SWG has processed a CRP, the status of the CRP will be changed on the OGC CRP archive. The status and disposition will be modified based on the SWG decisions. The CRP will remain public and available for future reference. The normal procedure for this process is:</p>
 </div>
@@ -3090,22 +3175,25 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect2">
-<h3 id="the-standard-revision-process-full-standard"><a class="anchor" href="#the-standard-revision-process-full-standard"></a>9.9. The Standard Revision Process (Full Standard)</h3>
+<h3 id="the-standard-revision-process-full-standard"><a class="anchor" href="#the-standard-revision-process-full-standard"></a>9.10. The Standard Revision Process (Full standard)</h3>
 <div class="paragraph">
-<p>A primary function of a Standards Working Group (SWG) is to edit a candidate standard based on either a) comments received as part of the RFC process or b) the contents of one or more official OGC Change Request Proposal(s). If any member feels that a standard needs to be changed, edited, or enhanced, they must submit a Change Request Proposal.</p>
+<p>A primary function of a Standards Working Group (SWG) is to edit a candidate standard based on either a) comments received as part of the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process or b) the contents of one or more official OGC Change Request Proposal(s). If any member feels that a standard needs to be changed, edited, or enhanced, they must submit a Change Request Proposal.</p>
 </div>
 <div class="paragraph">
-<p>All voting in a SWG, whether for processing a candidate standard or for revisions to an existing standard will follow the rules as defined in section 6.</p>
+<p>All voting in a SWG, whether for processing a candidate standard or for revisions to an existing standard will follow the rules as defined for <a href="#swg-voting">SWG Voting</a>.</p>
 </div>
 <div class="sect3">
-<h4 id="the-revision-process"><a class="anchor" href="#the-revision-process"></a>9.9.1. The Revision Process</h4>
+<h4 id="the-revision-process"><a class="anchor" href="#the-revision-process"></a>9.10.1. The Revision Process</h4>
 <div class="paragraph">
-<p>The SWG reviews requests for revisions and corrections to a standard. Requests for revisions must be in the form of comments received during any public review period, such as for the RFC process, or in the form of official CRPs. Ad-hoc emails and verbal requests at meetings will not be considered as official CRPs. However, the SWG may vote to discuss issues that have not been submitted as CRPs, and may vote to direct one or more of its members to create official CRPs to document an agreement reached as the result of those discussions.</p>
+<p>The SWG reviews requests for revisions and corrections to a standard. Requests for revisions must be in the form of comments received during any public review period, such as for the <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> process, or in the form of official CRPs. Ad-hoc emails and verbal requests at meetings will not be considered as official CRPs. However, the SWG may vote to discuss issues that have not been submitted as CRPs, and may vote to direct one or more of its members to create official CRPs to document an agreement reached as the result of those discussions.</p>
+</div>
+<div class="paragraph">
+<p><span class="lime">A major or minor version revision of a standard follows the process of the Full standards track with the initial revision approved as a Draft standard. A Corrigendum to a standard does not require new evidence of implementation and the Corrigendum is approved at the final stage of a standard.</span></p>
 </div>
 <div class="sect4">
 <h5 id="swg-review-of-change-proposals"><a class="anchor" href="#swg-review-of-change-proposals"></a>SWG Review of Change Proposals</h5>
 <div class="paragraph">
-<p>As part of a revision process, the SWG processes CRPs. Please refer to section 9.9 for additional policies and procedures related to change request proposals. Once a list of change proposals has been compiled and the SWG has discussed the proposed changes, the SWG voting members shall vote on the disposition of each of the proposed changes. The SWG has the right to reject a recommended revision, comment, or correction but must provide a written justification for the rejection.</p>
+<p>As part of a revision process, the SWG processes CRPs. Please refer to <a href="#change-request-proposals-crp-to-an-ogc-document">Change Request Proposals (CRP) to an OGC document</a> for additional policies and procedures related to change request proposals. Once a list of change proposals has been compiled and the SWG has discussed the proposed changes, the SWG voting members shall vote on the disposition of each of the proposed changes. The SWG has the right to reject a recommended revision, comment, or correction but must provide a written justification for the rejection.</p>
 </div>
 <div class="paragraph">
 <p>Based on the outcome of the votes, SWG members then make the revisions and corrections to the target standard. Comments or CRPs received after the formation of a new SWG may or may not be considered for incorporation. This is at the discretion of the members of the SWG.</p>
@@ -3117,12 +3205,12 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>When the SWG work items are complete and with the approval of the voting members of the SWG, the new revised standard may be submitted to the OAB and OGC-NA for a review and subsequent release for the 30-day public comment period.</p>
 </div>
 <div class="paragraph">
-<p>From this point on, the processing of the revision to the standard is the same as defined in section 9.5.6.5 and subsequent sections.</p>
+<p>From this point on, the processing of the revision to the standard is the same as defined in <a href="#review-of-the-received-comments-all">Review of the Received Comments (All)</a> and subsequent sections.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="cut-off-date-for-accepting-new-change-request-proposals"><a class="anchor" href="#cut-off-date-for-accepting-new-change-request-proposals"></a>9.9.2. Cut-off date for accepting new Change Request Proposals</h4>
+<h4 id="cut-off-date-for-accepting-new-change-request-proposals"><a class="anchor" href="#cut-off-date-for-accepting-new-change-request-proposals"></a>9.10.2. Cut-off date for accepting new Change Request Proposals</h4>
 <div class="paragraph">
 <p>CRPs to approved standard documents or documents currently in revision can be submitted at any time, and then must be considered by the appropriate SWG.  A SWG can set and publicize a cut-off date beyond which it will not consider additional CRPs.  CRPs submitted after such a cut-off date must be considered as part of future revision activities.</p>
 </div>
@@ -3131,7 +3219,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect3">
-<h4 id="additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process"><a class="anchor" href="#additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process"></a>9.9.3. Additional Guidance and Responsibilities of a SWG during the revision process</h4>
+<h4 id="additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process"><a class="anchor" href="#additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process"></a>9.10.3. Additional Guidance and Responsibilities of a SWG during the revision process</h4>
 <div class="paragraph">
 <p>The SWG shall perform the following tasks.</p>
 </div>
@@ -3163,9 +3251,15 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect2">
-<h3 id="corrigendum-errata-changes-to-ogc-standards-full-standard"><a class="anchor" href="#corrigendum-errata-changes-to-ogc-standards-full-standard"></a>9.10. Corrigendum (errata) Changes to OGC Standards (Full Standard)</h3>
+<h3 id="the-standard-revision-process-community-standard"><a class="anchor" href="#the-standard-revision-process-community-standard"></a>9.11. <span class="lime">The Standard Revision Process (Community standard)</span></h3>
 <div class="paragraph">
-<p>From time to time, members and the public will discover errors in a published and approved OGC standard. In such cases, a process is required to document and publish the corrections without forming a SWG<sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnote_30" title="View footnote.">30</a>]</sup> and that follows the formal TC review and voting process. Under the corrigendum process, an error (or errors) in a published document discovered after adoption and publication is shown with its correction(s) under a separate sheet (or addendum). This process is very similar to the ISO Technical Corrigendum Process</p>
+<p><span class="lime">Revision of a Community standard is treated as a new Community standard submission and all processes for approval of a Community standard from submission of a Work Item to vote for final approval are required.</span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="corrigendum-errata-changes-to-ogc-standards"><a class="anchor" href="#corrigendum-errata-changes-to-ogc-standards"></a>9.12. Corrigendum (errata) Changes to OGC Standards <span class="lime line-through">(Full standard)</span></h3>
+<div class="paragraph">
+<p>From time to time, members and the public will discover errors in a published and approved OGC standard. In such cases, a process is required to document and publish the corrections without forming a SWG<sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnote_30" title="View footnote.">30</a>]</sup> <span class="lime">or submitting a new Community standard Work Item</span> and that follows the formal TC review and voting process. Under the corrigendum process, an error (or errors) in a published document discovered after adoption and publication is shown with its correction(s) under a separate sheet (or addendum). <span class="lime line-through">This process is very similar to the ISO Technical Corrigendum Process</span></p>
 </div>
 <div class="paragraph">
 <p>This process operates as follows.</p>
@@ -3188,7 +3282,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>If there is concurrence that the corrigendum documents a valid error, the editor/author writes the corrigendum and submits back to the TCC or his designee.</p>
 </li>
 <li>
-<p>The Membership votes to release (or not) the error (deficiency) correction as a corrigendum. A Corrigendum vote will ask if there is any objection to unanimous consent. In order to speed the process, these votes will last for only two weeks and there is no IPR review requirement.</p>
+<p>The Membership votes to release (or not) the error (deficiency) correction as a corrigendum. A Corrigendum vote will ask if there is any objection to unanimous consent. In order to speed the process, these votes will last for only two weeks <span class="lime">or occur in a TC Meeting Closing Plenary</span> and there is no IPR review requirement.</p>
 </li>
 <li>
 <p>The corrigendum is published via OGC communications.</p>
@@ -3197,7 +3291,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect2">
-<h3 id="backwards-compatibility-full-standard"><a class="anchor" href="#backwards-compatibility-full-standard"></a>9.11. Backwards Compatibility (Full Standard)</h3>
+<h3 id="backwards-compatibility-full-standard"><a class="anchor" href="#backwards-compatibility-full-standard"></a>9.13. Backwards Compatibility (Full standard)</h3>
 <div class="paragraph">
 <p>In all cases of adopted standards in a revision process, the members will work to insure the highest level of achievable backwards compatibility to the previous release. In those cases in which backwards compatibility cannot be achieved, the SWG will insure that all inconsistencies are highlighted and documented. These will be incorporated into a Standard Revision Release set of notes that must accompany the new revision. Release notes document all enhancements, changes, and compatibility issues resulting from the revision of the interface standard. Both the TC and the PC reserve the right to review the issues related to backwards compatibility for a given revision of a standard. If the backwards compatibility issues are deemed too onerous, the TC and/or the PC may elect to reject the proposed revision.</p>
 </div>
@@ -3314,7 +3408,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <h2 id="temporarily-overriding-specified-procedures"><a class="anchor" href="#temporarily-overriding-specified-procedures"></a>12. Temporarily Overriding Specified Procedures</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The Technical Committee may temporarily override specific procedures set forth in this document by a specific motion to override the normal TC Policies and Procedures. Approval of such an override motion shall require a two-thirds majority vote of non-abstaining Voting TC Members, present at a quorate TC meeting or by electronic TC vote</p>
+<p>The Technical Committee may temporarily override specific procedures set forth in this document by a specific motion to override the normal TC Policies and Procedures. Approval of such an override motion shall require a two-thirds majority vote of non-abstaining Voting TC Members, present at a quorate TC meeting or by electronic TC vote.</p>
 </div>
 </div>
 </div>
@@ -3322,7 +3416,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <h2 id="adoption-of-this-policy-document"><a class="anchor" href="#adoption-of-this-policy-document"></a>13. Adoption of This Policy Document</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In order to be accepted or modified, this document must be ratified by a two-thirds (2/3) vote (under the rules herein) at a TC meeting, electronic, or via electronic vote. Changes to this document are to be presented to the TC, included in the meeting&#8217;s minutes, and ratified by the same procedure. Meetings in which a vote on acceptance or modification of this document is to occur must include the change in the published agenda for the meeting. Alternatively, the OGC PC can make changes to these Policies and Procedures by its normal operational process.</p>
+<p>In order to be accepted or modified, this document must be ratified by <span class="lime line-through">a two-thirds (2/3) vote (under the rules herein) at a TC meeting, electronic, or via</span> electronic vote <span class="lime">per <a href="#tc-electronic-voting">TC Electronic Voting</a> rules</span>. <span class="lime line-through">Changes to this document are to be presented to the TC, included in the meeting&#8217;s minutes, and ratified by the same procedure. Meetings in which a vote on acceptance or modification of this document is to occur must include the change in the published agenda for the meeting. Alternatively, the OGC PC can make changes to these Policies and Procedures by its normal operational process.</span></p>
 </div>
 </div>
 </div>
@@ -3348,16 +3442,22 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>Candidate standard: An engineering document that describes an existing, operational standard that one or more OGC Voting TC Members wish to sponsor as an RFC submission under the Bylaws of the OGC.</p>
 </div>
 <div class="paragraph">
+<p><span class="lime">Draft standard: A standard which has been approved by OGC membership, but which lacks evidence of implementation.</span></p>
+</div>
+<div class="paragraph">
 <p>Deprecated Document: An official standard of the OGC but no longer maintained. An OGC document shall be deprecated by a vote of the OGC Voting Members, usually as part of a standards adoption vote.</p>
 </div>
 <div class="paragraph">
 <p>ER (Engineering Report): An ER Report is a document that reports on some technical activity in an Interoperability Program Initiative. An ER Report may also be a candidate standard or a formal change request proposal for an approved standard. An ER Report documents are submitted to the OGC TC for review and comment. An ER Report is not a publicly available document unless approved for release by the OGC membership. An ER Report does not represent the official position of the OGC nor of the OGC Technical Committee.</p>
 </div>
 <div class="paragraph">
+<p><span class="lime">Extension: An extension is a set of one or more conformance clauses that defines new options for an existing standard. Extensions are generally designed to add additional capabilities that are not part of the core standard. An example is OGC GeoPackage Extension for Tiled Gridded Coverage Data.</span></p>
+</div>
+<div class="paragraph">
 <p>Invited Guest: A liaison representative appointed by an external organization which has reciprocal liaison status with the OGC, or an individual who has received an invitation to attend meetings of the TC. The OGC staff or Voting TC Members may issue invitations. It is the policy of the OGC to freely allow guests and observers, so long as they provide a request to attend to the OGC staff and pay the appropriate meeting fees.</p>
 </div>
 <div class="paragraph">
-<p>IP (OGC Interoperability Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standard Development Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.</p>
+<p>IP (OGC Innovation Program): A global, collaborative, hands-on engineering and testing program designed to deliver proven candidate standards into the OGC Standards Program and to exercise and test existing OGC standards in domain specific situations. More information about the IP can be found at www.opengeospatial.org/initiatives.</p>
 </div>
 <div class="paragraph">
 <p>IPR (Intellectual Property Rights): An umbrella term used to refer to the object of a variety of laws, including patent law, copyright law, trademark law, trade secret law, industrial design law, and potentially others.</p>
@@ -3381,7 +3481,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>OGC Communication: A communication by any means, including posting on the WWW Site (<a href="http://www.opengeospatial.org" class="bare">http://www.opengeospatial.org</a>), electronic mail, facsimile transmission, or by regular post. The primary forms of communication will be either via email or using the OGC Members Only Portal. Any member desiring delivery by other than electronic means (WWW site or electronic mail) must state so in written form to OGC staff.</p>
 </div>
 <div class="paragraph">
-<p>OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts.</p>
+<p>OGC standard: A document containing an OGC consensus computing technology dependent standard for application programming interfaces and related standards based on the Abstract Specification or domain-specific extensions to the Abstract Specification provided by domain experts. OGC standards generally have evidence of implementation.</p>
 </div>
 <div class="paragraph">
 <p>OGC Member, or Member: Any member in good standing.</p>
@@ -3393,7 +3493,10 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>OGC Standards Program: Provides an industry consensus process to plan, review and officially adopt OGC Standards for interfaces and protocols that enable interoperable geoprocessing services, data, and applications. The OGC bodies involved in the Standard Program are the Technical Committee, Planning Committee, and Strategic Member Advisory Committee.</p>
 </div>
 <div class="paragraph">
-<p>Profile: [ISO 19109] A profile is a strict subset of a standard applicable to multiple Application Schemas. An example of a profile is the GML Simple Feature Profile.</p>
+<p>Profile: <span class="lime line-through">[ISO 19109] A profile is a strict subset of a standard applicable to multiple Application Schemas</span> <span class="lime">[ISO 19106:2004, Type 1 Profile] A profile is a pure subset of an existing standard including restrictions on or deletions of conformance clauses related to the subsetting</span>. An example of a profile is the GML Simple Feature Profile.</p>
+</div>
+<div class="paragraph">
+<p><span class="lime">Profile with Extension: A profile with extension is a set of one or more conformance clauses from a base standard that includes at least one new conformance clause (extension). An example is OpenGIS® Web Map Services - Profile for EO Products.</span></p>
 </div>
 <div class="paragraph">
 <p>PC (Planning Committee) − The OGC Planning Committee is granted authority to operate by the OGC Bylaws. Principal Membership is available for organizations that wish to participate in the planning and management of the Consortium&#8217;s technology development process.</p>
@@ -3402,19 +3505,19 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <p>RAND: Reasonable and Non-discriminatory.</p>
 </div>
 <div class="paragraph">
-<p>Request for Comment, or RFC (See Section 9.4): An explicit request to the industry for comments concerning a particular candidate standard that a Standards Working Group is considering for adoption as a standard satisfying a portion of the Abstract Specification. An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.</p>
+<p>Request for Comment (RFC): An explicit request to the industry for comments concerning a particular candidate standard that <span class="lime line-through">a Standards Working Group</span> <span class="lime">OGC membership</span> is considering for adoption as a standard satisfying a portion of the Abstract Specification. <span class="lime line-through">An RFC begins as an unsolicited proposal from a Voting TC Member or members and results, if successful, in an OGC standard. The RFC process is typically how interface and encoding standards developed in the OGC Interoperability Program move into the formal OGC TC standards approval process.</span></p>
 </div>
 <div class="paragraph">
 <p>Retired Document: An OGC document that, by Member approval, is no longer an official or supported document of the OGC. As such, retired documents should not be referenced in any procurement, policy statement, or other OGC document. Retired documents are made available on the OGC website for historical purposes.</p>
 </div>
 <div class="paragraph">
-<p>SAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.</p>
+<p>SMAC (Strategic Member Advisory Committee): The SMAC is granted authority to operate by the OGC by-laws. The SMAC has as a primary responsibility to recommend areas of strategic opportunity for Consortium operations and recommending resource strategies in support of Consortium programs to the Board of Directors, Consortium staff and the Membership.</p>
 </div>
 <div class="paragraph">
 <p>Standards Development Process: The operational details of the discussing and evaluating technologies relevant to the OGC standards baseline, standard revision, and the RFC processes to propose, review, recommend modifications to, and recommend adoption of candidate standards.</p>
 </div>
 <div class="paragraph">
-<p>Standards Baseline: The complete set of member approved abstract specifications standards, including profiles and extensions, and Community standards.</p>
+<p>Standards Baseline: The complete set of member approved abstract specifications, standards (including profiles and extensions), and Community standards.</p>
 </div>
 <div class="paragraph">
 <p>TC (Technical Committee) See Section 5: The OGC TC has been granted authority to operate by the OGC Bylaws. The OGC Technical Committee is composed of individuals representing organizations that are duly recognized members in good standing of the OGC.</p>
@@ -3431,7 +3534,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 </div>
 <div class="sect1">
-<h2 id="annex-b-rfc-process-outline-full-ogc-standard"><a class="anchor" href="#annex-b-rfc-process-outline-full-ogc-standard"></a>Annex B: RFC Process Outline: Full OGC Standard</h2>
+<h2 id="annex-b-standard-process-outline-full-ogc-standard"><a class="anchor" href="#annex-b-standard-process-outline-full-ogc-standard"></a>Annex B: <span class="lime line-through">RFC</span> <span class="lime">OGC Consensus Standards</span> Process Outline: Draft OGC Standard</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -3618,7 +3721,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">TCC and PC</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">SWG process any comments reveived during the adoption vote</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">SWG process any comments received during the adoption vote</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">SWG</p></td>
 </tr>
 <tr>
@@ -3883,7 +3986,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <a href="#_footnoteref_4">4</a>. <a href="http://www.opengeospatial.org/ogc/policies/conduct"><em>http://www.opengeospatial.org/ogc/policies/conduct</em></a>
 </div>
 <div class="footnote" id="_footnote_5">
-<a href="#_footnoteref_5">5</a>. Proposals as used here is meant to be a general term to cover RFCs, Discussion Papers, Best Practices, and Engineering Reports.
+<a href="#_footnoteref_5">5</a>. Proposals as used here is meant to be a general term to cover <span class="lime line-through">RFCs</span> <span class="lime">Standards</span>, Discussion Papers, Best Practices, and Engineering Reports.
 </div>
 <div class="footnote" id="_footnote_6">
 <a href="#_footnoteref_6">6</a>. <a href="http://www.robertsrules.com/" class="bare">http://www.robertsrules.com/</a> Robert’s Rules of Order, Eleventh Edition, 2011.
@@ -3937,7 +4040,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 <a href="#_footnoteref_22">22</a>. If a candidate standard is developed entirely within the OGC process, then a SoT is not required.
 </div>
 <div class="footnote" id="_footnote_23">
-<a href="#_footnoteref_23">23</a>. <a href="https://portal.opengeospatial.org/files/?artifact_id=34762"><em>The Specification Model - A Standard for Modular specifications (08-131r3)</em></a>https://portal.opengeospatial.org/files/?artifact_id=34762[
+<a href="#_footnoteref_23">23</a>. <a href="https://portal.opengeospatial.org/files/?artifact_id=34762"><em>The Specification Model - A Standard for Modular specifications (08-131r3)</em></a>
 </div>
 <div class="footnote" id="_footnote_24">
 <a href="#_footnoteref_24">24</a>. This information is to be provided in the Community Standard Justification document. A Community standard is not required to align with the current OGC standards baseline or may overlap existing OGC standards functionality.
@@ -3969,7 +4072,7 @@ for this case, the TCC will need to ensure that a copy of the Authoritative SDO 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-07-24 15:20:49 EDT
+Last updated 2018-10-10 15:40:36 MDT
 </div>
 </div>
 </body>
