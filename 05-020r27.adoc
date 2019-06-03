@@ -17,7 +17,7 @@
 |[big]*Open Geospatial Consortium*
 |Submission Date: 2019-03-28
 |Approval Date:   2019-05-29
-|Publication Date:   YYYY-MM-DD
+|Publication Date:   2019-06-03
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/27.0
 |Internal reference number of this OGC(R) document:    05-020r27
 |Version: 27.0
