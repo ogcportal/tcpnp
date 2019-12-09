@@ -14,6 +14,10 @@ BP (Best Practice Document): A document containing discussion of best practices 
 
 Candidate standard: An engineering document that describes an existing, operational standard that one or more OGC Voting TC Members wish to sponsor as an RFC submission under the Bylaws of the OGC.
 
+[lime]#Concept: an abstract or generic idea generalized from particular instances [Merriam-Webster].#
+
+[lime]#Conceptual model: a description of common concepts and their relationships, particularly in order to facilitate exchange of information between parties within a specific domain [CEN ENV 1613:1994]. A conceptual model is explicitly chosen to be may be informed by, but independent of design or implementation concern.#
+
 Draft standard: A standard which has been approved by OGC membership, but which lacks evidence of implementation.
 
 Deprecated Document: An official standard of the OGC but no longer maintained. An OGC document shall be deprecated by a vote of the OGC Voting Members, usually as part of a standards adoption vote.
