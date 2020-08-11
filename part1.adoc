@@ -1,7 +1,7 @@
 [[abstract]]
 == Abstract
 
-The http://www.opengeospatial.org/[OGC] provides a collaborative, consensus process for developing and approving open, international standards for the geospatial domain. “International standards”footnote:[As defined in ISO/IEC Directives, Part 2] are those adopted by an international standardizing/standards organization and made available to the public. Specifically, an OGC standard is:
+The http://www.ogc.org/[OGC] provides a collaborative, consensus process for developing and approving open, international standards for the geospatial domain. “International standards”footnote:[As defined in ISO/IEC Directives, Part 2] are those adopted by an international standardizing/standards organization and made available to the public. Specifically, an OGC standard is:
 
 A document, established by consensus and approved by the OGC Membership, that provides, for common and repeated use, rules, guidelines or characteristics for activities or their results, aimed at the achievement of the optimum degree of order in a given context.
 
@@ -23,7 +23,7 @@ As the needs and purpose of the TC change, these policies and procedures changes
 
 The OGC Technical Committee provides an open, collaborative forum for professional discussion related to the consensus development and/or evaluation, approval, and revision of OGC international standards. The primary use of approved OGC standards is to provide the ability to build and deploy interoperable geospatial solutions in the larger Information Technology (IT) domain.
 
-The OGC http://www.opengeospatial.org/ogc/policies/conduct/[Principles of Conduct] govern personal and public interactions in any TC activity.
+The OGC http://www.ogc.org/ogc/policies/conduct/[Principles of Conduct] govern personal and public interactions in any TC activity.
 
 [[what-is-a-consortium]]
 == What is a Consortium?
@@ -51,19 +51,19 @@ The OGC is defined as a Voluntary Consensus Standards Organizationfootnote:[http
 
 The OGC Corporate bylaws state that the OGC Technical Committee (TC) shall be responsible for developing standardsfootnote:[OGC standards are member approved interface and encoding engineering specifications developed via the OGC Consensus process that are publicly and openly available for use in the geospatial and IT community.] through a cooperative consensus process involving the Members. The bylaws provide authority to:
 
-* Design and maintain an http://www.opengeospatial.org/docs/as/[Abstract Specification] for a computing technology independent application environment for interoperable geo-processing and geospatial data products;
+* Design and maintain an http://www.ogc.org/docs/as/[Abstract Specification] for a computing technology independent application environment for interoperable geo-processing and geospatial data products;
 
 * Use the Abstract Specification as a reference to solicit, propose, review, recommend revisions to, and recommend adoption of standards, also known as OGC standards;
 
 * Provide the forum for discussing, reviewing, and adopting changes to existing approved OGC standards;
 
-* Accept, discuss, review, and recommend action on documents developed in the OGC http://www.opengeospatial.org/ogc/programs/ip/[Innovation Program] and then submitted to the TC;
+* Accept, discuss, review, and recommend action on documents developed in the OGC http://www.ogc.org/ogc/programs/ip/[Innovation Program] and then submitted to the TC;
 
 * Discuss, review, and recommend action with regard to standards and relevant standards developed in other standards organizations; and
 
 * Discuss and agree on requirements, use cases, and change requests to existing OGC standards.
 
-Above all, the TC provides an open forum for professional discussion of issues and items related to the consensus development and/or evaluation and approval of candidate standards and revisions to existing adopted OGC standards that provide the ability to build and deploy interoperable geospatial solutions in the larger IT domain. The OGC Principles of Conductfootnote:[http://www.opengeospatial.org/ogc/policies/conduct[_http://www.opengeospatial.org/ogc/policies/conduct_]] govern personal and public interactions in any TC activity.
+Above all, the TC provides an open forum for professional discussion of issues and items related to the consensus development and/or evaluation and approval of candidate standards and revisions to existing adopted OGC standards that provide the ability to build and deploy interoperable geospatial solutions in the larger IT domain. The OGC Principles of Conductfootnote:[http://www.ogc.org/ogc/policies/conduct[_http://www.ogc.org/ogc/policies/conduct_]] govern personal and public interactions in any TC activity.
 
 [[composition-of-the-tc]]
 === Composition of the TC
@@ -80,7 +80,7 @@ The OGC Bylaws provide the enabling authority for the OGC TC. The TC has the fol
 [[role-of-the-technical-committee-chair-tcc]]
 === Role of the Technical Committee Chair (TCC)
 
-The TCC is responsible for facilitating the progress and work of the Technical Committee. The TCC is a post held by appointment of the OGC President, to lead the activities of the TC. The TCC is an unbiased member of the TC, and therefore does not vote on Items and Issues except as noted below. The TCC shall ensure the following:
+The TCC is responsible for facilitating the progress and work of the Technical Committee. The TCC is a post held by appointment of the OGC Chief Executive Officer, to lead the activities of the TC. The TCC is an unbiased member of the TC, and therefore does not vote on Items and Issues except as noted below. The TCC shall ensure the following:
 
 * Note is taken of TC Members, Voting TC Members, and their substitutes and proxies at each meeting;
 
@@ -134,7 +134,7 @@ The OGC Naming Authority (OGC-NA) controls the assignment of OGC Names to resour
 [[subcommittee-sc-of-the-tc]]
 === Subcommittee (SC) of the TC
 
-A standing group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and Invited Guests, with a mission to provide recommendations to the TC in some general area. A http://www.opengeospatial.org/projects/groups/sc/[Subcommittee] does not generate a standard nor does it work on a standard.
+A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and Invited Guests, with a mission to provide recommendations to the TC in some general area. A http://www.ogc.org/projects/groups/sc/[Subcommittee] does not generate a standard nor does it work on a standard.
 
 SCs have Voting TC Member-only voting. As with all OGC groups, each Voting TC Member has only one vote per SC. SCs are long-standing entities with general portfolios or mission. OGC staff can chair TC SCs. Any OGC member can attend a SC meeting and participate.
 
@@ -145,7 +145,7 @@ A SC may be proposed by any TC member. The TCC shall determine whether the SC sh
 
 A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the TC. A Group is not a subcommittee as outlined by the Bylaws of the OGC.
 
-There are two types of Working Groups in the TC: http://www.opengeospatial.org/projects/groups/wg/[Domain Working Groups] (DWGs) and http://www.opengeospatial.org/projects/groups/swg/[Standards Working Groups] (SWGs). The reason that there are two different type of Working Groups is due to the OGC Intellectual Property Policy. The OGC IP Policy can be downloaded from http://www.opengeospatial.org/ogc/policies.
+There are two types of Working Groups in the TC: http://www.ogc.org/projects/groups/wg/[Domain Working Groups] (DWGs) and http://www.ogc.org/projects/groups/swg/[Standards Working Groups] (SWGs). The reason that there are two different type of Working Groups is due to the OGC Intellectual Property Policy. The OGC IP Policy can be downloaded from http://www.ogc.org/ogc/policies.
 
 [[domain-working-group]]
 ==== Domain Working Group
@@ -162,7 +162,7 @@ A group (organizationally, a subgroup of the TC – <<policies-specific-to-a-dom
 
 * Develop Engineering Reports with the intent seeking approval by the TC for release of these documents as OGC White Papers, Discussion Papers or Best Practices Papers;
 
-* Informational presentations and discussions about the market use of adopted OGC standards.;
+* Informational presentations and discussions about the market use of adopted OGC standards;
 
 * Have all-member voting policies (unless otherwise stated); and
 
@@ -181,7 +181,7 @@ Specific work items for a SWG could be:
 
 * Have a formal approved charter that defines the SWGs Scope of Work and estimated timeline for completion of the work;
 
-* Develop a new candidate standard in preparation of that document as an OGC Consensus Standards process submission.
+* Develop a new candidate standard in preparation of that document as an OGC Consensus Standards process submission;
 
 * Process a new OGC Consensus Standards process submission once approved by the OAB;
 
@@ -191,7 +191,7 @@ Specific work items for a SWG could be:
 
 * To vote on any changes to a candidate standard or to an existing OGC standard; and/or
 
-* Make recommendations to the entire TC once a document is ready for a formal adoption vote;
+* Make recommendations to the entire TC once a document is ready for a formal adoption vote.
 
 Voting is limited to those Members who are either 1.) Charter Members of the SWG or 2.) have formally opted into the SWG and have waited the mandatory 30-day waiting period and requested to be voting members.
 
@@ -257,7 +257,7 @@ At least eight weeks before a TC meeting, a draft master schedule for that TC me
 
 The WG Chairs shall provide the TCC or designee meeting date and time requests at least 4 weeks before the actual TC meeting. The earlier the better!
 
-Each WG Chair shall email an agenda to OGC members at least three weeks before the meeting. Due to schedule conflicts, WG Chairs that fail to provide a proposed agenda by three weeks before the meeting may forfeit the right to meet during the course of regularly scheduled TC meeting times. However, the Chairs of a WG that do not provide an agenda can elect to have an ad-hoc meeting during the off-hours (such as a breakfast or after dinner session).
+Each WG Chair shall email an agenda to OGC members at least three weeks before the meeting. Due to schedule conflicts, WG Chairs that fail to provide a proposed agenda by three weeks before the meeting may forfeit the right to meet during the course of regularly scheduled TC meeting times. However, the Chairs of a WG that do not provide an agenda can elect to have an ad-hoc meeting during the off-hours (such as a breakfast or after-dinner session).
 
 [[policies-related-to-the-recording-of-an-ogc-meeting]]
 === Policies related to the recording of an OGC Meeting
@@ -274,7 +274,6 @@ If there is a GoToMeeting (or similar technology) session assigned for a specifi
 == Voting During and Between TC Meetings
 
 The following policies address voting during and between TC meetings. One of the primary functions of the TC is to vote on a variety of actions, items, and issues. Votes can be for any purpose pertaining to the format and content of the Abstract Specification, Candidate standards, OGC standards, Discussion Papers, approval of the slate of nominations for the OGC Architecture Board, Best Practices Documents, Policies and Procedures of the TC, and for other purposes consistent with the purpose of the TC as described in these Policies and Procedures. The TC will make recommendations to the PC concerning adoption of a candidate standard, changes to a standard, creation of a Working Group, a Best Practice, or a policy document and these recommendations require further approval by the PC.
-
 
 [[voting-thresholds]]
 === [lime]#Voting Thresholds#
@@ -335,13 +334,13 @@ Many votes usually occur in the Opening or Closing TC Plenary. The following is 
 |Vote Type |Who can Vote
 |Approval of a White Paper, Discussion Paper, or Engineering Report|Any member
 |Election of TC reps to the PC|Any member
-|Approval of a DWG Charter|Any member
+|[lime line-through]#Approval of a DWG Charter#|[lime line-through]#Any member#
 |Approval of deprecation or retirement of Discussion Paper or Best Practice|Any member
 |Approval to start electronic vote for an OGC Best Practices Document|TC Voting Member
 |Approval to start electronic vote for adoption of an OGC standard|TC Voting Member
 |Approval to start electronic vote for a revision of an OGC standard|TC Voting Member
 |Approval to start electronic vote for a new TC P&P or other policy document|TC Voting Member
-|Approval to start electronic vote for a new SWG or Community standard work activity|TC Voting Member
+|Approval to start electronic vote for a new [lime line-through]#SWG# [lime]#WG# or Community standard work activity|TC Voting Member
 |Approval of a new SWG Task|TC Voting Member
 |==================================================================================
  +For “Any Member” votes, only one member representative from a given Member Organization may vote.
@@ -361,7 +360,9 @@ Often the following clause is added:
 
 Best Practice and standards adoption votes shall have the following language:
 
+_______________
 The <Name of the SC or WG> recommends that the TC approve an electronic vote to recommend <OGC Document number and Name> as a <OGC Best Practice or Adopted Standard>.
+_______________
 
 [[proxy-for-voting]]
 ==== Proxy for Voting
@@ -431,7 +432,7 @@ If during the vote there is a new TC Voting Member, that Member may vote but doe
 ==== Approval
 footnote:[NOTE: All approved OGC Technical Committee document or policy recommendations are then presented as a recommendation to the OGC Planning Committee (PC). The PC shall review the recommendation and either approve the recommendation as is, ask the TC for clarification, or in very few instances not approve the recommendation and ask the TC to provide clarifications or more require more work on the document.]
 
-In addition to Sufficiency thresholds, for documents that are official OGC positions, such as a standard, creation of a new WG, an OGC Best Practice, or an OGC policy, a motion passes (is approved) if the number of YES votes is twice or more the number of NO votes. All other documents pass with a simple majority
+In addition to Sufficiency thresholds, for documents that are official OGC positions, such as a standard, creation of a new WG, an OGC Best Practice, or an OGC policy, a motion passes (is approved) if the number of YES votes is twice or more the number of NO votes. All other documents pass with a simple majority.
 
 [[comments]]
 ==== Comments
@@ -599,7 +600,7 @@ Any group of OGC members can schedule an ad-hoc meeting. The interested members 
 
 The primary function of the Ad-hoc meetings is to write a Charter for the new sub-group/Working Group. The Charter documents the mission, scope, roles, and responsibilities of the proposed WG. Drafts of the Charter can be shared with other members for review and comment. The templates for the Domain and Standards WG Charter documents can be found here:
 
-https://portal.opengeospatial.org/?m=public&subtab=templates&tab=1
+https://portal.ogc.org/?m=public&subtab=templates&tab=1
 
 [[approval-of-a-sub-group-charter]]
 ==== Approval of a Sub-Group Charter
@@ -667,7 +668,7 @@ A SWG may be formed whenever:
 
 * Three or more members wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the OGC Consensus Standards process.
 
-The formation and execution of the work of a SWG is closely tied to the OGC Intellectual Property Policies and Procedures. Members are strongly encouraged to read this Policy prior to forming or joining a SWG.
+The formation and execution of the work of a SWG is closely tied to the OGC Intellectual Property Policies. Members are strongly encouraged to read this Policy prior to forming or joining a SWG.
 
 Whenever a SWG needs to be formed, the first order of business is to inform the TCC The TCC will discuss the process and next steps. The TCC shall announce to the full Membership via OGC communications that there is an intent to start a new SWG (standards) activity.
 
@@ -678,16 +679,16 @@ The submission team then writes a SWG Charter. Please review the OGC ad-hoc meet
 
 The Charter documents the scope of work, references, business value, and projected timeline for the new SWG. There is a formal OGC template for a SWG charter. This template may be downloaded from:
 
-https://portal.opengeospatial.org/?m=public&subtab=templates&tab=1
+https://portal.ogc.org/?m=public&subtab=templates&tab=1
 
 SWG are chartered to create a primary delivery (a new standard), maintain that standard, and optionally update, extend, or profile that standard through a <<swg-task-process>>. At a minimum, the scope of the primary delivery is provided in the SWG charter.
 
 [[ipr-rules-for-a-new-swg]]
 ===== IPR rules for a new SWG
 
-The charter of each SWG shall also specify whether the SWG to be formed is a RANDfootnote:[Reasonable and non-discriminatory]-Royalty Free SWG or a RAND-for Fee SWG. For a complete discussion of the OGC Intellectual Property Rights (IPR) policies, please refer to:
+The charter of each SWG shall also specify whether the SWG to be formed is a RANDfootnote:[Reasonable and non-discriminatory]-Royalty Free SWG or a RAND-for Fee SWG. For a complete discussion of the OGC Intellectual Property Rights (IPR) Policies, please refer to:
 
-http://www.opengeospatial.org/about/ipr
+https://www.ogc.org/about/ipr
 
 The OGC IPR policy is similar to those of other voluntary standards organizations.
 
@@ -744,7 +745,7 @@ Charter members have agreed to the IPR terms of the SWG. Charter members are imm
 
 Any OGC member representative can join a SWG at any time and participate in the work of the SWG. If a Member wishes to participate, then the member representative(s) need(s) to “opt-in” to the new SWG in order to participate. Opting into a SWG is done via a registration page for that SWG. The registration page will be available on the OGC Portal. The registration page will clearly state the IPR terms for the SWG as well as the Scope of Work.
 
-Any member representative opting into a SWG and making a Contribution to any SWG (regardless of its licensing designation) must commit at the time of making such Contribution that if the Proposed standard in connection with which the Contribution is made is finally approved by OGC, the Contributor will provide a License to all patent claim(s) Owned by it that become Necessary Claim(s) by reason of its making a Contribution, without compensation and otherwise on a RAND basis, to all Implementers. Such commitment shall be made be made pursuant to a written declaration in the form of Appendix A to this IPR Policy.
+[lime]#From Section 3.2.1 of the OGC Intellectual Property Rights Policy:# "Any member representative opting into a SWG and making a Contribution to any SWG (regardless of its licensing designation) must commit at the time of making such Contribution that if the Proposed standard in connection with which the Contribution is made is finally approved by OGC, the Contributor will provide a License to all patent claim(s) Owned by it that become Necessary Claim(s) by reason of its making a Contribution, without compensation and otherwise on a RAND basis, to all Implementers. Such commitment shall be made be made pursuant to a written declaration in the form of Appendix A to [the OGC] IPR Policy."
 
 If the member representative does elect to participate (opt-in), then there is a 30-day period during which the member representative can participate but cannot vote. During this 30-day period, the member representative can also elect to opt out of the SWG and not be required to declare any IPR or essential claims.
 
@@ -870,13 +871,13 @@ Policy documents have version numbers that shall start at 1.0
 [[the-standards-document]]
 === The Standards Document
 
-An OGC standards document is the principal document type that captures the work and the consensus of the OGC membership. Standards documents must use the OGC standards document template (with the exception of Community standardsfootnote:[While there is not a formal requirement for a Community standard to use the OGC document template for a standard the OGC encourages the Candidate standard submission team to consider using the OGC document template.]) that can be downloaded in Word format from: https://portal.opengeospatial.org/?m=public&subtab=templates&tab=1 or which is available in the OGC GitHub repository as a series of AsciiDoc files.
+An OGC standards document is the principal document type that captures the work and the consensus of the OGC membership. Standards documents must use the OGC standards document template (with the exception of Community standardsfootnote:[While there is not a formal requirement for a Community standard to use the OGC document template for a standard the OGC encourages the Candidate standard submission team to consider using the OGC document template.]) that can be downloaded in Word format from: https://portal.ogc.org/?m=public&subtab=templates&tab=1 or which is available in the OGC GitHub repository as a series of AsciiDoc files.
 
 OGC uses a multi-track standards policy with three possible states: OGC Community standard, OGC standard, and OGC standard with Compliance Suite. These are described in <<the-two-track-standards-process-characteristics>>.
 
 Approval of an OGC standard is described in <<policies-and-procedures-for-adoption-andor-revisions-of-standards>>.
 
-Each standard distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 4].
+Each standard distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 4].
 
 Standards documents have version numbers that shall start at 1.0.
 
@@ -885,7 +886,7 @@ Standards documents have version numbers that shall start at 1.0.
 
 The TC will periodically be asked to review and vote on the OGC Reference Model (ORM) Document. The ORM describes a framework for the ongoing work of the OGC and our standards and implementing interoperable solutions and applications for geospatial services, data, and applications. The ORM can be found at:
 
-http://www.opengeospatial.org/standards/orm
+http://www.ogc.org/standards/orm
 
 Any version of the ORM, once approved by the TC and the PC, is released as a public document.
 
@@ -896,9 +897,20 @@ WGs and SCs shall often be used to hear presentations in their interest area. Fu
 
 Motions to approve release of a document as a Discussion Paper may originate from a WG or SC with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
 
-While these Discussion Papers shall be distributed by the OGC, and might in fact lead to adopted standards later, they do not represent an official position of the OGC TC or the OGC itself. Each Discussion Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 5].
+While these Discussion Papers shall be distributed by the OGC, and might in fact lead to adopted standards later, they do not represent an official position of the OGC TC or the OGC itself. Each Discussion Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 5].
 
 Discussion Papers do not have a version number.
+
+[[white-papers]]
+=== [lime]#White Papers#
+
+[lime]#White Papers are OGC member-approved publications released to the Public that present a position on one or more technical considerations or other subjects that are germane to the work of the OGC, often including a high-level explanation of a standards-based architecture or framework of a solution. White Papers often explain the results or conclusions of research.#
+
+[lime]#Motions to approve release of a document as a White Paper may originate from a WG or SC with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.#
+
+[lime]#White Papers do not represent an official position of the OGC TC or the OGC itself. Each White Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 5] where the word "Discussion" is replaced with the word "White" in the statement.#
+
+[lime]#White Papers do not have a version number.#
 
 [[public-engineering-reports]]
 === Public Engineering Reports
@@ -909,7 +921,7 @@ While these ERs shall be distributed by the OGC, and might in fact lead to adopt
 
 Motions to approve release of a document as an Engineering Report may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TCC.
 
-Each Public Engineering Report distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 6].
+Each Public Engineering Report distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 6].
 
 Engineering Reports do not have a version number.
 
@@ -933,9 +945,11 @@ In order to be considered for approval as an OGC BP or CP, the document submitte
 
 * Evidence of implementation. Evidence of implementation shall include but not be limited to: Implementation in commercial product, implementation in open source applications or software, and/or implementation in deployed applications. A single research related implementation is not proper evidence of implementation.
 
+* [lime]#TC and Public Request for comment of 30 days.#
+
 * Presentation of the contents of the proposed BP at an OGC face-to-face meeting. The presentation may be done remotely using OGC communication tools, such as GoToMeeting.
 
-* Post the document to OGC Pending Documents on the OGC Members Portal for at least three weeks prior to the face-to-face presentation.
+* Post the document to OGC Pending Documents on the OGC Members Portal for at least three weeks prior to the face-to-face [lime]#or remote# presentation.
 
 [[approval-of-ogc-best-practice-documents]]
 ==== Approval of OGC Best Practice and Community Practice Documents
@@ -946,21 +960,21 @@ A BP and CP vote has the same rules as a standards adoption vote (<<tc-electroni
 
 The BP and CP document authors shall respond in writing (email is acceptable) to any comments received during the voting period. If necessary, the document authors shall edit the document. If the TCC deems that the edits to the document are more than editorial, then the document shall be posted to pending and a new BP or CP approval e-vote shall be initiated.
 
-Each BP and CP distributed by the OGC shall include a cover page with the statement as specified in https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 7].
+Each BP and CP distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 7].
 
 [[documents-and-distribution]]
 === Documents and Distribution
 
 The numbered document (see <<document-numbers>>) as distributed to members is to be considered the official document of the TC. Electronic mail shall be used for day-to-day discussion of OGC documents. The preferred mechanism for document sharing is the OGC Members-only Portal. OGC Communication shall be used for announcing the availability of new official documents. The actual documents will not be distributed by email unless a member requests receiving a document by email. All official documents will be posted to the Portal. Other electronic forms of documents can be made available at the written request of members.
 
-The Members section of the OGC Portal (http://portal.opengeospatial.org) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution formatfootnote:[Typically, official documents are provided to the public in Word “.doc” format or Adobe PDF format. However, various presentations, draft documents, and so forth can also be distributed in PowerPoint format, HTML, and other formats as provided by the Members. The TCC reserves the right to reject a document that is in a non-industry standard distribution format.] of these documents. OGC Consensus Standards proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in <<other-document-concerns>>. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification Topics and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTMLfootnote:[Initial publications in 2014.].
+The Members section of the OGC Portal (http://portal.ogc.org) shall provide the default method of disseminating documents in electronic form. The TCC or his designee shall determine the electronic distribution formatfootnote:[Typically, official documents are provided to the public in Word “.doc” format or Adobe PDF format. However, various presentations, draft documents, and so forth can also be distributed in PowerPoint format, HTML, and other formats as provided by the Members. The TCC reserves the right to reject a document that is in a non-industry standard distribution format.] of these documents. OGC Consensus Standards proposals, Discussion Papers, Best Practices Documents, and Engineering Reports must be provided in one of the formats defined in <<other-document-concerns>>. However, the preferred document format is the Word .doc format. The format for dissemination may change as distribution technology changes. Up until mid 2014, all approved Abstract Specification Topics and standards were only available in PDF format. Please note that the OGC has moved to publication of OGC standards documents in HTMLfootnote:[Initial publications in 2014.].
 
 [[document-numbers]]
 ==== Document Numbers
 
-All member submitted documents shall be assigned a document number. Members can obtain pending document numbers using the members only Portal, OGC Pending Documents page located at https://portal.opengeospatial.org/?m=public&orderby=default&tab=1.
+All member submitted documents shall be assigned a document number. Members can obtain pending document numbers using the members only Portal, OGC Pending Documents page located at https://portal.ogc.org/?m=public&orderby=default&tab=1.
 
-Instructions for obtaining a Pending Document number and posting the document can be found at https://portal.opengeospatial.org/?m=public&subtab=instructions&tab=1.
+Instructions for obtaining a Pending Document number and posting the document can be found at https://portal.ogc.org/?m=public&subtab=instructions&tab=1.
 
 [[document-version-numbers]]
 ==== Document version numbers
@@ -977,7 +991,7 @@ The guidelines for version/revision numbers for documents are as follows.
 
 * Changes to the major version number are reserved for when there are significant changes to the adopted standard or when backwards compatibility cannot be maintained with the previous version.
 
-See also https://portal.opengeospatial.org/public_ogc/directives/directives.php[Policy Directive 18].
+See also https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 18].
 
 [[change-proposal-format]]
 ==== Change Proposal Format
@@ -987,7 +1001,7 @@ Change Proposals for any OGC document shall use the procedures and format as doc
 [[other-document-concerns]]
 ==== Other Document Concerns
 
-All documents with official OGC Document Numbers that are to be considered and discussed at a TC face to face meeting shall be made available electronically to all members at least three (3) weeks before the next TC meeting. However, this clause does not apply to informational documents for which there will not be any motions or actions. Numbered documents shall be posted to https://portal.opengeospatial.org/index.php?m=public&orderby=default&tab=1[Pending Documents].
+All documents with official OGC Document Numbers that are to be considered and discussed at a TC face to face meeting shall be made available electronically to all members at least three (3) weeks before the next TC meeting. However, this clause does not apply to informational documents for which there will not be any motions or actions. Numbered documents shall be posted to https://portal.ogc.org/index.php?m=public&orderby=default&tab=1[Pending Documents].
 
 The TC will enforce this policy under the conditions described for the <<three-week-rule>>.
 
@@ -1103,7 +1117,7 @@ Acceptance of the TC recommendation for adoption is always with the caveat that 
 [[the-two-track-standards-process-characteristics]]
 === The Two Track Standards Process: Characteristics
 
-There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full standardss track. These two tracks are described below. Regardless of the submission track, the OGC Consensus Standards Process shall be used. There are key differences in the OGC Consensus Standards process depending on whether the Community or the Full standards track is being used. The following table summarizes the key aspects and steps in the OGC Consensus Standards process for the two tracks.
+There are two possible tracks for proposing and approving candidate standards or proposing and approving revisions to an existing adopted standard: The OGC Community standard and the OGC Full standard track. These two tracks are described below. Regardless of the submission track, the OGC Consensus Standards Process shall be used. There are key differences in the OGC Consensus Standards process depending on whether the Community or the Full standards track is being used. The following table summarizes the key aspects and steps in the OGC Consensus Standards process for the two tracks.
 
 [cols=",,,,,,,,,",]
 |==================================================================================================================================
@@ -1292,7 +1306,7 @@ For a Full standard, the submission package shall include:
 
 * Candidate standard document if one exists. For proposed new standard, providing a document is not required.
 
-Documents being submitted as Full standards shall use the https://portal.opengeospatial.org/files/?artifact_id=56777/[document formatting and content], in common use by the OGC at the time of submission, of standards submitted under the OGC Consensus Standards process. There is a detailed https://portal.opengeospatial.org/files/?artifact_id=3244/[guidance document] for using the template.
+Documents being submitted as Full standards shall use the https://portal.ogc.org/files/?artifact_id=56777/[document formatting and content], in common use by the OGC at the time of submission, of standards submitted under the OGC Consensus Standards process. There is a detailed https://portal.ogc.org/files/?artifact_id=3244/[guidance document] for using the template.
 
 Documents being submitted as Community standards do not need to follow the OGC document template for an OGC standard. However, the submission team for a Community standard is strongly encouraged to provide the candidate standard to the OGC using the document template.
 
@@ -1315,16 +1329,16 @@ Community standard: The community standard submission team and the TCC must agre
 [[review-by-the-ogc-architecture-board-all]]
 ===== Review by the OGC Architecture Board (All)
 
-Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the OGC candidate standard submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full standards compliance with the Modular Specification Policyfootnote:[https://portal.opengeospatial.org/files/?artifact_id=34762[_The Specification Model - A Standard for Modular specifications (08-131r3)_]], and how the proposal is consistentfootnote:[This information is to be provided in the Community Standard Justification document. A Community standard is not required to align with the current OGC standards baseline or may overlap existing OGC standards functionality.] with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.
+Once the SWG or Community standard submission team approves the candidate standard for public comment, the candidate standard is reviewed by the OAB. The OAB has the responsibility to ensure that the OGC candidate standard submission is relevant in terms of the rationale for how the candidate standard fits into the current adoption plans of the OGC (and/or the current Abstract Specification), for Full standards compliance with the Modular Specification Policyfootnote:[https://portal.ogc.org/files/?artifact_id=34762[_The Specification Model - A Standard for Modular specifications (08-131r3)_]], and how the proposal is consistentfootnote:[This information is to be provided in the Community Standard Justification document. A Community standard is not required to align with the current OGC standards baseline or may overlap existing OGC standards functionality.] with the current OGC standards baseline. The candidate standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate standard and have that document returned to the OAB for further review.
 
 [[review-of-ogc-identifiers-http-uris-etc-by-the-ogc-naming-authority-all]]
 ===== Review of OGC Identifiers (http URIs, etc) by the OGC Naming Authority (All)
 
-Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in the http://www.opengeospatial.org/ogc/policies/directives/[TC Policy Directives].
+Concurrent with the OAB review of the candidate standard, the SWG shall provide a list of all new OGC identifiers specified in the candidate standard to be issued for persistent public OGC resources. This list shall be submitted to the OGC Naming Authority for review. This submission may be done by email. The specific policy is specified in the http://www.ogc.org/ogc/policies/directives/[TC Policy Directives].
 
 The candidate standard document/repository will also be provided to the OGC-NA to ensure that document tags and formatting are consistent with the OGC standard template and suitable for ingestion into the OGC Knowledge Management database.
 
-In order to facilitate the review and to be in compliance with the OGC http URI policy [OGC 06-135 – Directive 21], the editor shall submit the candidate standard’s list of docfootnote:[As specified in OGC 09-046, 09-047, and 09-048 (latest versions) found at http://www.opengeospatial.org/ogc/policies/directives], spec and XML Namespace URIs for OGC-NA review formatted into an Excel spreadsheet or as a Persistent Uniform Resource Locators (PURL)footnote:[http://purl.oclc.org/docs/index.html] configuration document, which is valid according to the batchPurls.rng schema.
+In order to facilitate the review and to be in compliance with the OGC http URI policy [OGC 06-135 – Directive 21], the editor shall submit the candidate standard’s list of docfootnote:[As specified in OGC 09-046, 09-047, and 09-048 (latest versions) found at http://www.ogc.org/ogc/policies/directives], spec and XML Namespace URIs for OGC-NA review formatted into an Excel spreadsheet or as a Persistent Uniform Resource Locators (PURL)footnote:[http://purl.oclc.org/docs/index.html] configuration document, which is valid according to the batchPurls.rng schema.
 
 [[release-for-public-comment-period-all]]
 ===== Release for Public Comment Period (All)
@@ -1399,7 +1413,9 @@ NOTE: if the Best Practice is a profile combined from multiple standards, then t
 [[specific-policies-regarding-abstract-specification-topics]]
 === Specific Policies Regarding Abstract Specification Topics
 
-The OGC Abstract Specification Development, Revision, and Approval process is the same as for any OGC standard except for documents that originated in an Authoritative Standards Development Organization (Authoritative SDO) or are joint standards activities between OGC and the Authoritative SDO. The remainder of this subsection provides details on the approval of such documents as OGC Abstract specifications.
+The OGC Abstract Specification Development, Revision, and Approval process is the same as for any OGC standard except for documents that originated in an Authoritative Standards Development Organization (Authoritative SDO) or are joint standards activities between OGC and the Authoritative SDO. The remainder of this subsection provides details on the approval of [lime line-through]#such documents as# OGC Abstract Specification [lime]#Topics#.
+
+NOTE: [lime]#Abstract Specification Topics may be initiated by a SWG or directly by the TC. When an Abstract Specification Topic is developed directly under the TC, the Topic shall be briefed to the TC and any relevant Working Groups prior to OAB Review in advance of public comment. Any comments received as a result of the briefing(s) shall be considered and accepted by the TCC before the document is presented to the OAB.#
 
 [[authoritative-standards-development-organization]]
 ==== Authoritative Standards Development Organization
@@ -1423,10 +1439,9 @@ There are two categories of potentially unacceptable Abstract Specification chan
 
 * Proposals that affect the content of a completed OGC standard (these issues should be handled in the revision process because they potentially affect both the Abstract Specification and Implementation standards).
 
-
 [[authoritative-sdo-documents-as-ogc-abstract-specifications]]
 ==== Authoritative SDO Documents as OGC Abstract Specifications
-footnote:[Please refer to the ISO-OGC Terms of Reference for details of the working relationship between the OGC and ISO TC 211 - Geomatics. https://portal.opengeospatial.org/files/?artifact_id=69074[_https://portal.opengeospatial.org/files/?artifact_id=69074_].]
+footnote:[Please refer to the ISO-OGC Terms of Reference for details of the working relationship between the OGC and ISO TC 211 - Geomatics. https://portal.ogc.org/files/?artifact_id=69074[_https://portal.ogc.org/files/?artifact_id=69074_].]
 
 A new AS Topic Volume or a revision to an existing AS Topic volume may be proposed by the OGC members for the case in which the document was created in an Authoritative SDO activity or a joint OGC and Authoritative SDO-developed activity. There are the two cases: A document entirely developed in the Authoritative SDO and then recommended by OGC members to be an Abstract Specification and a document jointly developed by the OGC and Authoritative SDO memberships. Each case is now described.
 
@@ -1458,6 +1473,7 @@ For this case, the OGC and the Authoritative SDO have agreed to have a joint sta
 
 [[submissions-ogc-standard-to-other-sdo]]
 === Submission of an OGC standard for consideration by another SDO
+
 OGC membership may choose to submit an approved OGC standard to another SDO for adoption of the standard by that SDO. A number of OGC standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.
 
 * The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and
@@ -1550,7 +1566,7 @@ Based on the outcome of the votes, SWG members then make the revisions and corre
 
 When the SWG work items are complete and with the approval of the voting members of the SWG, the new revised standard may be submitted to the OAB and OGC-NA for a review and subsequent release for the 30-day public comment period.
 
-[lime]#For standards defining APIs where one or more API elements are proposed for removal in the revision, the API element deprecation process (<<deprecating-api-element>>) will also need to be followed to completion.#
+[lime]#For standards defining APIs where one or more API elements are proposed for removal in the revision, the API element deprecation process (<<deprecating-api-elements>>) will also need to be followed to completion.#
 
 From this point on, the processing of the revision to the standard is the same as defined in <<review-of-the-received-comments-all>> and subsequent sections.
 
@@ -1583,7 +1599,7 @@ The SWG shall perform the following tasks.
 [[the-standard-revision-process-community-standard]]
 === The Standard Revision Process (Community standard)
 
-Revision of a Community standard is treated as a new Community standard submission and all processes for approval of a Community standard from submission of a Work Item to vote for final approval are required.
+Revision of a Community standard is treated [lime line-through]#as# [lime]#similar to# a new Community standard submission and all processes for approval of a Community standard from submission of a Work Item to vote for final approval are required. [lime]#The only difference in the process is the TC vote to recommend the Work Item for the revised Community standard for PC approval can occur at a Plenary or via a two-week e-mail vote, i.e., the vote is not a 45 day electronic vote.#
 
 [[corrigendum-errata-changes-to-ogc-standards]]
 === Corrigendum (errata) Changes to OGC Standards, [lime]#Best Practices, and Community Practices#
@@ -1616,7 +1632,7 @@ In all cases of adopted standards in a revision process, the members will work t
 
 [[proprietary-rights]]
 === Proprietary Rights
-footnote:[Please read the OGC IPR Policy documents located at http://www.opengeospatial.org/legal[_www.opengeospatial.org/legal_] for the complete text and description of the OGC IPR policy. If at any time there is confusion or conflict between what is stated in the TC P&P and the OGC IPR Policy, the OGC IPR Policy takes precedent.]
+footnote:[Please read the OGC IPR Policy documents located at http://www.ogc.org/legal[_www.ogc.org/legal_] for the complete text and description of the OGC IPR policy. If at any time there is confusion or conflict between what is stated in the TC P&P and the OGC IPR Policy, the OGC IPR Policy takes precedent.]
 
 During any meeting of the OGC Technical Committee or any subgroup of the TC, no participant shall disclose proprietary information. footnote:[This section clearly places the onus of protection of proprietary rights on the owner of those rights. No discussion of proprietary technology can take place during a TC or TC subgroup meeting, protecting the participants in the meeting from accidental exposure to proprietary information (and consequent future legal problems with that participant's own intellectual property rights). If a TC member wishes to present information of a proprietary nature to members of the TC, he or she may arrange a meeting of the interested parties totally separate from the TC process and meeting.]
 
