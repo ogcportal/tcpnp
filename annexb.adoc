@@ -6,7 +6,7 @@
 
 [cols=",",options="header",]
 |======================================================================================
-|Full standard: Process Checklist |Responsible
+|Full Standard: Process Checklist |Responsible
 |Contact Technical Committee chair about intent to submit or start |Convener and TCC
 |Identify submission team (3 or more Members, one is TC Voting Member) |Convener
 |Signed Submission of Technology form (optional) |TCC and convener
@@ -25,9 +25,9 @@
 |SWG officially starts. First order of business is to elect chair etc |SWG
 |Call for Change Requests (optional) |SWG
 |Call for CR's - Press Release (optional) |Staff and SWG
-|Work on candidate standard happens |SWG
-|For a revision to an existing standard, collate all CR's and prepare summary |SWG
-|For a revision to an existing standard, process all CR's |SWG
+|Work on candidate Standard happens |SWG
+|For a revision to an existing Standard, collate all CR's and prepare summary |SWG
+|For a revision to an existing Standard, process all CR's |SWG
 |Editor(s) edit the document based on change requests |Editor(s)
 |Release for public comment |SWG and TCC
 |Notify TCC of intent for release for public comment |SWG Chair and TCC
@@ -40,11 +40,11 @@
 |SWG Processes the public comments. |SWG
 |Editor(s) edit the document based on comments |Editor(s)
 |For a revision, write release notes |SWG
-|SWG Briefs TC Membership on contents of candidate standard |SWG Chair or designee
-|SWG Votes to release candidate standard for adoption vote |SWG
+|SWG Briefs TC Membership on contents of candidate Standard |SWG Chair or designee
+|SWG Votes to release candidate Standard for adoption vote |SWG
 |SWG Chair tells TC Chair the result of the SWG Vote |SWG Chair and TCC
-|TCC reviews candidate standard and makes suggestions |TCC
-|SWG Posts candidate standard to pending documents. |SWG Chair
+|TCC reviews candidate Standard and makes suggestions |TCC
+|SWG Posts candidate Standard to pending documents. |SWG Chair
 |TCC Announces adoption vote |TCC and Staff
 |45 day adoption vote happens |Voting Members
 |Vote completes |
@@ -53,8 +53,8 @@
 |SWG process any comments received during the adoption vote |SWG
 |SWG updates Change Request status for each CR processed |SWG
 |Confirm list of contributors |TCC and SWG Chair
-|TCC does final review of adopted standard |TCC
-|Create Press release to announce new standard |SWG and OGC staff
+|TCC does final review of adopted Standard |TCC
+|Create Press release to announce new Standard |SWG and OGC staff
 |Schema processing |SWG and OGC staff
 |Schemas validated and errors corrected |SWG and OGC staff
 |Standard published |OGC staff
