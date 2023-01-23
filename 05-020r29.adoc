@@ -15,12 +15,12 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2020-08-11
+|Submission Date: 2022-01-23
 |Approval Date:   YYYY-MM-DD
 |Publication Date:   YYYY-MM-DD
-|External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/28.0
-|Internal reference number of this OGC(R) document:    05-020r28
-|Version: 28.0
+|External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/29.0
+|Internal reference number of this OGC(R) document:    05-020r29
+|Version: 29.0
 |Category: OGC(R) Policy
 |Editor:   Scott Simmons
 |===
@@ -33,8 +33,8 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) 2020 Open Geospatial Consortium
-|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|Copyright (C) 2023 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.ogc.org/legal/
 |===
 
 [cols = "^", frame = "none"]
@@ -42,7 +42,7 @@
 |*Warning*
 |===
 
-This document is an OGC Policies and Procedures Document. The document is subject to change based on membership requirements and motions. Please note that the OGC “Technical Committee Policy Directives” should be also be read. [http://www.opengeospatial.org/ogc/policies/directives]
+This document is an OGC Policies and Procedures Document. The document is subject to change based on membership requirements and motions. Please note that the OGC “Technical Committee Policy Directives” should be also be read. [http://www.ogc.org/ogc/policies/directives]
 
 [width = "50%", grid = "none"]
 |===
@@ -57,7 +57,16 @@ toc::[]
 
 <<<
 
-include::part1.adoc[]
+//include::body.adoc[]
+
+include::intro.adoc[]
+include::conventions.adoc[]
+include::tc.adoc[]
+include::subgroups.adoc[]
+include::meetings.adoc[]
+include::consensus_voting.adoc[]
+include::products.adoc[]
+include::policy_update.adoc[]
 
 :!numbered:
 include::annexa.adoc[]

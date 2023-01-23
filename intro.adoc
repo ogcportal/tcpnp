@@ -1,0 +1,19 @@
+== Introduction
+
+=== About the OGC
+
+The Open Geospatial Consortium (OGC) is an international consortium of organizations and individuals driven to make geospatial (location) information and services FAIR - Findable, Accessible, Interoperable, and Reusable. More information is available on the https://www.ogc.org/[OGC website].
+
+The OGC was formed to undertake a common objective that is beyond the resources or capabilities of any single organization, that is,  to provide a collaborative, consensus forum for the discussion and resolution of interoperability issues in the geospatial domain. The work of the consortium is based on volunteerism.
+
+The OGC is defined as a https://www.nist.gov/system/files/revised_circular_a-119_as_of_01-22-2016.pdf[Voluntary Consensus Standards Organization].
+
+=== This Policies and Procedures Document
+
+The OGC provides a collaborative, consensus process for developing and approving open, international Standards and supporting content for the geospatial domain, collectively known as OGC Products. To guide the OGC Product development and approval process, a member-approved Policies and Procedures document for the Technical Committee (TC) is required.
+
+This document describes the TC Policies and Procedures (TC PnP). The TC has been granted authority to operate by the https://portal.ogc.org/files/6947[OGC Bylaws]. The TC is composed of individuals representing organizations that are duly recognized members in good standing of the OGC.
+
+As the needs and purpose of the TC change, changes to these policies and procedures are approved by an electronic vote of the Voting Members of the OGC TC. These policies and procedures may be augmented or clarified by Policy Directives issued and approved by the TC or the PC. Such directives are databased and hyperlinked to/from the appropriate portion of this document.
+
+The OGC https://www.ogc.org/ogc/policies/conduct[Principles of Conduct] govern personal and public interactions in any TC activity.

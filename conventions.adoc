@@ -1,0 +1,30 @@
+[[conventions]]
+== Conventions and supporting resources
+
+This document is organized to first describe the structure and policies for the TC and its subgroups, then to describe the specific process by which OGC Documents and Products are developed and approved per the policies. Because many processes are shared by subgroups and Product lifecycles, cross-references within this document are provided to minimize duplication of content.
+
+The TC PnP is supported by additional resources to refine or implement policy.
+
+[[policy-directives]]
+=== Policy Directives
+
+At times, the Technical or Planning Committees may identify new policies or changes to existing policies that should be made official on a more rapid basis than approval of a revision to a policy document. Such a new policy is known as a Policy Directive. Policy Directives are accessible from the OGC website https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directives database].
+
+Policy Directives are sequentially ordered and more recent Directives may invalidate older Directives. Further, older Directives may now be incorporated into these Policies and Procedures.
+
+=== Intellectual Property Rights Policy
+
+OGC’s https://www.ogc.org/about/ipr[Intellectual Property Rights (IPR) policy] helps minimize the possibility of inadvertent infringement of the IPR of Members and third parties using or implementing any OGC Standards. OGC’s IPR policies reflect the mainstream of current standard-setting best practices.
+
+=== Compliance Program Policies and Procedures
+
+The Compliance Program operates as part of the Standards development process to provide resources for the testing of implementations against OGC Standards. The https://docs.ogc.org/pol/08-134r11.html[Policies and Procedures] for the Compliance Program describe the roles and responsibilities, compliance testing procedures, development of test packaging, and policies for developing and releasing the software used for testing.
+
+[[document-templates]]
+=== Document templates
+
+The preferred repository of OGC document templates is found in the https://github.com/opengeospatial/templates[templates GitHub repository]. Templates in Microsoft Word format are also available on the OGC Portal. All templates are annotated to assist in document preparation.
+
+=== Writing style guidance
+
+OGC maintains a https://github.com/opengeospatial/templates/blob/master/editor_guidance.pdf[style guide] in the templates repository. This guide is not a formal policy document, rather it is intended to assist authors and editors in developing content for OGC documents in a consistent manner. The style guide is periodically updated and expanded.

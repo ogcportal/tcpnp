@@ -1,0 +1,170 @@
+[[the-technical-committee]]
+== The Technical Committee
+
+[[tc-purpose]]
+=== Purpose
+
+The TC provides an open forum for professional discussion of issues and items related to the consensus development and/or evaluation and approval of candidate Standards and revisions to existing adopted OGC Standards that provide the ability to build and deploy interoperable geospatial solutions in the larger IT domain.
+
+More specifically, the OGC Bylaws authorize the TC to perform the following functions:
+
+* development of Consortium Standards through a cooperative consensus process involving the Members;
+* creation of its own internal organization and process, subject to the review and approval of the PC: such organization and process may involve the creation of such Working Groups, Subcommittees, or subgroups as the TC deems necessary;
+* development and approval of other document types as defined in the TC PnP;
+* coordination and convening of joint subcommittees, working groups, or other subgroups with external organizations; and
+* presentation of recommended Standards and any other related official documents to the PC for approval.
+
+[[tc-composition]]
+=== Composition
+
+The TC has the following composition:
+
+* representatives of all member organizations of the OGC;
+* the TC Chair; and
+* other individuals deemed appropriate by the OGC Board of Directors or PC.
+
+There is no limit to the number of TC representatives for any OGC Member organization.
+
+[[tc-roles]]
+=== Roles
+
+The TC Members are organized into a number of roles. Members might have multiple roles. The following roles are formally part of the TC hierarchy.
+
+[[tc-chair]]
+==== TC Chair
+
+The TC Chair is responsible for facilitating the progress and work of the TC. The TC Chair is a post held by appointment of the OGC President, to lead the activities of the TC. The TC Chair is an unbiased member of the TC, and therefore does not vote on Items and Issues except as noted below. The TC Chair shall ensure the following:
+
+* attendance is taken of TC Members, Voting TC Members, and their substitutes and proxies at each meeting;
+* minutes are kept of TC meetings, and distributed by OGC communication as soon as is practical after the meeting (NOTE: minutes may comprise notes and recorded actions in a slide set, text in a document, or issues lodged in OGC <<collaboration-environment>>);
+* TC meetings are announced with appropriate notice (no less than four months) and that a master schedule is initially published on the OGC website at least six weeks prior to each meeting;
+* TC meetings are facilitated in general;
+* a file of TC meeting minutes and all other distributed materials is kept;
+* all electronic mail discussions are kept on file;
+* the PC and Board of Directors are kept appraised of the current business of the TC;
+* TC resolutions for recommendation to the PC are brought to the attention of the PC;
+* the various actions of the TC are issued and processed in a timely, orderly manner; and
+* in the event of a tie vote on any given Item or Issue for which a simple majority vote is required, the TC Chair has the right to cast the deciding vote.
+
+[[tc-rep-to-pc]]
+==== TC Representative to the PC
+
+As stated in the Bylaws of the OGC, the OGC TC has the right to seat two representatives on the OGC PC. Up to seven representatives may be available in a “pool” and the TC Chair will work with the representatives to choose the two to attend a specific PC meeting.
+
+The role of a TC Representative to the PC is to bring issues of concern to the general TC membership to the attention of the PC and to keep the TC apprised of the activity of the PC, as follows:
+
+* accept documented issues from TC members and bring these forward at PC meetings;
+* provide a report to the TC of the activities that take place at PC meetings no later than two weeks following a PC meeting;
+* be involved in discussions related to the ongoing work and issues in the TC; and
+* vote.
+
+The election of these representatives will be held according to the following rules:
+
+* nominations will be made from the ranks of Voting TC Members (an individual or an individual representing an organization already holding a seat on the PC cannot be nominated);
+* there must be at least one nominee for each vacancy;
+* the nomination must be accepted by the nominee;
+* each Voting TC Member may vote for one candidate per vacancy to be filled; and
+* the representatives will be selected in the order of most votes received to fill the available positions.
+
+The term of office for TC representatives to the PC shall be as recommended by the TC with a maximum term of two years. In the case of resignation, removal, death, or termination of TC Membership of a representative, the rules for election will be invoked to fill the vacancy. Also, the TC Chair may determine that a given TC representative to the PC is not fulfilling their obligations, such as not attending PC meetings on a regular basis. In such a case, the TC Chair may ask the TC representative to resign and the rules for election will be invoked to fill the vacancy.
+
+==== Subgroup Chair
+
+Each subgroup of the TC shall have at least one chair. More details on this role is in the <<policies-and-procedures-for-subgroups-of-the-tc>> section.
+
+[[tc-structure]]
+=== Structure
+
+The TC is the primary group where OGC Standards and many Products are developed, discussed, approved, and maintained. The TC members are responsible for the development and maintenance of all Standards and related technical documents and supporting deliverables. The TC membership includes Voting TC Members, non-voting TC Members, and Invited Guests, per the https://portal.ogc.org/files/6947[OGC Bylaws].
+
+The TC contains a number of <<policies-and-procedures-for-subgroups-of-the-tc>>.
+
+[[tc-relationships]]
+=== Relationship with other groups
+
+TC activities rely upon collaboration with other groups, inside and outside the OGC.
+
+[[tc-to-pc]]
+==== Planning Committee
+
+The Planning Committee (PC) is a committee of the OGC per the https://portal.ogc.org/files/6947[OGC Bylaws] and comprises representatives from OGC Strategic and Principal members. The PC is focused on strategic oversight and leadership of standardization activities. All Standards, Best and Community Practices, and TC policies are recommended by the TC for approval by the PC to become official positions of the OGC. PC approval occurs via the PC Policies and Procedures.
+
+The PC also may create <<policy-directives>> that govern TC activities.
+
+[[tc-to-oab]]
+==== OGC Architecture Board (OAB)
+
+The OGC Architecture Board (OAB) is a committee of the OGC per the https://portal.ogc.org/files/6947[OGC Bylaws] and comprises representatives from OGC Membership who represent themselves, not their organizations. The OAB is tasked with maintaining consistency of the OGC Standards Baseline and evaluating candidate Standards for their compliance with the Modular Specification, among other tasks.
+
+All candidate Standards must be reviewed by the OAB and approved for release for public comment by the OAB prior to starting the formal TC approval process.
+
+[[tc-to-ip]]
+==== Collaborative Solution and Innovation Program
+
+The OGC Collaborative Solution and Innovation (COSI) Program is a forum for OGC members to solve difficult geospatial challenges via a collaborative and agile process. OGC members (sponsors and technology implementers) come together to solve problems, produce prototypes, develop demonstrations, provide best practices, and advance the future of standards through performance of COSI Initiatives.
+
+Outcomes of COSI Initiatives may ultimately result in changes to or new OGC Standards. Initiative participants develop Engineering Reports for review and approval by the TC. These Engineering Reports may include draft specifications which can be used as contributed material for use by an existing or charter of a new SWG.
+
+[[tc-to-asdo]]
+==== Authoritative Standards Development Organizations
+
+An Authoritative Standards Development Organization (SDO) is an organization which operates on a consensus basis to develop Standards and which has been designated to be an Authoritative SDO by the PC. An Authoritative SDO develops key foundational Standards which provide a basis for conceptual and implementation Standards created by the OGC. These foundational Standards may be approved to be part of the OGC Abstract Specification. A list of Authoritative SDOs shall be maintained by the TC Chair. ISO is already considered to be an Authoritative SDO.
+
+The Authoritative SDO shall be notified if one of its Standards is proposed by the OGC to be a Topic of the Abstract Specification. The Authoritative SDO shall have the opportunity to reject the OGC proposal, in which case the Authoritative SDO Standard may still be used as a normative reference by other OGC standards, but will not be a part of the OGC Abstract Specification. There is no requirement that the Authoritative SDO provide its Standard to the OGC by any basis other than the normal distribution mechanism for the Authoritative SDO, although provision of the Standard for no fee is preferred.
+
+[[tc-to-other]]
+==== Other Liaison Partner Organizations
+
+OGC maintains liaison or partnership agreements with other organizations which can contribute to the mission of OGC. Such partnerships may include reciprocal membership in the respective organizations such that the organization is a member of the OGC and thus the TC.
+
+Liaison representatives represent the partner organization in the TC and not the employer of that representative. For purposes of TC procedures, these partner organizations have the same rights as any other OGC member at the respective membership level.
+
+[[tc-operations]]
+=== Operational environment
+
+==== Virtual organization
+
+OGC is a virtual organization. All members operate from their own work environments and leverage OGC resources to accomplish the work of the Consortium. Formal OGC-organized meetings as well as member-organized meetings occur from time to time and these events may bring members together in a physical setting.
+
+==== Portal
+
+An electronic Portal is managed by OGC to provide a common platform for members and staff to execute the business of the consortium. This platform manages the following items:
+
+* files associated with OGC work (both Standards and COSI activities);
+* votes for the TC and subgroups;
+* member organization and representative information;
+* records of member participation and status in Working Groups and COSI Initiatives;
+* list and files associated with liaison organizations; and
+* links to external resources that support OGC work (such as file repositories, wikis, etc.).
+
+Every OGC member organization has a portal account and manages the access of its specific representatives. Portal permissions are governed by the role of each account holder. The role is associated with the level of membership and agreement to abide by the Intellectual Property Rules of SWGs and Innovation Program initiatives.
+
+==== Email reflectors
+
+The TC will have one or more email reflectors to communicate with or between TC members. The TC-Announce email reflector will be used for all official communication from the TC Chair to the TC.
+
+[[collaboration-environment]]
+==== Collaboration environments
+
+In addition to the OGC Portal, OGC maintains collaboration environments for all types of OGC activities. Primarily, these environments are GitHub or GitLab instances. OGC Working Groups may choose to use one or more collaboration environments to perform their work. File storage, issue tracking, content version management, and supporting documentation are all permitted to be managed in these environments.
+
+Any TC subgroup can request a dedicated collaboration environment for the purposes of advancing its work. These environments can be public or private. Environments managed by IPR-controlled subgroups (such as <<swg>>) must vote to approve making their environment public.
+
+Every public collaboration environment shall include the following contribution statement on the landing page of the project environment (e.g., in the readme.md file for GitHub).
+
+_______________
+The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC Standards or other documents and that all copyright and intellectual property shall be vested to the OGC.
+_______________
+
+[[appeals-process]]
+=== Appeals Process
+
+Appeals by any member to a decision made at the subgroup level can be brought to the TC Chair for consideration. Further appeal can then be made before the OAB. Each appeal or issue will be taken on a case-by-case basis, but rulings made by the OAB with approval of the Planning Committee that affect the process will be reflected in these Policies and Procedures. If the member making the appeal is not satisfied by the decision made at the OAB level, the OGC Board of Directors may be presented with the case for final deliberation.
+
+=== Privacy considerations
+
+TC members have access to personal information about other members. This information is stored in the OGC Portal and all participants in the OGC agree to having this information available to other OGC members. However, in the course of conducting TC business, a TC member shall not share contact information or a record of that member's activities in the OGC without the permission of that member.
+
+Non-public meeting minutes shall not contain attribution of a specific TC member. For instance, the results of a subgroup vote can be circulated to the public, but the names of the member making and seconding the motion shall not be disclosed.
+
+The TC agrees to abide by the privacy regulations in the jurisdiction in which a TC activity occurs.

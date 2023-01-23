@@ -1,0 +1,65 @@
+[[meetings]]
+== Meetings
+
+This section describes the Policies and Procedures for meetings of the OGC Technical Committee and its subgroups.
+
+[[meetings-of-the-tc]]
+=== Meetings of the TC
+
+Technical Committee meetings shall be conducted under the general guidance of Robert's Rules of Order. Meetings shall be facilitated by the TC Chair or other appointed representative(s) of the OGC. The TC currently holds three meetings per year. The number of meetings per year can be changed by a vote of the TC and the PC or by direction of the Board of Directors.
+
+TC meeting dates and locations will be announced as far in advance as possible but no less than three months in advance of the meeting. Announcements will be through formal OGC Communication. All recommendations, summary notes, presentations, and other meeting materials and records shall be posted to the OGC Member Portal.
+
+[[attendance-at-tc-meetings]]
+=== Attendance at TC Meetings
+
+Members of the OGC, Invited Guests, and non-OGC members are welcome to register for and attend TC meetings. TC Meetings may also include sessions that are open to the general public. Any TC member may send another representative of their organization as a substitute to a TC meeting and may assign <<proxy-for-voting>>.
+
+[[policy-for-invited-guests]]
+=== Policy for Invited Guests
+
+OGC staff or an OGC member may wish to invite one or more individuals from organizations who are not OGC members to attend an OGC TC meeting. Reasons for invitations may be to provide technical input, speak, or meet with OGC members and/or staff on items and issues germane to the work of the OGC.
+
+Invited Guests (representatives of organizations that are not members of the TC) may actively participate in an OGC meeting at the sole discretion of the TC Chair. That is, in the interests of ensuring the efficient operation of any meeting, the TC Chair may limit or eliminate the opportunity of any invited guest to participate in discussion at any meeting.
+
+All Invited Guest invitations and registration must be coordinated with the TC Chair and the OGC staff responsible for meeting logistics.
+
+* OGC staff or the subgroup chair provides a formal invitation to the individual with a copy to the TC Chair and the TC meeting support staff.
+* The TC Chair approves the invitation.
+* OGC provides the invited guest with a registration code.
+* The invited guest must register with the provided guest registration code.
+* Invited guests may or may not have to sign a non-disclosure agreement (NDA). For special meetings held in parallel with the OGC TC meetings, such as an OGC Interoperability Day, summits and workshops, or a Standards Coordination meeting, NDAs are not required.
+
+The Invited Guest may or may not have to pay a meeting registration fee. OGC staff will work with the members to determine the fee structure for Invited Guests for any given TC meeting.
+
+[[policy-for-non-member]]
+=== Policy for non-members
+
+OGC meetings may be open to attendance of non-OGC members. Such attendance is at the discretion of OGC staff, the TC, and/or the PC. Non-members can only attend DWGs, open sessions, or public sessions. Non-members who wish to attend a SWG must abide by the <<policy-for-invited-guests>>. OGC staff will work with the members to determine the fee structure for non-members for any given TC meeting.
+
+[[agenda-and-schedule-of-a-tc-meeting]]
+=== Agenda and schedule of a TC Meeting
+
+At least eight weeks before a TC meeting, a draft master schedule for that TC meeting will be posted to the public OGC web site. The agenda is managed by the TC Chair and OGC staff and will be modified prior to the meeting as appropriate. The TC Chair will maintain a master agenda that is available to members and which is generated from the agendas of each subgroup as they are populated.
+
+The subgroup chairs shall work with the TC Chair to schedule sessions and set agendas. Subgroups cannot have alternative meetings that overlap temporally with the TC Meeting without approval of the TC Chair.
+
+Each subgroup chair shall post an agenda to the meeting web site at least three weeks before the meeting. Subgroup chairs that fail to provide a proposed agenda by three weeks before the meeting may forfeit the right to meet during the course of regularly scheduled TC meeting times. Any subgroup can elect to have an ad-hoc meeting during the off-hours of a meeting (such as a breakfast or after-dinner session), but may not hold votes during those ad-hoc meetings.
+
+[[policies-related-to-the-recording-of-an-ogc-meeting]]
+=== Policies related to the recording of an OGC Meeting
+
+Most TC and subgroup meetings include a virtual meeting option via online conference tools. These sessions are generally recorded for later use by OGC staff and OGC members. Guidance for such recording is as follows.
+
+* The members attending the meeting need to be notified that the meeting is being recorded. If there are objections, then the meeting shall not be recorded.
+* The recording shall remain members-only and shall not be available to the public. The exception is for open meetings in which the public is invited to attend.
+* All recordings shall be uploaded to the appropriate meeting folder on the OGC portal.
+
+[[subgroup-meetings]]
+=== Subgroup Meetings
+
+Subgroups may meet with any frequency that they feel is necessary to accomplish their work. These meetings may be virtual (online), teleconference, or in person. Meetings with anticipated votes must be announced at least two weeks in advance or scheduled to occur on a regular basis. All meetings must be reserved in the OGC Portal calendar.
+
+=== Other Meetings
+
+The TC or subgroups of the TC may organize other meetings on topics of interest to OGC's mission, but which do not fulfill the purpose of regular TC or subgroup meetings. These meetings are organized on behalf of the TC or subgroup, may involve members and guests, and may have registration a fee terms on a basis that is best for the meeting.

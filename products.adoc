@@ -1,0 +1,609 @@
+[[documents-products]]
+== OGC documents and other products
+
+OGC publishes a number of different document types and supporting products to enable geospatial interoperability. Documents include Standards, Best Practices, Engineering Reports, etc. Products include registries, developer resources, sample code, etc.
+
+The primary source of information that is versioned and has a formal approval process is a document. Any document may be accompanied by various products as supporting resources: those products may be published at the time of document publication, but have their own lifecycles and are managed by the TC, subgroups, or OGC staff as is deemed best to support the document.
+
+[[documents-and-distribution]]
+=== Documents and their distribution
+
+The numbered document (see <<document-numbers>>) as distributed to members is to be considered the official document of the TC. All documents must use the templates found in the https://github.com/opengeospatial/templates[templates GitHub repository] or equivalent Microsoft Word templates found on the Portal; the latter are discouraged. Document development will result in periodic milestone releases which may be shared on the OGC Portal or in the applicable <<collaboration-environment>>. Official release of documents for OGC member or public review must be made available on the Portal. OGC Communication shall be used for announcing the availability of new official documents. Other electronic forms of documents can be made available at the written request of members.
+
+OGC documents are authored and edited in AsciiDoc or Microsoft Word format. Publication of approved documents must be in HTML, but also includes PDF and Word formatted versions. The format for dissemination may change as distribution technology changes. Prior to mid-2014, all approved documents were only available in PDF and sometimes Microsoft Word format.
+
+The TC Chair reserves the right to reject a document that is in a non-industry standard distribution format.
+
+[[standards]]
+=== Standards
+
+An OGC Standards document is the principal document type that captures the work and the consensus of the OGC membership. Standards documents must use the OGC Standards document template during development (with the exception of Community Standards). Standards may be published in multiple official views, as follows.
+
+* Normative view - the format that has been in use for all of OGC publication history (with some minor modifications) and that is similar to the format of ISO Standards. This format is considered the authoritative representation of the Standard.
+* Implementer views - one or more publication styles of the Standard content that is more accessible to software engineers or data professionals. The views may be published via developer frameworks, such as SwaggerHub or ReDoc.
+
+OGC uses a multi-track Standards policy with three possible states: OGC Community Standard, OGC Draft Standard, and OGC Standard. These are described in <<the-two-track-Standards-process-characteristics>>.
+
+Standards are further categorized as follows (see <<annex-a-terms-and-definitions>> for details):
+* Abstract Specification
+* Conceptual Model
+* Encoding
+* Implementation
+
+Approval of an OGC Standard is described in <<policies-and-procedures-for-adoption-andor-revisions-of-Standards>>.
+
+Each Standard distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 4].
+
+Standards documents have version numbers that shall start at 1.0 (see <<versioning>>).
+
+Standards may be accompanied by supporting normative content such as schemas and/or registries. This content is approved as part of the Standard and is managed in concert with the Standard lifecycle.
+
+Informative products may also be developed along with the Standard, such as compliance tests, user guides, sample code, registered code lists, etc. This informative material may be created by a subgroup, members, or OGC staff and is managed by its originating party without formal obligation for maintenance.
+
+[[building-bloocks]]
+==== Standard building blocks
+
+Many OGC Standards are structured with modular sets of requirements (or requirement classes) that collectively function as a reusable building block. There is no firm definition for the content or scope of a building block, but the building block must fulfill a function that can operate in the larger context of an implementation, including combination with other OGC building blocks to create novel implementations.
+
+Building blocks developed for one Standard can be reused in another Standard. To facilitate such reuse, a Standard constructed of building blocks shall identify each building block and publish a definition of the building block to OGC's <<registries>> and web resources. The definition will be in the form most suitable for the type of building block (e.g., Open API for a Standardized API), reference the owning Standard, and be adequately documented to be used in reference.
+
+OGC Standards that reuse building blocks from other Standards must include in the Normative References a reference to the owning Standard of the building block(s) and a direct reference to the registered building block(s) content. In this fashion, implementers of the Standard reusing these building blocks need to only access specific parts (the building blocks) of the referenced Standard, not the entire document.
+
+[[registries]]
+=== Registries
+
+Registries are managed by the OGC-NA per the https://www.ogc.org/standards/na[OGC-NA Policies and Procedures]. Some registered content is normative content for a Standard, some supporting one or more Standards, and some enables geospatial interoperability for specific domains. Informative registry content is developed, approved, and maintained by the owning subgroup without further need for TC approval.
+
+=== Best and Community Practices
+
+OGC Members, TC subgroups, or COSI Initiatives may generate Best Practice (BP) and Community Practice (CP) documents for the community covering best practices related to the use of an OGC Standard or other technology relevant to one or more OGC Standards. These documents describe a technique or methodology that, through experience, implementation, and research, has proven to reliably lead to a desired result. In some cases, BPs or CPs may transition to full Standards through the OGC Consensus Standards process.
+
+BP and CP documents have version numbers that shall start at 1.0 (see <<versioning>>). BP and CP documents may also have corrigenda per the process defined in <<corrigendum-errata-changes-to-ogc-Standards>>.
+
+*Best Practice:* a document describing the use of one or more OGC Standards, typically to address a domain-specific topic or provide a solution to an interoperability challenge. Best Practices may also describe implemented extensions to or profiles of OGC Standards.
+
+*Community Practice:* a document describing implemented Standards, specifications, or technologies that originate outside of OGC, but which are relevant to address interoperability requirements in the geospatial and related communities.
+
+[[submission-of-documents-to-be-considered-as-an-ogc-best-practice]]
+==== Submission of documents to be considered as an OGC Best Practice or Community Practice
+
+In order to be considered for approval as an OGC BP or CP, the document submitters shall provide the following.
+
+* An Abstract or Introduction in the document explaining why a submitted document is relevant to the OGC.
+* Evidence of implementation. Evidence of implementation shall include but not be limited to: implementation in commercial product, implementation in open source applications or software, and/or implementation in deployed applications. A single research related implementation is not proper evidence of implementation.
+
+Approval of a BP or CP is as follows.
+
+* Submit for TC and Public Request for comment of 30 days.
+* Post the document to OGC Pending Documents on the OGC Members Portal for at least three weeks prior to the face-to-face or remote presentation.
+* Present the contents of the proposed document in a TC Meeting or webinar.
+
+=== Engineering Reports
+
+Any OGC COSI Initiative will have Engineering Reports (ER) as a deliverable. These ERs are posted to pending documents and presented and discussed in a WG meeting. The WG may recommend to the TC that the ER be publicly released. If approved by the TC, these documents shall be released as “Public Engineering Reports.”
+
+While these ERs shall be distributed by the OGC, and might in fact lead to adopted Standards later, they do not represent the official position of the OGC TC or the OGC.
+
+Motions to approve release of a document as an Engineering Report may originate from a WG with TC approval, from a motion at a TC Plenary, or from a motion by the TC Chair.
+
+Each Public Engineering Report distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 6].
+
+Engineering Reports do not have a version number.
+
+=== Discussion Papers
+
+A subgroup can generate Discussion Papers for the community covering a specific technology area germane to the subgroup’s interest area.
+
+While these Discussion Papers shall be distributed by the OGC, and might in fact lead to adopted Standards later, they do not represent an official position of the OGC TC or the OGC itself.
+
+Motions to approve release of a document as a Discussion Paper may originate from a subgroup with TC approval, from a motion at a TC Plenary, or from a motion by the TC Chair.
+
+Each Discussion Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 5].
+
+Discussion Papers do not have a version number.
+
+=== Technical Papers
+
+Technical Papers are OGC member-approved publications released to the public that present a position on one or more technical considerations or other subjects that are germane to the work of the OGC. Technical Papers often include a high-level explanation of a Standards-based architecture or framework of a solution. Technical Papers may explain the results or conclusions of research or workshops.
+
+Technical Papers do not represent an official position of the OGC TC or the OGC itself.
+
+Motions to approve release of a document as a Technical Paper may originate from a subgroup with TC approval, from a motion at a TC Plenary, or from a motion by the TC Chair.
+
+Each Technical Paper distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 5] where the word "Discussion" is replaced with the word "Technical" in the statement.
+
+Technical Papers do not have a version number.
+
+=== Policy documents (including this one)
+
+A policy is a principle, rule, or process that guides decisions to achieve rational outcome(s). The work of the OGC is guided by a number of member-approved policies and processes. These policies and processes are documented in various OGC Policies and Procedures documents. These shall be known as “Policy” documents. This TC PnP is a policy document. Policy documents are either maintained by the members or by OGC staff. In all cases, new policy documents or revisions to existing policy documents applicable to the TC or its subgroups shall be reviewed and approved by both the Technical and Planning Committees. Approval of a policy document shall follow the rules as defined for a <<required-tc-electronic-vote>>. If the TC approves the Policy document, then a simple majority of the PC Voting Members must approve the TC recommendation.
+
+Policy documents have version numbers that shall start at 1.0 (see <<versioning>>).
+
+=== Guidance documents (lighter than a policy)
+
+A Guidance document is developed by a subgroup, the TC, or OGC staff to provide informative guidance on the development of OGC documents and products. This guidance is intended to provide consistency in approach and common properties for OGC deliverables. Guidance documents are not official policy, but the guidance may be required for use by SWGs per one or more <<policy-directives>>.
+
+[[document-numbers]]
+=== Document numbers
+
+All member-submitted documents shall be assigned a document number. Members can obtain document numbers using the Portal, https://portal.ogc.org/?m=public&orderby=default&tab=1[Pending Documents page].
+
+https://portal.ogc.org/?m=public&subtab=instructions&tab=1[Instructions] are available for obtaining a Pending Document number and posting the document.
+
+[[standards-development]]
+== Standards development
+
+This section covers procedures for adoption, revision, and maintenance of OGC Standards.
+
+[[Standards-proposed-for-adoption-caveats]]
+=== Standards proposed for adoption – caveats
+
+All adoption votes to approve a document as an OGC Standard shall be electronic. Only Voting TC members may vote on an adoption vote. However, any OGC member, regardless of membership level, can 1) be part of a team submitting a candidate document and 2) join a SWG and work on a candidate Standard.
+
+[[the-two-track-Standards-process-characteristics]]
+=== The Two Track Standards process: characteristics
+
+There are two possible tracks for proposing and approving candidate Standards or proposing and approving revisions to an existing adopted Standard: The OGC Community Standard and the OGC Full Standard tracks. These two tracks are described below. Regardless of the submission track, the OGC Consensus Standards Process shall be used. There are key differences in the OGC Consensus Standards process depending on whether the Community or the Full Standards track is being used. The following table summarizes the key aspects and steps in the OGC Consensus Standards process for the two tracks.
+
+[cols=",,,,,,,,,",]
+|==================================================================================================================================
+| |SWG |Evidence of Implementation |Modular Spec |Compliance Test |OGC Template |Public Comment |OAB Review |IPR to OGC |Member Vote
+|Community Standard |Not required |Strong |Not required |Optional |Not required |Yes |Yes |Shared or retained by submitter |Yes
+|Full Standards Track |||||||||
+|Draft Standard |Yes |No |Yes |Not required |Yes |Yes |Yes |Yes |Yes
+|Standard  |Yes |Yes |Yes |Not required |Yes |Yes |Yes |Yes |Yes
+|==================================================================================================================================
+
+*Community Standard*: This is a document, developed by communities external to the OGC, that OGC members wish to bring into the OGC process. The key consideration for a Community Standard submission is that there is very strong evidence of implementation. At the same time, the community owning the Standard may not want to allow normative changes (except for errors) to the document, may not wish to follow the OGC Modular Specification Policy, nor do they wish to develop CITE tests. <<annex-c-community-standard-checklist>> summarizes the steps in the Community Standard submission, review, and approval process.
+
+The Full Standards track consists of two possible target levels of a Standard.
+
+*Draft Standard*: This is a document developed by the OGC membership for which there is no evidence of implementation or CITE tests. However, the members wish to approve the document as an official OGC document in order to have developers and organizations implement the Draft Standard and provide feedback. A Draft Standard is uplifted to a Standard once evidence for implementation is provided. <<annex-b-standard-checklist>> summarizes the steps in the Draft Standard submission, review, and approval process.
+
+*Standard*: This is a mature OGC Standard for which there is evidence of implementation This is the final stage in the Full Standards track.
+
+[[two-track-Standards-process-criteria]]
+==== Two Track Standards process criteria
+
+*Evidence of implementation*: The TC will judge whether the evidence of implementation for a particular Standard is sufficient to warrant approval of that Standard. Strong evidence of implementation as required for the Community Standard is generally defined to be implementation in multiple products or environments OR widespread use of the Standard in a community, even if in only one or a limited number of products or environments. Evidence of implementation for a Standard in the Full Standards track is defined as three or more documented implementations that meet the Nature of implementation criteria, below. The TC may choose to override the minimum number of implementations for a specific candidate Standard by specifying a lesser number in the electronic adoption vote.
+
+*Nature of implementation*: Implementation Standards shall have as evidence of implementation running services which deliver content to another machine (including client software). Encoding Standards shall have as evidence of implementation data sets containing content representative of the Standard, but not necessarily containing an example of every element in the Standard.
+
+*Conceptual model evidence of implementation*: a Standard that is conceptual in nature (e.g., cannot be implemented directly) and not being advanced as an Abstract Specification Topic shall only be advanced from a Draft to a final stage once at least one implementation Standard based on the conceptual model is approved at the Draft stage.
+
+*Abstract Specification Topics*: these Standards do not require evidence of implementation due to their foundational nature. Abstract Specification Topics are approved as Standards without a Draft stage.
+
+*Modular Specification*: compliance with the Modular Specification is evidenced by inclusion of clearly defined Requirements and an Abstract Test Suite in the Standard document. The OAB will evaluate a Standard against this criterion.
+
+*IPR*: Community Standard may contain IPR that is jointly held by the OGC and the submitting organization. The Full Standards track requires that OGC hold the IPR.
+
+[[status-of-Standards-approved-before-the-two-track-Standards-process]]
+==== Status of Standards initiated before the Two Track Standards process
+
+OGC Standards initiated prior to the effective date of Revision 24 of these Policies and Procedures (05-020r24), 25 May 2016, will automatically be classified as “Standards” under the Full Standards track.
+
+[[adoption-andor-revision-to-a-Standard---general]]
+=== Adoption and/or Revision to a Standard - General
+
+The OGC Consensus Standards Process (<<policies-for-the-Standard-process>>) is the only way for a candidate Standard to move through the review and approval process. This is the approach for proposing a new candidate Standard, submitting an externally developed community specification into the OGC process, extensions to an existing Standard, profiles of an existing Standard, or an application schema for consideration by the membership. For the Full Standards track, a SWG manages the OGC Consensus Standards process.
+
+Note:: A new Standards activity can also be initiated when there are outstanding Change Request Proposals (CRPs) (<<change-request-proposals-crp-to-an-ogc-standard>>), which provide details for revisions to existing Standards. A CRP describes proposed changes or enhancements to an existing Standard. A CRP may be submitted by one or more OGC member organizations. One or more CRPs against an existing OGC Standard is evidence that a revision process for that Standard should be initiated. In this case, the TC Chair may request members consider a Standards activity.
+
+[[policies-for-the-Standard-process]]
+=== Policies for the OGC Consensus Standards Process
+
+The following sections details the requirements, policies, and procedures for adoption of a candidate Standard using the OGC Consensus Standards process. Each section specifies whether that step or requirement in the process is for *All* submissions, *Community Standard* only, or *Full Standard* track only.
+
+[[conditions-for-submission-of-an-candidate-Standard]]
+==== Conditions for Submission of a Candidate Standard (All)
+
+Any OGC Technical Committee Voting Member may make an unsolicited submission of a candidate Standard or a proposal for the development of a new candidate Standard using the OGC Consensus Standards process given that for the submission, the following conditions are met.
+
+* Three different Member organizations endorse the submission and communicate to the TC Chair an intent to start work on a new Standard or revision to a Standard.
+* At least one voting member is part of the submission team.
+* For a candidate Community Standard, there is evidence of implementation and evidence of a continued commitment to commercialize and/or support the implementation.
+
+[[terms-and-conditions-for-candidate-Standard-submissions-all]]
+==== Terms and Conditions for OGC Candidate Standard process submissions (All)
+
+In the OGC Consensus Standards process, the submitters agree to the following set of terms and conditions.
+
+* For a Community Standard, work with OGC Staff to develop and submit a Work Item justification for submitting a candidate Community Standard.
+* For a Full Standards track submission, work with OGC staff to develop a new SWG Charter or to revise the Charter of an existing SWG.
+* All OGC Consensus Standards process submissions originating from work done external to the OGC consensus process and then submitted into the OGC for consideration as an OGC Standard may require a signed original of the OGC Submission of Technology (SoT) Form. Work with OGC staff to determine if a SoT form is required. This form shall be provided to the OGC prior to the adoption vote.
+* The Submission team agrees to comply with the current Policy Regarding Intellectual Property Rights of OGC.
+* Proprietary and confidential material is not included in any submission to the OGC.
+* OGC Candidate Standard submitters agree to grant OGC a non-exclusive, royalty-free, paid-up, worldwide license to copy and distribute their submission to the OGC membership, and, if adopted by OGC, the right to modify, enhance, and make derivative works from the Standard and to copy and distribute the Standard, modifications, enhancements, and derivative works both inside and outside of the OGC membership.
+* The Submitters agree that OGC will own the copyright in the resulting Standard or amendment and all rights therein, including the rights of distribution. This agreement shall not in any way deprive the submitter of any patent or other IPR relating to the technology to which its submission relates.
+* OGC Standards may reference other OGC Standards or Standards from other Standards organizations. Incorporating Standards by reference requires that the Standard clearly designate what portions of the other Standard are referenced, the version of the other Standard, a complete reference to the other Standard, and complete information on how to obtain the other Standard. Whenever possible, submitting organizations are asked to make available to OGC the referenced Standard.
+
+[[specific-process-requirements-for-the-submission-of-a-community-Standard-cs]]
+==== Specific process requirements for the submission of a Community Standard (Community Standard)
+
+[[notify-tc-chair]]
+===== Notify TC Chair
+
+The submission team shall notify the Technical Committee Chair of the intent to submit a Community Standard. This notification may be done using email. The notification shall include the organization names of the submission team. The notification shall also include agreement to the following statement:
+
+<list of companies/organizations> have granted the Open Geospatial Consortium (OGC) a nonexclusive, royalty free, paid up, worldwide license to copy and distribute this document and to modify this document and distribute copies of the modified version.
+
+[[submission-justification-document-process]]
+===== Submission justification document process
+
+The submission team shall provide a written justification as to why the Community Standard process can be used. This justification shall also include the reasons why the candidate Standard may not need to be aligned with the OGC Abstract Specification and Standards Baseline. There is a https://github.com/opengeospatial/templates/blob/master/charter_templates/community_std_work_item.adoc[template] for this justification document.
+
+Once the submission team completes a draft of the justification document, they shall provide the TC Chair the draft. The TC Chair shall review the draft and provide comments and guidance back to the submission team. The submission team reviews the TC Chair comments, modifies the justification as required, and posts the justification to Pending Documents when complete.
+
+[[submission-justification-document-member-review-process]]
+===== Submission justification document: Member review process
+
+Once the justification document is posted to pending, the TC Chair shall organize member and public review of the work item, as follows.
+
+* Announce a three week OGC Member review period. Comments may be provided.
+* Coordinate a broad community announcement that the OGC is considering accepting a Community Standard into the OGC Standards process.
+* Have the proposed Community Standard submitters present the justification to the TC at a Plenary or via a virtual meeting and ask the full TC if there are any objections to starting an electronic vote on the proposed candidate Community Standard as an official OGC work item. If there are objections, comments shall be provided.
+
+[[approval-of-the-proposed-community-Standard-as-an-ogc-work-item]]
+===== Approval of the proposed Community Standard work item
+
+Upon completion of the review and comment process, the TC Chair shall initiate a <<required-tc-electronic-vote>> to approve (or not) the proposed work item for processing a Community Standard. If the approval motion fails, the submission shall be withdrawn and the submission team may resubmit the candidate community Standard after addressing member concerns. A Community Standard work item is valid for six months: within this time period the draft Community Standard must be scheduled for OAB review or else the work item must be renewed through a new submission.
+
+[[processing-comments-received-during-the-community-Standard-work-item-approval-vote]]
+===== Processing Comments received during the Community Standard work item approval vote
+
+If comments are received as part of the approval vote for using the Community Standard process, the submission team shall follow the process as defined in <<review-of-the-received-comments-all>>.
+
+[[main-steps-in-the-Standard-process]]
+==== Main Steps in the OGC Consensus Standards Process
+
+The steps in the OGC Consensus Standards Process are as follows.
+
+[[ogc-technology-submission-form-externally-developed-submissions-only]]
+===== OGC Technology Submission Form (Full Standard: externally-developed submissions only)
+
+This clause applies to candidate Standards origintating in content developed external to the OGC and then submitted by the members for consideration as an OGC Standard under the Full Standard track.
+
+Assurances are required at the time of submission that the IPR inherent in the submissions will, if the submission is approved as an OGC Standard, be made available under license to all implementers, members and non-members alike.
+
+The organization(s) proposing the external work to enter the OGC process may be required to complete, sign, and deliver a Submission of Technology Form (SoT). Please contact OGC staff to discuss whether a SoT is required. If required, the signed SoT shall be provided prior to the adoption vote.
+
+[[formation-of-a-new-swg-to-work-on-the-Standard-submission-full-Standard]]
+===== Formation of a new SWG to work on the OGC Consensus Standards process submission (Full Standard)
+
+See <<the-swg-charter>> on the Policies specific to the formation of a new SWG and SWG processes.
+
+[[release-of-candidate-Standard-for-internal-review-and-public-comment-all]]
+===== Release of candidate Standard for internal review and Public Comment (All)
+
+At any time in the OGC Consensus Standards process, the SWG may vote to release a candidate Standard for public comment. These interim public comment periods do not require OAB or OGC Naming Authority review. However, there shall be, at a minimum, one official 30 day public comment period.
+
+Full Standard: Once the SWG determines that the candidate Standard is ready for OAB and OGC-NA review and public comment, the SWG shall have a vote to release the document for public review. Upon a simple majority vote by the voting members of the SWG, the candidate Standard will be released for OAB and OGC-NA review in advance of public request for comment.
+
+Community Standard: The community Standard submission team and the TC Chair must agree that the candidate Standard is ready for review and the TC Chair will submit the candidate Standard for review by the OAB and OGC-NA in advance of public request for comment.
+
+[[review-by-the-ogc-architecture-board-all]]
+===== Review by the OGC Architecture Board (All)
+
+Once the SWG or Community Standard submission team approves the candidate Standard for public comment, the candidate Standard is reviewed by the OAB. The OAB has the responsibility to ensure that the OGC candidate Standard submission is relevant with respect to current adoption plans of the OGC (and/or the current Abstract Specification), how the proposal is consistent with the current OGC Standards baseline, and, for Full Standards, compliance with the Modular Specification Policy https://portal.ogc.org/files/?artifact_id=34762[The Specification Model - A Standard for Modular specifications (08-131r3)].
+
+The candidate Standard cannot be released for public comment until it is approved for release by the OAB. The OAB may request changes to be made to the candidate Standard and have that document returned to the OAB for further review prior to release for comment.
+
+[[review-of-ogc-identifiers-http-uris-etc-by-the-ogc-naming-authority-all]]
+===== Review of OGC Identifiers (http URIs, etc.) by the OGC Naming Authority (All)
+
+Concurrent with the OAB review, the SWG shall request that the OGC Naming Authority review all new OGC identifiers specified in the candidate Standard.
+
+The candidate Standard document/repository will also be provided to the OGC-NA to ensure that document tags and formatting are consistent with the OGC Standard template and suitable for ingestion into the OGC Knowledge Management database.
+
+In order to facilitate the review and to be in compliance with the https://portal.ogc.org/files/?artifact_id=40077[OGC URN policy], the editor shall submit the candidate Standard’s list of Namespace URIs for OGC-NA review as a spreadsheet or as a Persistent Uniform Resource Locators (PURL).
+
+[[request-for-public-comment-period]]
+===== Request for Public Comment Period (All)
+
+The candidate Standard is released for a 30-day public comment period, unless the SWG or submitters determine that a longer comment period is required. During the comment period, any party (including all classes of OGC members, as well as any non-member of OGC) may send comments via the means announced with the request for comment issuance. OGC staff will manage collection of the comments.
+
+[[review-of-the-received-comments-all]]
+===== Review of the received comments (All)
+
+Once the request for comment period closes, the SWG or submission team reviews the comments and determines how each comment will be addressed. The team may decide to:
+
+* accept the comment as-is and edits the candidate Standard accordingly;
+* accept the comment with modification and edits the candidate Standard accordingly;
+* accept the comment as a future work item; or
+* reject the comment with an associated reason.
+
+NOTE: the team cannot accept a comment that makes a normative change to a Community Standard unless the comment identifies an error. A Community Standard is normatively-frozen once it enters the approval process.
+
+In all cases, the team shall document their decision in a comment response document or via issues in the SWG collaboration environment. Further, the team shall notify each individual who submitted a comment as to the disposition of the comment.
+
+If the comments result in a significant change to the candidate Standard, then the TC Chair may request that the revised candidate Standard be reviewed by the OAB once more prior to the TC adoption vote.
+
+The SWG or submitters may decide that comments received are sufficient to halt the advancement of the candidate Standard.
+
+[[member-briefing-for-candidate-Standard-all]]
+===== Member briefing for candidate Standard (All)
+
+Once the final document has been posted to Pending Documents, the submission team shall brief the TC on the contents of candidate Standard. This briefing shall occur prior to a final adoption vote. This briefing may be at a TC Meeting or webinar. The briefing shall be announced via formal OGC communications at a minimum of two weeks prior to the briefing.
+
+[[vote-to-approve-candidate-Standard-all]]
+===== Vote to approve candidate Standard (All)
+
+After the candidate Standard has been briefed to the TC, the TC Chair will request that the TC approve the start of a <<required-tc-electronic-vote>> to recommend approval of the candidate Standard by the PC. This vote request can occur via the <<voting-forum>>.
+
+Upon approval of the TC to start an electronic vote, the TC Chair will initiate a 45-day electronic vote to recommend approval of the candidate Standard by the PC.
+
+Approval by the TC to recommend approval by the PC will initiate a PC vote, further described in the PC Policies and Procedures.
+
+[[specific-policies-regarding-approval-of-a-Standard-uplift]]
+==== Specific policies regarding approval of uplift of a Draft Standard to a Standard
+
+A Draft Standard proposed to be approved as a Standard must be submitted by the SWG to the TC Chair with written documentation that the Standard meets the criteria for evidence of implementation per the <<two-track-Standards-process-criteria>>. The candidate Standard must then proceed with the RFC (<<request-for-public-comment-period>>) through voting (<<vote-to-approve-candidate-Standard-all>>) steps.
+
+[[specific-policies-regarding-abstract-specification-topics]]
+=== Specific Policies Regarding Abstract Specification Topics
+
+The OGC Abstract Specification development, revision, and approval process is the same as for any OGC Standard except for documents that originated in <<tc-to-asdo>> or are joint Standards activities between OGC and an Authoritative SDO.
+
+NOTE: Abstract Specification Topics may be initiated by a SWG or directly by the TC. When an Abstract Specification Topic is developed directly under the TC, the Topic shall be briefed to the TC and any relevant Working Groups prior to OAB Review in advance of public comment. Any comments received as a result of the briefing(s) shall be considered and accepted by the TC Chair before the document is presented to the OAB.
+
+[[scope-and-content]]
+==== Scope and Content
+
+The Abstract Specification forms a foundation (generally of conceptual models) upon which OGC Standards can be constructed. The Abstract Specification comprises a series of Topics, each approved as a Standard.
+
+The detail of the Abstract Specification shall be sufficient to provide normative references, including models, and technical guidelines as a foundation for Standards. Each Topic, to the extent possible, provides unambiguous normative and informative information that allows for implementation of Standards in software.
+
+The level of detail of the Abstract Specification is at the discretion of the TC as reflected by the actual content that is approved for inclusion in the document itself.
+
+The TC can add, deprecate, or retire Topics just as for Standards. The OAB manages Topic 0, which summarizes all Topics and provides reference to their relationships.
+
+[[authoritative-sdo-documents-as-ogc-abstract-specifications]]
+==== Authoritative SDO Documents as OGC Abstract Specification Topics
+
+A new Abstract Specification Topic or a revision to an existing Abstract Specification Topic may be proposed by the OGC members for the case in which the document was created in an Authoritative SDO activity or a joint OGC and Authoritative SDO-developed activity.
+
+[[authoritative-sdo-Standard-as-an-ogc-abstract-specification-topic]]
+===== Solely Authoritative SDO Standard as an OGC Abstract Specification Topic
+
+For this case, the Authoritative SDO Standard has been developed and approved solely in the Authoritative SDO.
+
+NOTE: for this case, the TC Chair will need to ensure that a copy of the Authoritative SDO Standard is freely available to the OGC members for review. The document shall then be posted to pending documents and the availability of the document announced to the membership. Once approved, the Topic may no longer be free to the public or OGC members.
+
+[[joint-ogc-authoritative-sdo-Standard-as-an-ogc-abstract-specification-topic]]
+===== Joint OGC-Authoritative SDO Standard as an OGC Abstract Specification Topic
+
+For this case, the OGC and the Authoritative SDO have agreed to have a joint Standards development activity. The OGC shall be open to participation by both OGC and the Authoritative SDO members in the work on the Topic. Both OGC and the Authoritative SDO will coordinate on timelines and process for all stages of review and approval in the respective organizations.
+
+==== Approval of an Abstract Specification Topic
+
+The TC, OAB, or a subgroup can recommend the Topic for inclusion in the Abstract Specification. In some cases, a SWG is established for the maintenance of the Topic, but this is optional. Review and approval of the Topic is the same as for an OGC Standard, starting with <<review-by-the-ogc-architecture-board-all>>.
+
+[[submissions-ogc-Standard-to-other-sdo]]
+=== Submission of an OGC Standard for consideration by another SDO
+
+OGC membership may choose to submit an approved OGC Standard to another SDO for adoption of the Standard by that SDO. A number of OGC Standards have been submitted to ISO / TC 211 and are now also approved as ISO Standards. Such a submission will follow the steps below.
+
+* The body or persons controlling the relationship with the other SDO shall approve the submittal and any documentation required for submission; and
+* the TC will vote on the submission via the <<voting-forum>>.
+
+[[change-request-proposals-crp-to-an-ogc-standard]]
+=== Change Request Proposals (CRP) to an OGC Standard
+
+At any time, any OGC member or non-member can submit a CRP. A CRP allows for the formal documentation of a proposed change to an existing, adopted OGC Standard or Abstract Specification Topic. The change could be an identified error (see <<corrigendum-errata-changes-to-ogc-Standards>>), an inconsistency, a requested enhancement, or a major proposed enhancement.
+
+CRPs are used as the basis for new SWG work items. The SWG must consider proposed changes and enhancements.
+
+[[submission-of-change-request-proposals]]
+==== Submission of Change Request Proposals
+
+A CRP shall be submitted to the OGC by posting to the http://ogc.standardstracker.org/[Public Change Request] page or to the Issue tracker for the Standard in question.
+
+[[evaluation-of-a-change-request-proposal]]
+==== Evaluation of a Change Request Proposal
+
+A CRP is processed by appropriate SWG. The SWG shall discuss the proposed CRP and then vote on how the CRP should be processed:
+
+* reject the CRP with a written reason;
+* accept the CRP but request additional clarification; or
+* accept the CRP with documentation as submitted.
+
+If a CRP is accepted, the SWG will incorporate the contents of the CRP into the designated Standard, either as a revision or a corrigendum. If the CRP is rejected, then the SWG must write a formal response to the CRP submitter(s), or log the response in the Issue tracker, explaining the rationale for rejection and then allow the submitter(s) the opportunity to respond and/or resubmit their CRP with modifications.
+
+[[completion-of-a-change-request-proposal]]
+==== Completion of a Change Request Proposal
+
+When a SWG has processed a CRP, the status of the CRP will be updated in the tracker used. The status and disposition will be modified based on the SWG decisions. The CRP will remain available for future reference.
+
+[[the-Standard-editor]]
+=== The Standard Editor
+
+In addition to the formation of a SWG, there is a requirement for an editor or editors who will maintain the content of the candidate Standard based on member input and the decisions of the SWG. One or more members can fill the editor position. The editor has the responsibility for managing the  text and related resources of the Standard document. The editor is not necessarily the author nor the owner of the document. By way of guidance, the editor is responsible for:
+
+* the editorial quality of the document - clear language, well written, self-consistent, and proper format;
+* ensuring that the consensus of the SWG and the TC is captured in the content of the document;
+* keeping modification of the document on schedule - knowing the content and history of the document well enough to prevent it from and endless round of modification; and
+* maintaining revision notes that document what changes were made and in response to which comments or CRPs. These notes will be used as the basis for creating the revision notes document for a given revision/version of a Standard.
+
+=== Compliance tests
+
+Many OGC Standards have an associated compliance test suite of software that enables qualification or certification of software that accurately implements the Standard. These tests are managed under the https://docs.ogc.org/pol/08-134r11.html[Compliance Program Policies and Procedures].
+
+Each Compliance Test is approved via the <<voting-forum>>.
+
+[[lifecycle]]
+== Lifecycle management of OGC Standards and other documents and products
+
+All OGC Standards are managed in a lifecycle of development-publication-revision and perhaps eventual retirement. The governing principles of lifecycle management for Standards are:
+
+* ensuring relevance of the active Standards;
+* practical and logical maintenance of previous editions of Standards, where appropriate; and
+* sound business decisions for deprecation or retirement of Standards.
+
+No two Standards are ever likely to follow identical timelines for their lifecycles. Some very fundamental Standards have exceptionally long lifecycles, while those Standards addressing emerging IT trends may revise frequently. The TC will manage the lifecycle of Standards in accordance with the following policies and procedures.
+
+[[versioning]]
+=== Versioning
+
+OGC Standards (and Best and Community Practices) are versioned according to https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 18], which follows the https://semver.org/[Semantic Versioning Specification (SemVer)]. The guidelines for version/revision numbers for documents are as follows.
+
+* Only approved OGC Standards have document numbers 1.0.0 or greater. The first approved version of an OGC Standard shall be version 1.0.0.
+* Corrigendum releases shall NOT result in any change to the major/minor number. If the Standard being revised has schema, then the schema shall use the version attribute to document the revision number at the third level.
+* Revisions to an adopted Standard typically result in a change to the minor number. For example, the first revision to an adopted 1.0 Standard would be 1.1.0. Minor revision releases should be 100% backwards compatible with the previous version.
+* Changes to the major version number are reserved for when there are significant changes to the adopted Standard or when backwards compatibility cannot be maintained with the previous version.
+
+Building blocks may undergo their own lifecycle of development. A change to a building block results in a revision (and thus new version) of its owning Standard. Each building block is individually versioned, but cannot be versioned higher than the owning Standard.
+
+[[periodic-review]]
+=== Periodic review
+
+All OGC Standards will undergo periodic review to ensure that the Standards are meeting community needs. Periodic review will occur at a maximum interval of every four years. However, the TC or a subgroup can request an earlier review based on observations of poor adoption, lack of market relevance, or significant errors in the Standard. The TC Chair will put requests for earlier review to a TC vote (all members) via the <<voting-forum>>.
+
+The process for periodic review is as follows.
+
+* Not more than twice per year, the TC Chair shall gather a list of all Standards which have a four-year anniversary date in the interval since the last review notice AND all Standards requested by the TC or a subgroup to be reviewed.
+* The list of Standards will be released for 30-day TC and public review. The review request will include download statistics for each document to be reviewed.
+* Those who choose to submit a response to the review shall indicate their suggestion on a fate for the Standard (no change, revise, deprecate, legacy, retire; see <<policy-for-the-retiring-deprecating-or-rescinding-ogc-documents>>) and provide a rationale for their suggestion.
+* The TC Chair will collate all responses and work with the owning SWG to determine a course of action. The SWG must vote per <<swg-voting>> to suggest the course of action.
+* The SWG will recommend to the TC approval of their action, to be voted via the <<voting-forum>>.
+* Should the TC agree to the SWG action, the TC will recommend approval of the action to the PC for PC vote.
+* The SWG will proceed with the action. The action may result in further work (as detailed below) which will entail its own approval process.
+
+NOTE: In some cases, the owning SWG for the Standard under review is no longer active. In this case, the TC will vote on a course of action via the <<voting-forum>> without input from a SWG.
+
+NOTE: The periodic review process above applies to all OGC Standards except the Abstract Specification. The Abstract Specification lifecyle is managed by the OAB, with consultation or advice from the TC.
+
+[[the-Standard-revision-process-full-Standard]]
+=== The Standard Revision Process (Full Standard)
+
+A SWG manages the revision of a Standard based on either a) comments received as part of the OGC Consensus Standards process or b) the contents of one or more official OGC Change Request Proposal(s).
+
+All voting in a SWG for revisions to an existing Standard will follow the rules as defined for <<swg-voting>>.
+
+[[the-revision-process]]
+==== The Revision Process
+
+The SWG reviews requests for revisions and corrections to a Standard. The SWG may discuss issues that have not been submitted as CRPs and may vote to direct one or more of its members to create official CRPs to document an agreement reached as the result of those discussions.
+
+A major or minor version revision of a Standard follows the process of the Full Standard track with the initial revision approved as a Draft Standard. A Corrigendum to a Standard does not require new evidence of implementation and the Corrigendum is approved at the final stage of a Standard.
+
+[[internal-review-and-public-comment]]
+===== Internal Review and Public Comment
+
+When the SWG work items are complete and with the approval of the voting members of the SWG, the candidate revised Standard may be submitted to the OAB and OGC-NA for a review and subsequent release for the 30-day public comment period.
+
+For Standards defining APIs where one or more API elements are proposed for removal in the revision, the API element deprecation process (<<deprecating-api-elements>>) will also need to be followed to completion.
+
+From this point on, the processing of the revision to the Standard is the same as defined in <<review-of-the-received-comments-all>> and subsequent sections.
+
+[[cut-off-date-for-accepting-new-change-request-proposals]]
+===== Cut-off date for accepting new Change Request Proposals
+
+CRPs to approved Standard documents or documents currently in revision can be submitted at any time, and then must be considered by the appropriate SWG. A SWG can set and publicize a cut-off date beyond which it will not consider additional CRPs. CRPs submitted after such a cut-off date must be considered as part of future revision activities.
+
+[[additional-guidance-and-responsibilities-of-a-swg-during-the-revision-process]]
+==== Additional Guidance and Responsibilities of a SWG during the revision process
+
+The SWG shall perform the following tasks.
+
+* Work to ensure that revisions to the Standard are consistent and harmonized with other related OGC Standards.
+* Work to ensure that the new revision is – as best as can be accomplished – backwards compatible with the previous revision.
+* Provide a revision notes document using the Standard revisions template that documents the revisions to the Standard resulting from either public comments or CRPs. The revision notes include lists of deprecated capabilities, changes to capabilities, and new capabilities that are added over time.
+
+[[the-Standard-revision-process-community-Standard]]
+=== The Standard Revision Process (Community Standard)
+
+Revision of a Community Standard is treated similar to a new Community Standard submission and all processes for approval of a Community Standard from approval of a Work Item to vote for final approval are required. The only difference in the process is the TC vote to recommend the Work Item for revision to a Community Standard for PC approval can occur at a Plenary or via a two-week e-mail vote, i.e., the vote is not a 45 day electronic vote. The revision process is effectively identical to the addition of a Task to a SWG Charter for a Full OGC Standard.
+
+[[corrigendum-errata-changes-to-ogc-Standards]]
+=== Corrigendum (errata) Changes to OGC Standards and Best and Community Practices
+
+Errors may be discovered in a published and approved OGC Standard, Best Practice, or Community Practice. Under the corrigendum process, an error (or errors) in a published document discovered after adoption and publication is shown with its correction(s) in a document that is clearly identified as a corrigendum.
+
+This process to create and approve a corrigendum is as follows.
+
+1.  An identified error is documented and submitted to the OGC via a change request or logged issue. The SWG, Community Standard submitter, or owning subgroup assesses the error and if it fits the criteria for a corrigendum, notifies the TC Chair with a proposed corrigendum document or a plan to create such a document.
+2.  The TC Chair evaluates the candidate corrigendum to verify that a specific error is being documented and corrected. The TC Chair assesses if the correction is suitable as a corrigendum (error correction) or if it should create a minor or major revision to the document.
+3.  If the TC Chair agrees with the subgroup that a corrigendum is needed, then a request for comment is made to the TC. The reason for the TC broadcast is that there may be many implementations of a Standard for which an error has been documented.
+4.  The Membership votes to release (or not) the corrigendum. A Corrigendum vote will occur via the <<voting-forum>> and there is no IPR review requirement.
+5.  The corrigendum is published with text indicating what error(s) have been corrected. Associated documents and products may also require update.
+
+[[backwards-compatibility-full-Standard]]
+=== Backwards Compatibility (Full Standard)
+
+In all cases of adopted Standards in a revision process, the members will work to insure the highest level of achievable backwards compatibility to the previous release. In those cases in which backwards compatibility cannot be achieved, the Standard will have a major revision and the SWG will provide Release Notes that document all enhancements, changes, and compatibility issues resulting from the revision of the Standard. Both the TC and the PC reserve the right to review the issues related to backwards compatibility for a given revision of a Standard. If the backwards compatibility issues are deemed too onerous, the TC and/or the PC may elect to reject the proposed revision.
+
+[[policy-for-the-retiring-deprecating-or-rescinding-ogc-documents]]
+==== Policy for Retiring, Deprecating, or Rescinding OGC Documents
+
+This section provides the policy and procedure for retiring, deprecating, or rescinding OGC documents. Note that retiring, deprecating, or rescinding an OGC Standard results in the same fate for all OGC-published extensions to and profiles of the exact version of that Standard.
+
+Standards are retired or deprecated by a <<required-tc-electronic-vote>> of the TC. Retirement or deprecation must be preceded by a 60-day public comment period informing the community that the Standard is proposed for retirement or deprecation and requesting evidence to support or reject the change in status. Any comments received during the public comment period must be presented to the TC during the request to retire or deprecate the Standard.
+
+[[retiring-ogc-standards]]
+===== Retiring OGC Standards
+
+Retirement criteria can be based on one or more of the following:
+
+* no one is implementing the Standard;
+* a Standard is no longer technically up to date;
+* a Standard is not actively downloaded from the OGC website;
+* a Standard is no longer considered to be of interest by the Membership; or
+* the Standard is no longer valid due to new OGC documents being published.
+
+Retired Standards are published in a "Retired" archive available to the public. Each Retired Standard shall have “Retired” watermarked on the cover page. If there are schemas associated with a retired OGC Standard, the schemas remain in the OGC schema repository. If there are compliance tests for the retired Standard, the compliance tests are automatically retired but also remain available on the OGC web site.
+
+[[deprecating-ogc-Standards]]
+===== Deprecating OGC Standards
+
+The TC may choose to deprecate a Standard when it has been replaced by new version of that Standard. A deprecated Standard is no longer supported, but is made available to the public on the OGC website and other resources and clearly labeled as "Deprecated."
+
+The deprecation vote may be part of the adoption vote for the new version of the Standard. In this case, when the motion is made to the TC at a meeting or email vote to approve the start of an electronic vote for a Standard, that motion shall include a request to deprecate the previous version.
+
+NOTE: The deprecation public comment period can start at any point prior to requesting approval of the revision to the Standard. Such a review of the impact of deprecation should begin as soon as a SWG considers a revision that is intended to result in a deprecation of a Standard.
+
+[[deprecating-api-elements]]
+===== Deprecating API elements in OGC Standards
+
+Standards for APIs (Application Programming Interfaces) are specifically designed to be implemented as a series of API elements. These elements may be described in a format more suitable for direct use by software developers (such as OpenAPI content delivered in YAML). Elements with the API description correspond to one or more requirements defined in the Standard document. Elements may correspond to building blocks, but not necessarily.
+
+When an API element is removed during the <<the-Standard-revision-process-full-Standard>>, the impact on implementations of that Standard should be minimized. Therefore, the implementing community will be given sufficient notice and provided with options for commenting on the changes to the Standard through a formal API element deprecation process.
+
+The API element deprecation process is as follows.
+
+1.  A candidate revision to the Standard and any supporting API definition resources is provided to the TC Chair with all proposed deprecated elements clearly identified. The rationale for deprecating the elements is provided as a separate document. Optionally included with the rationale can be work-arounds or other documentation to describe how implementers might address the changes to the Standard.
+2.  The candidate revision is released for a 60-day public comment period informing the community that the Standard is proposed for revision with deprecation of some API elements. The call for comments will request the community to provide evidence to support or indicate the consequences of deprecating the API elements.
+3.  The SWG will consider all comments received per the process for <<review-of-the-received-comments-all>>. Based on the comments, the SWG will decide whether to proceed with the revision.
+4.  The candidate Standard with all deprecated API elements clearly identified as deprecated continues the Standard approval process.
+5.  Once approved, the Standard retains the deprecated API elements, each clearly identified as deprecated, in the publication for a period of two years. After two years, the deprecated API elements may be removed from the published document. If there is another revision to the Standard before the two-year period ends, the deprecations will still be identified in the revision until the original two-year period ends.
+
+[[legacy-ogc-standards]]
+===== Legacy OGC Standards
+
+If an existing Standard is replaced in part or whole by one or more new Standards, then a special case of deprecation may occur resulting in the original Standard being labeled a "_Legacy Standard_." As with deprecated Standards, Legacy Standards are no longer supported, but they remain on the OGC website with a notification that the capabilities of the Standard have been replaced in whole or part by new Standard(s). The notification will clearly indicate that the Legacy Standard is not invalid, but that new implementations of the capabilities of the Standard are better served by the identified new Standard(s).
+
+The approval process for deprecating a Standard to a Legacy Standard status is the same as <<deprecating-ogc-Standards>>, but the process clearly states that the deprecation will result in a Legacy Standard.
+
+Legacy Standards will undergo <<periodic-review>> every two years.
+
+[[rescinding-ogc-Standards]]
+===== Rescinding OGC Standards
+
+OGC Standards may be rescinded for three reasons:
+
+1.  the Standard includes intellectual property that was unintentionally or illegally provided as part of the Standard;
+2.  a Community Standard is abandoned by its originating/maintaining party and the OGC membership does not take over maintenance of that Community Standard; or
+3.  a Community Standard is judged by OGC membership to no longer be applicable to the OGC Mission.
+
+A Standard is rescinded by electronic vote of the TC as described for <<retiring-ogc-standards>>.
+
+Rescinded Standards are not published on any public OGC resources. Should the Standard be rescinded for legal reasons, all supporting information for that Standard may be removed from the OGC Portal.
+
+=== Lifecycle management of other OGC documents and products
+
+Other OGC documents and products also have a managed lifecycle. The process for each type is generally as described for Standards, with the following specific policies.
+
+* *Best and Community Practice*: these documents follow the rules for <<lifecycle>>, except that the owning subgroup is not necessarily a SWG.
+* *Engineering Reports, Discussion Papers, and Technical Papers*: these documents are not revised. Each will have a <<periodic-review>> on a frequency not to exceed two years with the only consideration to retain or retire the document. The <<periodic-review>> process is restricted to TC review for comment on retention or retirement of the document. The TC Chair along with OGC staff will propose an action based on the TC review for vote in a meeting or via email.
+* *Registry content*: registered content is managed by the OGC-NA and its lifecycle is handled by OGC-NA policy.
+* *Other supporting documentation or products*: other documents or products which support a Standard are tied to that Standard in its lifecycle and follow the same fate as the Standard.

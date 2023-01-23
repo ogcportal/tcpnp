@@ -1,62 +1,47 @@
 [[appendix]]
-[[annex-c---community-standard]]
-== Annex C - Community Standard
+[[annex-c-community-standard-checklist]]
+== Annex C: Community Standard adoption checklist
 
 [[c.1-qualification-checklist-community-standards]]
 === C.1 Qualification Checklist – Community Standards
 
 The following is a list of questions that the submission team needs to answer in the affirmative prior to submitting community specification into the OGC.
 
-1.  Does the submission team understand that copyright and intellectual property (PR) shall be vested or shared with the OGC? Note: If the plan is to move the document to Provisional or Full Standard status, all IP shall be vested to the OGC.
-2.  Does the submission team understand that if the candidate Standard is approved as an OGC Standard that life-cycle governance shall be vested with the OGC[1]?
-3.  Is there sufficient evidence of broad implementation?
-4.  Is the candidate Standard unencumbered by any 3^rd^ party intellectual property?
-5.  Is there method to determine compliance with the Community Standard? This could be an abstract test suite, a compliance test framework, clearly defined requirements, or other text in the document that describes compliance.
+1.  Can the original specification be licensed for free, public distribution per OGC policy?
+2.  Is there sufficient evidence of broad implementation?
+3.  Is the candidate Standard unencumbered by any 3^rd^ party intellectual property?
+4.  Is there method to determine compliance with the Community Standard? This could be an abstract test suite, a compliance test framework, clearly defined requirements, or other text in the document that describes compliance.
 
 [[c.2-community-standard-process-checklist]]
 === C.2 Community Standard Process Checklist
 
 [cols=",",options="header",]
 |========================================================================================================================
-|Community Specification: Process Checklist |Responsible
-|Contact Technical Committee chair about intent to submit or start a community spec process |Convener and TCC
-|Identify submission team (3 or more Members, one is TC Voting Member) |Convener
-|Signed Submission of Technology form (optional) |TCC and convener
-|TC Chair says great, provide justification. |TCC
-|When draft ready, the team sends the draft to the TCC |Convener
-|TC Chair reviews draft and provides comments back to the submission team |TCC
-|Submission Team reviews TCC comments and modifies justification as required |Submission Team
-|When ready, convener posts draft justification document to pending documents. |Convener
-|Two week review period. Comments can be provided. |Members
-|TC Chair asks TC if there are any objections to accept community spec into OGC process |TCC and members
-|Concurrently, TC Voting members have formal vote to bring community spec into the OGC process |TCC and TC voting members
-|Press release to announce formation of new OGC activity |Staff and Submission team
-|Any edits on candidate Standard happen. Normative content may not change |Team
-|Approval process for public comment |Team Chair and TCC
-|Develop Press release and make OGC web site updates |Team and Staff
+|Action |Responsible Party
+|Contact TC Chair about intent to submit or start a Community Standard process |Submitter
+|Identify submission team (3 or more Members, one is TC Voting Member) |Submitter
+|Submission team creates work item justification |Submission Team
+|TC Chair reviews justification and provides comments back to the submission team |TC Chair
+|Submission Team reviews TC Chair comments and modifies justification as required |Submission team
+|Justification document posted to pending documents |Submission team
+|After posting, the TC Chair shall notify the membership of the draft |TC Chair
+|30 day public comment and review period |TC Chair
+|Present justification to TC |Submission Team
+|45 day TC recommendation vote |Members
+|PC approval vote (meeting or 14 days by email) |TC Chair
+|Submission team edits candidate Community Standard happen based on public comment and TC/PC votes: normative content may not change |Submission team
+|Notify TC Chair of intent for release for public comment |Submission team
 |OGC Architecture Board Review |OAB
 |OGC Naming Authority Review |OGC-NA
+|Post to Portal project as a public read access document |Submission team
 |30 day public comment period |Community
-|The Submission team consolidates the comments into a single document |Team
 |Submission Team reviews comments and modifies document as required |Team
-|Team Briefs TC Membership on contents of candidate Standard |Team Chair or designee
-|TCC reviews candidate specification and makes suggestions |TCC
-|Team Posts candidate specification (can be HTML, Word, ZIP). |Team Chair
-|TCC Announces adoption vote |TCC and Staff
-|45 day adoption vote happens |Voting Members
-|Vote completes |
-|Announcement of results to OGC Members |TCC
-|Planning Committee Approval |TCC and PC
-|Team process any comments received during the adoption vote |Team
-|Confirm list of contributors |TCC and Team Chair
-|TCC does final review of adopted Standard |TCC
-|Create Press release to announce new Standard |Team and OGC staff
-|Schema processing |Team and OGC staff
-|Schemas validated and errors corrected |Team and OGC staff
+|Post candidate Community Standard to pending documents |Submission team
+|Submission team briefs TC Membership on contents of candidate Community Standard |Submission team
+|45 day TC recommendation vote |Voting Members
+|Submission team process any comments received during the adoption vote |Submission team
+|PC approval vote (meeting or 14 days by email) |TC Chair
+|TC Chair does final review of adopted Standard |TC Chair
 |Standard published |OGC staff
-|Update PURL server for new spec artefacts |OGC-NA and Staff
-|Press release released |OGC staff
-|Done. Congratulations!! |
+|Create Press release to announce new Standard |Team and OGC staff
 |========================================================================================================================
-
-[1] Please note that for external Standards brought into the OGC, such as KML, the external community is still able to develop, test, and document new functionality and changes to the Standard. This is per the OGC Best Practice “KML – Standard Development Best Practices” [OGC 08-125]. Once the external community is ready, these changes shall be documented and submitted into the OGC using the OGC Change Request Process

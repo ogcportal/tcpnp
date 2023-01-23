@@ -1,0 +1,336 @@
+[[policies-and-procedures-for-subgroups-of-the-tc]]
+== Subgroups
+
+The Technical Committee includes subgroups to:
+
+* evaluate and provide guidance on standardization and architecture issues;
+* carry out the development of new documents and related products;
+* evaluate OGC activities; and
+* provide a forum for the discussion and documentation of requirements for interoperability.
+
+Subgroups will be formed, carry out their work, and when their work is completed, be inactivated or dissolved.
+
+[[membership-in-tc-subgroups]]
+=== Membership in TC Subgroups
+
+A subgroup is composed solely of representatives of current OGC members and (potentially) invited guests. The following rules apply to membership in subgroups of the TC.
+
+* Any OGC member organization may send representatives to attend any meeting of the TC or any subgroup of the TC. The exception is for SWGs. In order to attend a meeting of a SWG, the representative must have opted into the SWG in order to participate (<<swg-participation>>).
+* Invited guests may actively participate at the sole discretion of the subgroup’s chair. That is, in the interests of ensuring the efficient operation of any meeting, the chair may limit or eliminate the opportunity of any invited guest to participate in discussion at any meeting. Invited guests cannot vote.
+
+[[working-groups]]
+=== Working Groups
+
+There are two types of Working Groups in the TC: Domain Working Groups (DWGs) and Standards Working Groups (SWGs).
+
+[[dwg]]
+==== Domain Working Groups
+
+A DWG is a group of individuals composed of members of the TC and invited guests with the specific intent of discussing and/or solving some particular problem or problems in a particular domain or technology arena for recommendation to the TC. Key functions of the DWG are to:
+
+* have a formal approved charter that defines the DWG's scope of activities;
+* provide a forum for discussion and documentation of interoperability requirements for a given information or user community;
+* provide a forum to discuss and recommend document actions;
+* develop Change Request Proposals (CRPs) for existing OGC Standards;
+* develop documents with the intent seeking approval by the TC for release of these documents as OGC Technical Papers, Discussion Papers, or Best/Community Practices;
+* hold meetings with informational presentations and discussions about the market use of adopted OGC Standards; and
+* have missions and goals defined by the TC.
+
+A DWG does not work on OGC Standards process submissions, candidate Standards, or revisions to existing OGC Standards. However, a DWG can develop change requests as documented interoperability requirements that can then be submitted as work items to a SWG. A DWG may initiate an activity that becomes realized as a new SWG.
+
+By default, a DWG will allow public collaboration, such as in teleconference, email discussions, or in <<collaboration-environment>>. A DWG has the option to make a motion to the TC to remove public participation in the DWG.
+
+[[swg]]
+==== Standards Working Groups
+
+A SWG is a group of individuals composed of members of the TC and invited guests with the specific intent of <<standards-development>> or on making revisions to one or more existing OGC Standards.
+
+Specific work items for a SWG include:
+
+* maintain and update a formal approved charter that defines the SWG's Scope of Work and estimated timeline for completion of the work;
+* develop a new candidate Standard in preparation of that document as an OGC consensus Standards process submission;
+* move the candidate Standards through the approval process included in this TC PnP; and
+* consider official Change Request Proposals to an existing OGC Standard and make changes to the Standard as necessary.
+
+Voting is limited to those Members who are either 1) Charter Members of the SWG or 2) have formally opted into the SWG and have waited the mandatory 30-day waiting period and requested to be voting members.
+
+SWGs are persistent unless the SWG voting members decide otherwise and choose to inactivate the SWG once they have completed their work as described in their charter or choose to end the work.
+
+=== Subcommittees
+
+A subcommittee (SC) is a standing group of individuals composed of members of the TC and invited guests, with a mission to provide recommendations to the TC in some general area. A Subcommittee does not generate a Standard nor does it work on a Standard.
+
+SCs are long-standing entities with general portfolios or missions. OGC staff can chair SCs. Any OGC member can attend a SC meeting and participate.
+
+A SC may be proposed by any TC member and approved via charter.
+
+There are two additional subcommittees with specialized purposes: the OGC Naming Authority and the Document Team.
+
+==== OGC Naming Authority
+
+The OGC Naming Authority (OGC-NA) controls the assignment of OGC Names to resources of interest in geographic information infrastructures. In the terminology defined in ISO 19135-1:2015, OGC-NA is the Control Body for the registry of OGC Names: the OGC Definitions Server. The registry consists of multiple registers, each focuses on a specific aspect of a domain. As many OGC Standards and other products include reference to or use of registered content, the OGC-NA works directly with the owning groups of those products in publication of resources. There are separate https://www.ogc.org/standards/na[OGC-NA Policies and Procedures].
+
+==== Document Team
+The Document Team (DocTeam) works with OGC staff and OGC members to define, enforce, and educate OGC members on documentation guidelines (format, templates, style) within the OGC. The DocTeam also works with OGC staff and OGC members to manage the document publishing infrastructure used by OGC.
+
+=== Regional Forums
+
+A Regional Forum is a subgroup dedicated to advancing OGC topics in a particular region of the world. The Forum can cover international, national, or sub-national interests and one particular region may be part of multiple Regional Forums.
+
+A Regional Forum may be proposed by any TC member and approved via charter.
+
+[[formation-of-a-sub-group]]
+=== Formation of a subgroup
+
+At any time, a group of Members may determine that a new area of technology or domain exploration is required. This interest may lead to the formation of a new OGC subgroup.
+
+[[ad-hoc-meetings]]
+==== Ad-hoc meeting(s)
+
+Any group of OGC members can schedule and advertise an ad-hoc meeting. The interested members develop a basic agenda and draft scope for the work of the group and call for an ad-hoc meeting at a scheduled TC event or by teleconference/webinar. At this ad-hoc meeting, the participants continue to frame the mission and the scope for a proposed new subgroup. Participants determine whether there is adequate OGC member interest to actually form a new subgroup.
+
+==== COSI initiatives
+
+A COSI initiative may be structured to investigate or prototype a draft specification that could form that basis for an OGC candidate Standard. In such cases, the initiative leader(s) can notify the TC of the intent to develop a draft specification and begin work on a SWG charter. Such a notification allows OGC members to observe the initiative work and be more informed of the potential for standardization as an outcome of the work.
+
+[[subgroup-charter-process]]
+=== Charter process
+
+All OGC subgroups must have a charter approved by the TC. The charter starts with the mission and scope of the subgroup as initially envisioned, but may be updated as the subgroup work continues.
+
+[[development-of-a-proposed-subgroup-charter]]
+==== Development of a proposed subgroup charter
+
+The primary function of the ad-hoc meetings is to write a charter for the new subgroup. The charter documents the mission, scope, roles, and responsibilities of the proposed subgroup. Drafts of the charter can be shared with other members for review and comment. The templates for the DWG and SWG Charter documents can be found in the https://github.com/opengeospatial/templates[templates GitHub repository].
+
+Charters can also be drafted during the execution of COSI initiative without the requirement of holding an ad-hoc meeting as the initiative meetings will serve the same purpose.
+
+Subcommittees and Regional Forums use the DWG template with the language modified to fit the type of subgroup being chartered.
+
+[[approval-of-a-subgroup-charter]]
+==== Approval of a subgroup charter
+
+Once the charter is completed and agreed to by the members of the ad-hoc meeting or initiative participants, the following process is followed for approval of the Charter. NOTE: For a SWG charter, please review <<swg-policies>> for specific requirements related to the formation of a SWG.
+
+* The charter is reviewed by the TC Chair. The TC Chair shall provide edits and comments in a timely manner.
+* The charter submitters consider the TC Chair comments and edits the charter as necessary.
+* The charter is assigned an OGC document number and posted to Pending Documents.
+* The availability of the draft charter is announced to the TC and to the public and a three-week public review period begins. There is a formal press release with a general call for comments.
+* The draft charter is presented to the TC at a plenary or in a web meeting.
+* Comments received during the comment period are considered by the submitters and any necessary changes to the draft charter are completed.
+* The modified charter is posted to pending as an update with a new revision number. The TC Chair shall notify the membership that a revision of the charter has been posted.
+* A 45-day electronic vote followed by a PC approval is held per the rules for a <<required-tc-electronic-vote>>.
+
+[[changes-to-a-charter-or-recharter]]
+==== Changes to a subgroup charter or recharter of a subgroup
+
+The members of a subgroup may at anytime determine that a change to the charter is necessary. Such changes may be done at any time. The subgroup members need to approve the amended charter by a formally recorded vote. Once the subgroup members approve the amended charter, the Chair shall inform the TC Chair who will then assess if the changes are a natural progression of the work of the subgroup or a major shift in scope of the subgroup.
+
+* If the TC Chair judges the changes to reflect a natural progression of the subgroup work, then the TC Chair shall notify the full membership of the proposed changes. The amended charter shall be posted to pending documents for a 3-week member review and comment period. The review period is followed by an approval vote by the TC at a Closing Plenary or through an email vote.
+* If the TC Chair judges the changes to reflect a major shift in scope of the subgroup, then the revised charter shall proceed through the same approval process as a new subgroup charter in <<approval-of-a-subgroup-charter>>.
+* When the recharter vote is requested to start by the TC Chair, the TC has the option to override the TC Chair vote type recommendation. For instance, if the TC Chair recommends a vote at the Closing Plenary, the TC can demand instead that a full 45-day electronic vote be held because the TC feels the scope of the revised charter is too different from the original charter.
+
+==== Establishment of subgroup
+
+Once the charter is approved, OGC staff will create a <<subgroup-work-environment>>. The creation of the subgroup will be publicized to the TC and the general public with an invitation to participate.
+
+[[subgroup-roles]]
+=== Roles in a subgroup
+
+Subgroups include special roles for administration of the subgroup as well as development of subgroup documents and products.
+
+[[subgroup-chair]]
+==== Chairs
+
+Every subgroup must have at least one chair. If the subgroup has multiple chairs, which is recommended, each chair shares in the duties. The chairs may decide amongst themselves to have one person act as a primary chair, but all chairs are equally-designated. There is no limit to the number of chairs, but most subgroups work best with three or fewer chairs.
+
+The chair of a subgroup is responsible for organizing the activities of that subgroup, including:
+
+* arranging meetings at times and places convenient for the subgroup membership;
+* announcing meeting arrangements to the entire OGC membership, including a preliminary agenda for the meeting, at least 2 weeks in advance of the meeting;
+* encouraging broad participation of the OGC membership;
+* ensuring that actions from the meeting are recorded (NOTE: this recording may comprise notes and recorded actions in a slide set, text in a document, or issues lodged in OGC <<collaboration-environment>>);
+* capture a list of persons attending the meeting whenever a vote or quorum-necessary decision is made (the attendance logging feature of the OGC Portal or the list of attendees from the virtual meeting tool is acceptable);
+* sending electronic reminders to action holder’s;
+* ensuring the smooth and orderly running of the meeting;
+* reporting on subgroup activities to the TC (and PC if requested), including presenting subgroup recommendations (if any);
+* keeping the TC Chair apprised of the progress of the subgroup; and
+* recommending schedule and work plan and managing subgroup resources to accomplish the mission of the subgroup.
+
+==== Editors
+
+OGC document Products have one or more editors. Those editors are identified on the cover page of the document and in the document metadata. Editors have access to additional functions in OGC member resources, such as GitHub or GitLab repositories.
+
+==== Member
+
+Subgroups may have formal members. Those members are drawn from the TC. Not all subgroups require membership in that subgroup to participate in meetings or email discussions organized by the subgroup. Specific membership rules for SWGs are covered in <<swg-member-types>>.
+
+[[election-subgroup-chairs]]
+=== Election of subgroup chairs
+
+The first order of business of a new subgroup is to elect one or more chairs. Chairs may also be elected over the course of the subgroup's active operation. The chairs must be from different member organizations. Chairs are nominated and elected as follows:
+
+* the TC Chair or existing subgroup chair(s) call for nomination of chairs via the TC and subgroup email reflector (see <<subgroup-work-environment>>) and, optionally, in a TC or subgroup meeting for an open period of 30 days (most candidate chairs are self-nominated); and
+* the TC Chair or subgroup chair(s) hold an election for the nominated chair(s) in a meeting or via the subgroup email reflector using a <<unanimous-consent>> vote.
+
+NOTE:: if more than four chairs are to be included in a vote, the TC Chair must be notified and in most cases, an election to select four chairs will be run by the TC Chair with each voter permitted to identify their top four nominees. Those four nominees with the most votes will be elected.
+
+The election of the chair does not require TC approval. Once the election is complete, the new TC Chair shall notify the subgroup of the results of the election.
+
+Chairs are elected to serve for a period of two years. At least one month before the expiration of the chair term, the subgroup must call for chairs via the TC email reflector and, optionally, in a subgroup meeting. Existing chairs may run for re-election. The subgroup then holds a vote to elect or confirm re-election of the chair(s) in a quorum-valid meeting or electronically.
+
+=== Voting in subgroups (excluding SWGs)
+
+Voting in subgroups (excluding SWGs, see <<swg-voting>>) is by simple majority of OGC Members present at the subgroup meeting, not just Voting TC Members, with the caveat that no OGC Member organization may cast more than one vote in a subgroup vote.
+
+Subgroups should be able to use all of the expertise at hand in arriving at recommendations. All TC member organizations can be represented and vote at subgroup meetings in order to allow the expression of all members' opinions.
+
+[[subgroup-work-environment]]
+=== Subgroup work environment
+
+Subgroups work in the TC <<tc-operations>>. Portal resources, email reflectors, and collaboration environments will be established for each subgroup as per the TC.
+
+=== Subgroup internal organization
+
+Subgroups may wish to develop their own smaller working entities (subgroups of the subgroup). Typically, these have been of shorter duration to deal with specific issues in DWGs or edit parts of a candidate Standard in SWGs. A subgroup may organize such entities at-will and request work environments for those entities. TC approval is not required for internal organization of a subgroup.
+
+=== Inactivation of a subgroup
+
+The TC Chair will provide a list to the TC at least once a year of those subgroups that have not met in the previous 18 months. The TC will then vote to determine if these groups should be continued, disbanded, or possibly combined with more active groups.
+
+[[swg-policies]]
+=== Policies related to SWGs
+
+A SWG may be formed whenever:
+
+* three or more members (one member of whom must be a TC voting member) provide a submission for a candidate Standard;
+* one or more Change Request Proposals have been submitted to the public OGC Change Request repository that suggest the need for a new SWG;
+* three or more members (one member of whom must be a TC voting member) wish to define and document a new candidate OGC Standard that will be submitted using the OGC Consensus Standards process; and/or
+* three or more members (one member of whom must be a TC voting member) wish to bring an external document into the OGC process and wish to collaborate to prepare this document for submission using the OGC Consensus Standards process.
+
+The formation and execution of the work of a SWG is closely tied to the OGC Intellectual Property Policies. Members are strongly encouraged to read this Policy prior to forming or joining a SWG.
+
+The policies and procedures defined below are in addition to the requirements to form and operate a subgroup.
+
+[[the-swg-charter]]
+==== SWG Charter and Task approval process
+
+Whenever a SWG needs to be formed, the first order of business is to inform the TC Chair. The TC Chair will discuss the process and next steps. The submission team then writes a SWG Charter following the subgroup <<subgroup-charter-process>> and additional rules for a SWG, as below. The Charter documents the scope of work, references, business value, and projected timeline for the new SWG. SWG are chartered to create a primary delivery (a new Standard), maintain that Standard, and optionally update, extend, or profile that Standard through a <<swg-task-process>>. At a minimum, the scope of the primary delivery is provided in the SWG charter.
+
+[[ipr-rules-for-a-new-swg]]
+===== IPR rules for a new SWG
+
+Each SWG to be formed must agree to develop Standards that are Reasonable And Non-Discriminatory (RAND) Royalty Free per the https://www.ogc.org/about/ipr[OGC Intellectual Property Rights (IPR) Policies].
+
+[[persistent-swgs]]
+===== Persistent SWGs
+
+By default, OGC SWGs are persistent until the SWG elects to become inactive or disband. Persistence supports the ability to maintain the Standard products of the SWG, work on multiple revisions of an existing OGC Standard, or to ensure that long-term collaboration with other SWGs can be maintained. There may be reasons why a SWG is chartered not to be persistent and such reasons must be described in the charter.
+
+After a SWG completes its primary delivery, each new proposed SWG deliverable under its in-force charter shall be approved via the <<swg-task-process>>.
+
+[[swg-to-dwg-relationship]]
+===== SWG to DWG Relationship(s)
+
+During the chartering of a new SWG, a "home" or "parent" DWG must be identified to:
+
+* be a forum for non-IPR-protected discussion of requirements that are relevant to the SWG's work;
+* determine when an inactive SWG needs to reactivate to correct or revise a Standard created by the SWG; and
+* work with the TC Chair to address the situation where OGC members are unable or unwilling to reactivate the SWG.
+
+The SWG charter submitters must seek approval from the proposed home DWG for that DWG to function as the home. The DWG may approve this request using the normal DWG voting process. The home DWG must approve the relationship and be identified in the proposed SWG charter prior to the approval of that charter.
+
+In some cases, a SWG is proposed to be formed at the same time as its home DWG is proposed. Under such circumstances, the proposed home DWG is identified in the SWG charter and is effective only if both WGs are approved.
+
+Should either or both the SWG and the DWG wish to change the parent relationship for a SWG, both WGs shall approve dissolution of the relationship through respective votes and the SWG shall identify and seek approval of a new home DWG.
+
+[[swg-charter-approval-and-formation]]
+===== SWG Charter Approval and Formation
+
+The TC Chair will work with members to write the draft SWG Charter. Once a draft is completed, the charter review and approval process as defined in <<approval-of-a-subgroup-charter>> shall be followed. For the purposes of charter development and approval, consider that the ad-hoc group and a submission team are equivalent in that a submission team is an ad-hoc group.
+
+The SWG cannot begin business until the charter is approved.
+
+[[swg-task-process]]
+===== SWG Task approval process
+
+Any new work from a SWG after the primary deliverable must be approved by the TC as a new Task prior to start of that work. The new work can result in a new Standard or an update, extension, or profile of a Standard managed by the SWG.
+
+The proposed Task must be presented to the TC at a plenary. Otherwise, a presentation will be developed and posted to the Portal. This presentation should cover the key aspects of the Task, especially the scope of work, the timeline, and the technical discussion related how the work relates to the Standard(s) developed by the SWG.
+
+Once the proposed Task has been presented to the TC, the TC Chair will initiate a 21 day TC and public review of the proposed Task. If comments are received in the review period, the SWG shall consider the comments and reissue the proposed Task details, if necessary.
+
+The proposed Task will be voted upon by TC Voting Members in a Closing Plenary or by a two-week email vote (see <<voting-forum>>). Once approved, the Task will be added to the SWG Charter and the updated Charter posted to the SWG Portal files. The SWG may now begin work on the Task.
+
+[[swg-participation]]
+==== Participating in a SWG (opting in and out)
+
+Any OGC member representative can join a SWG at any time and participate in the work of the SWG. If a member wishes to participate, then the member representative must “opt-in” to the new SWG. Opting into a SWG is done via a registration page for that SWG. The registration page is available on the OGC Portal. The registration page will clearly state the IPR terms for the SWG as well as the Scope of Work.
+
+If the member representative does elect to participate (opt-in), then there is a 30-day period during which the member representative can participate but cannot vote. During this 30-day period, the member representative can also elect to opt-out of the SWG and not be required to declare any IPR or essential claims.
+
+Charter members of the SWG have opted-in to the SWG by agreeing to the SWG charter at the time of its publication.
+
+*Opting-out of a SWG:* during the 30-day waiting period, any member representative may elect to opt-out of a SWG without having the Member having to declare any Necessary Claims. A member representative can opt-out by notifying the TC Chair.
+
+[[swg-member-types]]
+==== Member types
+
+The <<subgroup-roles>> apply to SWGs. However, SWG members can be further divided into three categories:
+
+* Charter member: a Charter member of a SWG supports the chartering of the SWG and agree to be a voting participant at the time of formation of the SWG;
+* Voting member: a Voting member has opted-in to the SWG (see <<swg-participation>>) and, at least 30 days after opting-in, informed the SWG chair that they wish to be a Voting member; Voting members must stay in good standing per the rules for <<swg-voting>>; and
+* Group Observer: a Group Observer is a non-voting member of the SWG, either because they have only recently opted-in or because they have not requested voting status; Group Observers cannot vote on any items in the SWG, but may express their opinions.
+
+[[responsibilities-of-the-swg-chair]]
+==== Responsibilities of the SWG Chair
+
+In addition to the subgroup chair responsibilities as outlined for subgroup <<subgroup-chair>>, the SWG Chair is responsible for organizing the activities of the SWG, including the following.
+
+* Maintaining SWG member status on the Portal.
+* Ensuring that issues are logged into the <<subgroup-work-environment>> and these issues are prioritized and put into a roadmap for completion of a Standard. Further, that the chair ensures that the pertinent Standard roadmap is updated, agreed by consensus of the SWG members, and posted at least for each regularly scheduled TC meeting time.
+* Ensure that <<submission-of-change-request-proposals>> to OGC's http://ogc.standardstracker.org/[Public Change Request] page are processed, including transferring the issues to the <<subgroup-work-environment>>, if relevant.
+
+Failure of the chair to provide these capabilities will result in the removal of the chair and the election of a new chair. If no suitable chair can be located, then the work of the SWG will be considered to be non-critical and the SWG will be inactivated.
+
+[[swg-voting]]
+==== SWG voting
+
+SWGs operate under the same general rules as other subgroups of the TC, except that quorum is 1/2 of active voting members unless the SWG votes to have a larger fraction be quorum.
+
+[[caveat-on-voting-rights-non-participation-on-a-regular-basis]]
+===== Caveat on Voting Rights – non-participation on a regular basis
+
+Any member of a SWG who has voting privileges has a responsibility to participate in the meeting and email dialogues. Quorum for votes on any items or issues brought before a SWG is based on the number of voting members for that SWG. Ensuring quorum at SWG meetings is a vital aspect of the SWG being able to complete its work in a timely manner. Therefore, any SWG voting member who misses two consecutive SWG meetings (teleconference, face-to-face, or webinar) in which votes occur or misses two consecutive email votes shall lose their voting privileges and have their SWG member status changed from “Voting” to “Group Observer.”
+
+The SWG Chair shall take roll call at the beginning of each meeting and determine quorum based on active voting members only. An inactive SWG voting member can become active again simply by attending the SWG meetings and participating. If regular attendance by a given voting member is an issue, that voting member may assign a temporary or permanent proxy to another SWG voting member or to the SWG Chair. The voting member may rescind that proxy at any time. A voting member can ask to change their status to "Observer" and still actively participate in the SWG.
+
+[[cross-swg-communication]]
+==== Cross SWG communication
+
+Many technical issues discussed in a SWG will require collaboration and communication with other SWGs. As long as the voting members agree to such cross SWG communication, then an open dialogue between two or more SWGs can occur on any specific technical issue.
+
+[[swg-record-keeping]]
+==== SWG record-keeping
+
+SWGs are expected to maintain their Portal records in a complete fashion, including presentations made at SWG meetings. Presentations in TC Meetings which the SWG permits to be viewed by general OGC membership should be stored in the TC Meeting folder for that SWG or in the SWG Portal project files with a symbolic link to the TC Meeting folder. All draft documents for SWG discussion should be in the SWG files until that point those documents are to be discussed in the TC. SWG documents for TC discussion or voting are to be uploaded to Pending Documents.
+
+[[swg-use-of-collaboration-environments]]
+===== SWG use of collaboration environments
+
+SWGs are free to use collaboration environments such as GitHub to store content of their candidate Standard, link that content to developing code, track issues, and manage the document development workflow and milestones. A SWG may also vote to allow non-OGC members to participate in the development of the Standard in the collaboration environment. Note that such a vote does not grant access to non-members to the OGC Portal nor does it give those non-members voting rights for SWG approval of any work.
+
+The collaboration environment will be under ultimate control of the OGC. For example, OGC maintains organizational structures in GitHub and GitLab under which SWGs can create a project for their use. Non-OGC private repositories or projects may not be used for development of SWG deliverables.
+
+The collaboration environment must clearly display a message on its home page (e.g., the README file in GitHub) that states the contributions to the work in the collaboration environment belong to OGC, as shown below.
+
+_______________
+The contributor understands that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC Standards documents and that all copyright and intellectual property shall be vested to the OGC.
+_______________
+
+[[public-release-of-swg-documents]]
+==== Public Release of SWG documents
+
+At any time, the SWG voting members may agree to release any SWG in-progress technical document into a public forum or to another Standards organization for comment. Such an action requires a formal SWG motion and SWG vote as per <<swg-voting>>.
+
+At any time, the SWG can vote to release an in-progress candidate Standard for public comment. Please remember that there is the official formal 30-day public comment period. However, a SWG is permitted to release an in-progress document early in the process in order to solicit input from the community. If a SWG votes to release a document for early public comment, it must coordinate with the TC Chair to generate a press release and properly create the Request For Comments (RFC) on the OGC website.
