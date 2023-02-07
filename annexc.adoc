@@ -28,8 +28,8 @@ The following is a list of questions that the submission team needs to answer in
 |30 day public comment and review period |TC Chair
 |Present justification to TC |Submission Team
 |45 day TC recommendation vote |Members
-|PC approval vote (meeting or 14 days by email) |TC Chair
-|Submission team edits candidate Community Standard happen based on public comment and TC/PC votes: normative content may not change |Submission team
+|EPC approval vote (meeting or 14 days by email) |TC Chair
+|Submission team edits candidate Community Standard happen based on public comment and TC/EPC votes: normative content may not change |Submission team
 |Notify TC Chair of intent for release for public comment |Submission team
 |OGC Architecture Board Review |OAB
 |OGC Naming Authority Review |OGC-NA
@@ -40,7 +40,7 @@ The following is a list of questions that the submission team needs to answer in
 |Submission team briefs TC Membership on contents of candidate Community Standard |Submission team
 |45 day TC recommendation vote |Voting Members
 |Submission team process any comments received during the adoption vote |Submission team
-|PC approval vote (meeting or 14 days by email) |TC Chair
+|EPC approval vote (meeting or 14 days by email) |TC Chair
 |TC Chair does final review of adopted Standard |TC Chair
 |Standard published |OGC staff
 |Create Press release to announce new Standard |Team and OGC staff

@@ -18,7 +18,7 @@ The table below summarizes the voting rules detailed in the remainder of this se
 
 6+|*_Technical Committee_*
 |Approval of a Technical Paper, Discussion Paper, or Engineering Report|Any member|all|assumed|assumed|simple majority
-|Election of TC reps to the PC|Any member|all|assumed|assumed|simple majority
+|Election of TC reps to the EPC|Any member|all|assumed|assumed|simple majority
 |Approval of a subgroup recharter|TC Voting Member|meeting|1/3|assumed|simple majority
 |Approval of a subgroup recharter|TC Voting Member|email|assumed|assumed|simple majority
 |Approval of a new SWG Task|TC Voting Member|meeting|1/3|assumed|simple majority
@@ -28,7 +28,7 @@ The table below summarizes the voting rules detailed in the remainder of this se
 |Approval of a periodic review action|TC Voting Member|email|assumed|assumed|simple majority
 |Approval of deprecation or retirement of Discussion Paper or Best Practice|Any member|all|assumed|assumed|simple majority
 |Approval to start electronic vote|TC Voting Member|all|assumed|assumed|simple majority
-|Recommendation for PC approval|TC Voting Member|electronic|assumed|1/3|2X Yes:NO and 15% YES
+|Recommendation for EPC approval|TC Voting Member|electronic|assumed|1/3|2X Yes:NO and 15% YES
 6+|*_Subgroup (other than SWG)_*
 |Election of chairs|Any member|all|assumed|assumed|simple majority
 |Recommendation to TC|Any member|all|assumed|assumed|simple majority
@@ -207,7 +207,7 @@ The TC is required to use an electronic vote for the following actions:
 
 Each of these electronic votes is approved to start by motion of the TC in a Plenary or via email vote.
 
-If the TC electronic vote for recommending an action passes, then the action proceeds to the PC for an approval vote per the PC Policies and Procedures.
+If the TC electronic vote for recommending an action passes, then the action proceeds to the EPC for an approval vote per the EPC Policies and Procedures.
 
 [[duration]]
 ===== Duration
@@ -242,7 +242,7 @@ The voting member may vote Yes, No, or Abstain. Abstain counts toward sufficienc
 
 Any eligible voter that votes may submit a written comment. If an eligible voter votes NO, then that voter shall also submit a written comment explaining their reason for voting NO.
 
-For a Standard adoption vote, then the SWG shall respond in writing to all comments within 30 days of the completion of the vote. A TC vote that passes cannot proceed to the PC for approval unless all NO votes are addressed.
+For a Standard adoption vote, then the SWG shall respond in writing to all comments within 30 days of the completion of the vote. A TC vote that passes cannot proceed to the EPC for approval unless all NO votes are addressed.
 
 For other votes, then the appropriate TC subgroup shall respond to the comments. The written response to comments shall be in an OGC document and made available to the OGC Membership. If a motion is withdrawn (See <<withdrawal>>) then no response to comments is required.
 

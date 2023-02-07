@@ -6,7 +6,7 @@ This section describes the Policies and Procedures for meetings of the OGC Techn
 [[meetings-of-the-tc]]
 === Meetings of the TC
 
-Technical Committee meetings shall be conducted under the general guidance of Robert's Rules of Order. Meetings shall be facilitated by the TC Chair or other appointed representative(s) of the OGC. The TC currently holds three meetings per year. The number of meetings per year can be changed by a vote of the TC and the PC or by direction of the Board of Directors.
+Technical Committee meetings shall be conducted under the general guidance of Robert's Rules of Order. Meetings shall be facilitated by the TC Chair or other appointed representative(s) of the OGC. The TC currently holds three meetings per year. The number of meetings per year can be changed by a vote of the TC and the EPC or by direction of the Board of Directors.
 
 TC meeting dates and locations will be announced as far in advance as possible but no less than three months in advance of the meeting. Announcements will be through formal OGC Communication. All recommendations, summary notes, presentations, and other meeting materials and records shall be posted to the OGC Member Portal.
 
@@ -35,7 +35,7 @@ The Invited Guest may or may not have to pay a meeting registration fee. OGC sta
 [[policy-for-non-member]]
 === Policy for non-members
 
-OGC meetings may be open to attendance of non-OGC members. Such attendance is at the discretion of OGC staff, the TC, and/or the PC. Non-members can only attend DWGs, open sessions, or public sessions. Non-members who wish to attend a SWG must abide by the <<policy-for-invited-guests>>. OGC staff will work with the members to determine the fee structure for non-members for any given TC meeting.
+OGC meetings may be open to attendance of non-OGC members. Such attendance is at the discretion of OGC staff, the TC, and/or the EPC. Non-members can only attend DWGs, open sessions, or public sessions. Non-members who wish to attend a SWG must abide by the <<policy-for-invited-guests>>. OGC staff will work with the members to determine the fee structure for non-members for any given TC meeting.
 
 [[agenda-and-schedule-of-a-tc-meeting]]
 === Agenda and schedule of a TC Meeting

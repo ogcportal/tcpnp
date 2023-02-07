@@ -119,7 +119,7 @@ Once the charter is completed and agreed to by the members of the ad-hoc meeting
 * The draft charter is presented to the TC at a plenary or in a web meeting.
 * Comments received during the comment period are considered by the submitters and any necessary changes to the draft charter are completed.
 * The modified charter is posted to pending as an update with a new revision number. The TC Chair shall notify the membership that a revision of the charter has been posted.
-* A 45-day electronic vote followed by a PC approval is held per the rules for a <<required-tc-electronic-vote>>.
+* A 45-day electronic vote followed by a EPC approval is held per the rules for a <<required-tc-electronic-vote>>.
 
 [[changes-to-a-charter-or-recharter]]
 ==== Changes to a subgroup charter or recharter of a subgroup
@@ -153,7 +153,7 @@ The chair of a subgroup is responsible for organizing the activities of that sub
 * capture a list of persons attending the meeting whenever a vote or quorum-necessary decision is made (the attendance logging feature of the OGC Portal or the list of attendees from the virtual meeting tool is acceptable);
 * sending electronic reminders to action holder’s;
 * ensuring the smooth and orderly running of the meeting;
-* reporting on subgroup activities to the TC (and PC if requested), including presenting subgroup recommendations (if any);
+* reporting on subgroup activities to the TC (and EPC if requested), including presenting subgroup recommendations (if any);
 * keeping the TC Chair apprised of the progress of the subgroup; and
 * recommending schedule and work plan and managing subgroup resources to accomplish the mission of the subgroup.
 

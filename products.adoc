@@ -116,7 +116,7 @@ Technical Papers do not have a version number.
 
 === Policy documents (including this one)
 
-A policy is a principle, rule, or process that guides decisions to achieve rational outcome(s). The work of the OGC is guided by a number of member-approved policies and processes. These policies and processes are documented in various OGC Policies and Procedures documents. These shall be known as “Policy” documents. This TC PnP is a policy document. Policy documents are either maintained by the members or by OGC staff. In all cases, new policy documents or revisions to existing policy documents applicable to the TC or its subgroups shall be reviewed and approved by both the Technical and Planning Committees. Approval of a policy document shall follow the rules as defined for a <<required-tc-electronic-vote>>. If the TC approves the Policy document, then a simple majority of the PC Voting Members must approve the TC recommendation.
+A policy is a principle, rule, or process that guides decisions to achieve rational outcome(s). The work of the OGC is guided by a number of member-approved policies and processes. These policies and processes are documented in various OGC Policies and Procedures documents. These shall be known as “Policy” documents. This TC PnP is a policy document. Policy documents are either maintained by the members or by OGC staff. In all cases, new policy documents or revisions to existing policy documents applicable to the TC or its subgroups shall be reviewed and approved by both the Technical and Planning Committees. Approval of a policy document shall follow the rules as defined for a <<required-tc-electronic-vote>>. If the TC approves the Policy document, then a simple majority of the EPC Voting Members must approve the TC recommendation.
 
 Policy documents have version numbers that shall start at 1.0 (see <<versioning>>).
 
@@ -329,11 +329,11 @@ Once the final document has been posted to Pending Documents, the submission tea
 [[vote-to-approve-candidate-Standard-all]]
 ===== Vote to approve candidate Standard (All)
 
-After the candidate Standard has been briefed to the TC, the TC Chair will request that the TC approve the start of a <<required-tc-electronic-vote>> to recommend approval of the candidate Standard by the PC. This vote request can occur via the <<voting-forum>>.
+After the candidate Standard has been briefed to the TC, the TC Chair will request that the TC approve the start of a <<required-tc-electronic-vote>> to recommend approval of the candidate Standard by the EPC. This vote request can occur via the <<voting-forum>>.
 
-Upon approval of the TC to start an electronic vote, the TC Chair will initiate a 45-day electronic vote to recommend approval of the candidate Standard by the PC.
+Upon approval of the TC to start an electronic vote, the TC Chair will initiate a 45-day electronic vote to recommend approval of the candidate Standard by the EPC.
 
-Approval by the TC to recommend approval by the PC will initiate a PC vote, further described in the PC Policies and Procedures.
+Approval by the TC to recommend approval by the EPC will initiate a EPC vote, further described in the EPC Policies and Procedures.
 
 [[specific-policies-regarding-approval-of-a-Standard-uplift]]
 ==== Specific policies regarding approval of uplift of a Draft Standard to a Standard
@@ -466,7 +466,7 @@ The process for periodic review is as follows.
 * Those who choose to submit a response to the review shall indicate their suggestion on a fate for the Standard (no change, revise, deprecate, legacy, retire; see <<policy-for-the-retiring-deprecating-or-rescinding-ogc-documents>>) and provide a rationale for their suggestion.
 * The TC Chair will collate all responses and work with the owning SWG to determine a course of action. The SWG must vote per <<swg-voting>> to suggest the course of action.
 * The SWG will recommend to the TC approval of their action, to be voted via the <<voting-forum>>.
-* Should the TC agree to the SWG action, the TC will recommend approval of the action to the PC for PC vote.
+* Should the TC agree to the SWG action, the TC will recommend approval of the action to the EPC for EPC vote.
 * The SWG will proceed with the action. The action may result in further work (as detailed below) which will entail its own approval process.
 
 NOTE: In some cases, the owning SWG for the Standard under review is no longer active. In this case, the TC will vote on a course of action via the <<voting-forum>> without input from a SWG.
@@ -513,7 +513,7 @@ The SWG shall perform the following tasks.
 [[the-Standard-revision-process-community-Standard]]
 === The Standard Revision Process (Community Standard)
 
-Revision of a Community Standard is treated similar to a new Community Standard submission and all processes for approval of a Community Standard from approval of a Work Item to vote for final approval are required. The only difference in the process is the TC vote to recommend the Work Item for revision to a Community Standard for PC approval can occur at a Plenary or via a two-week e-mail vote, i.e., the vote is not a 45 day electronic vote. The revision process is effectively identical to the addition of a Task to a SWG Charter for a Full OGC Standard.
+Revision of a Community Standard is treated similar to a new Community Standard submission and all processes for approval of a Community Standard from approval of a Work Item to vote for final approval are required. The only difference in the process is the TC vote to recommend the Work Item for revision to a Community Standard for EPC approval can occur at a Plenary or via a two-week e-mail vote, i.e., the vote is not a 45 day electronic vote. The revision process is effectively identical to the addition of a Task to a SWG Charter for a Full OGC Standard.
 
 [[corrigendum-errata-changes-to-ogc-Standards]]
 === Corrigendum (errata) Changes to OGC Standards and Best and Community Practices
@@ -528,10 +528,12 @@ This process to create and approve a corrigendum is as follows.
 4.  The Membership votes to release (or not) the corrigendum. A Corrigendum vote will occur via the <<voting-forum>> and there is no IPR review requirement.
 5.  The corrigendum is published with text indicating what error(s) have been corrected. Associated documents and products may also require update.
 
+NOTE: Minor editorial corrections or improvements to published OGC documents, including Standards, may be approved by the TC Chair to be made directly to the published document if those changes are so minor as to not require further TC consideration. Such changes may include typos, formatting, broken links, or unclear grammar.
+
 [[backwards-compatibility-full-Standard]]
 === Backwards Compatibility (Full Standard)
 
-In all cases of adopted Standards in a revision process, the members will work to insure the highest level of achievable backwards compatibility to the previous release. In those cases in which backwards compatibility cannot be achieved, the Standard will have a major revision and the SWG will provide Release Notes that document all enhancements, changes, and compatibility issues resulting from the revision of the Standard. Both the TC and the PC reserve the right to review the issues related to backwards compatibility for a given revision of a Standard. If the backwards compatibility issues are deemed too onerous, the TC and/or the PC may elect to reject the proposed revision.
+In all cases of adopted Standards in a revision process, the members will work to insure the highest level of achievable backwards compatibility to the previous release. In those cases in which backwards compatibility cannot be achieved, the Standard will have a major revision and the SWG will provide Release Notes that document all enhancements, changes, and compatibility issues resulting from the revision of the Standard. Both the TC and the EPC reserve the right to review the issues related to backwards compatibility for a given revision of a Standard. If the backwards compatibility issues are deemed too onerous, the TC and/or the EPC may elect to reject the proposed revision.
 
 [[policy-for-the-retiring-deprecating-or-rescinding-ogc-documents]]
 ==== Policy for Retiring, Deprecating, or Rescinding OGC Documents

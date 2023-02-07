@@ -36,9 +36,9 @@ IP (OGC Innovation Program): A global, collaborative, hands-on engineering and t
 
 IPR (Intellectual Property Rights): An umbrella term used to refer to the object of a variety of laws, including patent law, copyright law, trademark law, trade secret law, industrial design law, and potentially others.
 
-Issues: Issues are questions (other than standard adoption questions) that come before the Technical Committee for discussion, resolution and, potentially, final recommendation to the PC.
+Issues: Issues are questions (other than standard adoption questions) that come before the Technical Committee for discussion, resolution and, potentially, final recommendation to the EPC.
 
-Items: Items are proposed standard adoption questions that come before the committee for discussion, resolution and, potentially, final recommendation to the PC. Items come about through TC voting membership motions and seconds, typically in response to RFCs, PC directives, and WG recommendations, or the normal course of TC business.
+Items: Items are proposed standard adoption questions that come before the committee for discussion, resolution and, potentially, final recommendation to the EPC. Items come about through TC voting membership motions and seconds, typically in response to RFCs, EPC directives, and WG recommendations, or the normal course of TC business.
 
 Necessary Claims: Those claims of a patent or patent application, throughout the world, excluding design patents and design registrations, owned by a Member or its Related Parties now or at any future time and which would be Necessarily Infringed by implementation of a standard. Notwithstanding the foregoing, Licensed Claims shall not include any claims (i) relating to any enabling technologies that may be necessary to make or use any implementation of a standard but are not themselves expressly set forth in the standard (e.g., semiconductor manufacturing technology, compiler technology, object oriented technology, basic operating system technology, and the like); or (iii) necessary for the implementation of other published standards developed elsewhere and merely referred to in the body of the standard. For purposes of this definition, a standard shall be deemed to include only architectural and interconnection requirements essential for interoperability and shall not include any implementation examples unless such implementation examples are expressly identified as being required for compliance with the standard.
 
@@ -46,7 +46,7 @@ Official Position - A consensus document approved by OGC membership or the OGC B
 
 OGC − Open Geospatial Consortium Founded in 1994, the OGC is a voluntary consensus standards organization.
 
-OAB (OGC Architecture Board) - The OGC Architecture Board works with the TC and the PC to insure architecture consistency of the Baseline and provide guidance to the OGC membership to insure strong life cycle management of the OGC Standards baseline. The OAB performs review of every Standard proposed for adoption by the OGC. The OAB is an entity organized under the Consortium.
+OAB (OGC Architecture Board) - The OGC Architecture Board works with the TC and the EPC to insure architecture consistency of the Baseline and provide guidance to the OGC membership to insure strong life cycle management of the OGC Standards baseline. The OAB performs review of every Standard proposed for adoption by the OGC. The OAB is an entity organized under the Consortium.
 
 OGC Communication: A communication by any means, including posting on the WWW Site (http://www.opengeospatial.org), electronic mail, facsimile transmission, or by regular post. The primary forms of communication will be either via email or using the OGC Members Only Portal. Any member desiring delivery by other than electronic means (WWW site or electronic mail) must state so in written form to OGC staff.
 
@@ -54,15 +54,15 @@ OGC Standard: A document containing an OGC consensus computing technology depend
 
 OGC Member, or Member: Any member in good standing.
 
-OGC Member Portal: A members’ only accessible component of the OGC web site. The Portal provides a location for storing and accessing all in progress OGC TC and PC documents, all WG agendas, working documents, and presentations, and to perform project management functions, such as tasks, tracking actions, and calendars.
+OGC Member Portal: A members’ only accessible component of the OGC web site. The Portal provides a location for storing and accessing all in progress OGC TC and EPC documents, all WG agendas, working documents, and presentations, and to perform project management functions, such as tasks, tracking actions, and calendars.
 
-OGC Standards Program: Provides an industry consensus process to plan, review and officially adopt OGC Standards for interfaces and protocols that enable interoperable geoprocessing services, data, and applications. The OGC bodies involved in the Standard Program are the Technical Committee, Planning Committee, and Strategic Member Advisory Committee.
+OGC Standards Program: Provides an industry consensus process to plan, review and officially adopt OGC Standards for interfaces and protocols that enable interoperable geoprocessing services, data, and applications. The OGC bodies involved in the Standard Program are the Technical Committee, Executive Planning Committee, and Strategic Member Advisory Committee.
 
 Profile: [ISO 19106:2004, Type 1 Profile] A profile is a pure subset of an existing Standard including restrictions on or deletions of conformance clauses related to the subsetting. An example of a profile is the GML Simple Feature Profile.
 
 Profile with Extension: A profile with extension is a set of one or more conformance clauses from a base Standard that includes at least one new conformance clause (extension). An example is OpenGIS® Web Map Services - Profile for EO Products.
 
-PC (Planning Committee) − The OGC Planning Committee is granted authority to operate by the OGC Bylaws. Principal Membership is available for organizations that wish to participate in the planning and management of the Consortium's technology development process.
+EPC (Executive Planning Committee) − The OGC Executive Planning Committee is granted authority to operate by the OGC Bylaws. Principal Membership is available for organizations that wish to participate in the planning and management of the Consortium's technology development process.
 
 RAND: Reasonable and Non-discriminatory.
 

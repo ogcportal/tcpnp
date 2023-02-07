@@ -2,7 +2,7 @@
 [[policy-update]]
 == Overriding or enhancing specific policies or procedures
 
-The TC PnP may not be updated quickly enough to address emerging policy decisions by the TC or PC. Thus, a means to override or extend policies is provided.
+The TC PnP may not be updated quickly enough to address emerging policy decisions by the TC or EPC. Thus, a means to override or extend policies is provided.
 
 === Temporary override
 
@@ -10,4 +10,4 @@ The Technical Committee may temporarily override specific procedures set forth i
 
 === Policy Directives
 
-The TC may choose to generate a Policy Directive to create a specific rule for use in the TC business. The Policy Directive is approved per the rules for <<voting-forum>> in a meeting. TC-generated Policy Directives are not approved via email or electronic votes in the TC. The PC may also recommend a Policy Directive for TC and such a directive can be approved by email vote of the TC.
+The TC may choose to generate a Policy Directive to create a specific rule for use in the TC business. The Policy Directive is approved per the rules for <<voting-forum>> in a meeting. TC-generated Policy Directives are not approved via email or electronic votes in the TC. The EPC may also recommend a Policy Directive for TC and such a directive can be approved by email vote of the TC.

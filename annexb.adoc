@@ -17,7 +17,7 @@
 |30 day public comment and review period |TC Chair
 |Present SWG charter to TC |Submission Team
 |45 day TC recommendation vote |Members
-|PC approval vote (meeting or 14 days by email) |TC Chair
+|EPC approval vote (meeting or 14 days by email) |TC Chair
 |OGC Portal Update |Staff
 |Press release to announce formation of new SWG |Staff and Submission team
 |TC Chair does a call for participation and chairs |TC Chair
@@ -42,7 +42,7 @@
 |SWG Briefs TC Membership on contents of candidate Standard |SWG Chair or designee
 |45 day TC recommendation vote |Voting Members
 |SWG process any comments received during the adoption vote |SWG
-|PC approval vote (meeting or 14 days by email) |TC Chair
+|EPC approval vote (meeting or 14 days by email) |TC Chair
 |TC Chair does final review of adopted Standard |TC Chair
 |Schema processing |SWG and OGC staff
 |Schemas validated and errors corrected |SWG and OGC staff

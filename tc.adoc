@@ -9,10 +9,10 @@ The TC provides an open forum for professional discussion of issues and items re
 More specifically, the OGC Bylaws authorize the TC to perform the following functions:
 
 * development of Consortium Standards through a cooperative consensus process involving the Members;
-* creation of its own internal organization and process, subject to the review and approval of the PC: such organization and process may involve the creation of such Working Groups, Subcommittees, or subgroups as the TC deems necessary;
+* creation of its own internal organization and process, subject to the review and approval of the EPC: such organization and process may involve the creation of such Working Groups, Subcommittees, or subgroups as the TC deems necessary;
 * development and approval of other document types as defined in the TC PnP;
 * coordination and convening of joint subcommittees, working groups, or other subgroups with external organizations; and
-* presentation of recommended Standards and any other related official documents to the PC for approval.
+* presentation of recommended Standards and any other related official documents to the EPC for approval.
 
 [[tc-composition]]
 === Composition
@@ -21,7 +21,7 @@ The TC has the following composition:
 
 * representatives of all member organizations of the OGC;
 * the TC Chair; and
-* other individuals deemed appropriate by the OGC Board of Directors or PC.
+* other individuals deemed appropriate by the OGC Board of Directors or EPC.
 
 There is no limit to the number of TC representatives for any OGC Member organization.
 
@@ -41,32 +41,32 @@ The TC Chair is responsible for facilitating the progress and work of the TC. Th
 * TC meetings are facilitated in general;
 * a file of TC meeting minutes and all other distributed materials is kept;
 * all electronic mail discussions are kept on file;
-* the PC and Board of Directors are kept appraised of the current business of the TC;
-* TC resolutions for recommendation to the PC are brought to the attention of the PC;
+* the EPC and Board of Directors are kept appraised of the current business of the TC;
+* TC resolutions for recommendation to the EPC are brought to the attention of the EPC;
 * the various actions of the TC are issued and processed in a timely, orderly manner; and
 * in the event of a tie vote on any given Item or Issue for which a simple majority vote is required, the TC Chair has the right to cast the deciding vote.
 
-[[tc-rep-to-pc]]
-==== TC Representative to the PC
+[[tc-rep-to-EPC]]
+==== TC Representative to the EPC
 
-As stated in the Bylaws of the OGC, the OGC TC has the right to seat two representatives on the OGC PC. Up to seven representatives may be available in a “pool” and the TC Chair will work with the representatives to choose the two to attend a specific PC meeting.
+As stated in the Bylaws of the OGC, the OGC TC has the right to seat two representatives on the OGC EPC. Up to seven representatives may be available in a “pool” and the TC Chair will work with the representatives to choose the two to attend a specific EPC meeting.
 
-The role of a TC Representative to the PC is to bring issues of concern to the general TC membership to the attention of the PC and to keep the TC apprised of the activity of the PC, as follows:
+The role of a TC Representative to the EPC is to bring issues of concern to the general TC membership to the attention of the EPC and to keep the TC apprised of the activity of the EPC, as follows:
 
-* accept documented issues from TC members and bring these forward at PC meetings;
-* provide a report to the TC of the activities that take place at PC meetings no later than two weeks following a PC meeting;
+* accept documented issues from TC members and bring these forward at EPC meetings;
+* provide a report to the TC of the activities that take place at EPC meetings no later than two weeks following a EPC meeting;
 * be involved in discussions related to the ongoing work and issues in the TC; and
 * vote.
 
 The election of these representatives will be held according to the following rules:
 
-* nominations will be made from the ranks of Voting TC Members (an individual or an individual representing an organization already holding a seat on the PC cannot be nominated);
+* nominations will be made from the ranks of Voting TC Members (an individual or an individual representing an organization already holding a seat on the EPC cannot be nominated);
 * there must be at least one nominee for each vacancy;
 * the nomination must be accepted by the nominee;
 * each Voting TC Member may vote for one candidate per vacancy to be filled; and
 * the representatives will be selected in the order of most votes received to fill the available positions.
 
-The term of office for TC representatives to the PC shall be as recommended by the TC with a maximum term of two years. In the case of resignation, removal, death, or termination of TC Membership of a representative, the rules for election will be invoked to fill the vacancy. Also, the TC Chair may determine that a given TC representative to the PC is not fulfilling their obligations, such as not attending PC meetings on a regular basis. In such a case, the TC Chair may ask the TC representative to resign and the rules for election will be invoked to fill the vacancy.
+The term of office for TC representatives to the EPC shall be as recommended by the TC with a maximum term of two years. In the case of resignation, removal, death, or termination of TC Membership of a representative, the rules for election will be invoked to fill the vacancy. Also, the TC Chair may determine that a given TC representative to the EPC is not fulfilling their obligations, such as not attending EPC meetings on a regular basis. In such a case, the TC Chair may ask the TC representative to resign and the rules for election will be invoked to fill the vacancy.
 
 ==== Subgroup Chair
 
@@ -84,12 +84,12 @@ The TC contains a number of <<policies-and-procedures-for-subgroups-of-the-tc>>.
 
 TC activities rely upon collaboration with other groups, inside and outside the OGC.
 
-[[tc-to-pc]]
-==== Planning Committee
+[[tc-to-EPC]]
+==== Executive Planning Committee
 
-The Planning Committee (PC) is a committee of the OGC per the https://portal.ogc.org/files/6947[OGC Bylaws] and comprises representatives from OGC Strategic and Principal members. The PC is focused on strategic oversight and leadership of standardization activities. All Standards, Best and Community Practices, and TC policies are recommended by the TC for approval by the PC to become official positions of the OGC. PC approval occurs via the PC Policies and Procedures.
+The Executive Planning Committee is a committee of the OGC per the https://portal.ogc.org/files/6947[OGC Bylaws] and comprises representatives from OGC Strategic and Principal members. The EPC is focused on strategic oversight and leadership of standardization activities. All Standards, Best and Community Practices, and TC policies are recommended by the TC for approval by the EPC to become official positions of the OGC. EPC approval occurs via the EPC Policies and Procedures.
 
-The PC also may create <<policy-directives>> that govern TC activities.
+The EPC also may create <<policy-directives>> that govern TC activities.
 
 [[tc-to-oab]]
 ==== OGC Architecture Board (OAB)
@@ -108,7 +108,7 @@ Outcomes of COSI Initiatives may ultimately result in changes to or new OGC Stan
 [[tc-to-asdo]]
 ==== Authoritative Standards Development Organizations
 
-An Authoritative Standards Development Organization (SDO) is an organization which operates on a consensus basis to develop Standards and which has been designated to be an Authoritative SDO by the PC. An Authoritative SDO develops key foundational Standards which provide a basis for conceptual and implementation Standards created by the OGC. These foundational Standards may be approved to be part of the OGC Abstract Specification. A list of Authoritative SDOs shall be maintained by the TC Chair. ISO is already considered to be an Authoritative SDO.
+An Authoritative Standards Development Organization (SDO) is an organization which operates on a consensus basis to develop Standards and which has been designated to be an Authoritative SDO by the EPC. An Authoritative SDO develops key foundational Standards which provide a basis for conceptual and implementation Standards created by the OGC. These foundational Standards may be approved to be part of the OGC Abstract Specification. A list of Authoritative SDOs shall be maintained by the TC Chair. ISO is already considered to be an Authoritative SDO.
 
 The Authoritative SDO shall be notified if one of its Standards is proposed by the OGC to be a Topic of the Abstract Specification. The Authoritative SDO shall have the opportunity to reject the OGC proposal, in which case the Authoritative SDO Standard may still be used as a normative reference by other OGC standards, but will not be a part of the OGC Abstract Specification. There is no requirement that the Authoritative SDO provide its Standard to the OGC by any basis other than the normal distribution mechanism for the Authoritative SDO, although provision of the Standard for no fee is preferred.
 
@@ -159,7 +159,7 @@ _______________
 [[appeals-process]]
 === Appeals Process
 
-Appeals by any member to a decision made at the subgroup level can be brought to the TC Chair for consideration. Further appeal can then be made before the OAB. Each appeal or issue will be taken on a case-by-case basis, but rulings made by the OAB with approval of the Planning Committee that affect the process will be reflected in these Policies and Procedures. If the member making the appeal is not satisfied by the decision made at the OAB level, the OGC Board of Directors may be presented with the case for final deliberation.
+Appeals by any member to a decision made at the subgroup level can be brought to the TC Chair for consideration. Further appeal can then be made before the OAB. Each appeal or issue will be taken on a case-by-case basis, but rulings made by the OAB with approval of the Executive Planning Committee that affect the process will be reflected in these Policies and Procedures. If the member making the appeal is not satisfied by the decision made at the OAB level, the OGC Board of Directors may be presented with the case for final deliberation.
 
 === Privacy considerations
 
