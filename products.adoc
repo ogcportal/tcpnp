@@ -30,7 +30,7 @@ Standards are further categorized as follows (see <<annex-a-terms-and-definition
 * Encoding
 * Implementation
 
-Approval of an OGC Standard is described in <<policies-and-procedures-for-adoption-andor-revisions-of-Standards>>.
+Approval of an OGC Standard is described in <<policies-for-the-Standard-process>>.
 
 Each Standard distributed by the OGC shall include a cover page with the statement as specified in https://portal.ogc.org/public_ogc/directives/directives.php[Policy Directive 4].
 
@@ -476,7 +476,7 @@ NOTE: The periodic review process above applies to all OGC Standards except the 
 [[the-Standard-revision-process-full-Standard]]
 === The Standard Revision Process (Full Standard)
 
-A SWG manages the revision of a Standard based on either a) comments received as part of the OGC Consensus Standards process or b) the contents of one or more official OGC Change Request Proposal(s).
+A SWG manages the revision of a Standard based on either a) comments received as part of the OGC Consensus Standards process or b) the contents of one or more official OGC Change Request Proposal(s) (CRPs), which can include Issues logged in the SWG collaboration environment such as GitHub or GitLab or Change Requests logged in the OGC central Standards Tracker.
 
 All voting in a SWG for revisions to an existing Standard will follow the rules as defined for <<swg-voting>>.
 

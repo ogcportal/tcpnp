@@ -16,8 +16,8 @@
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
 |Submission Date: 2022-01-23
-|Approval Date:   YYYY-MM-DD
-|Publication Date:   YYYY-MM-DD
+|Approval Date:   2023-05-10
+|Publication Date:   2023-05-11
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/tcpnp/29.0
 |Internal reference number of this OGC(R) document:    05-020r29
 |Version: 29.0
@@ -48,7 +48,7 @@ This document is an OGC Policies and Procedures Document. The document is subjec
 |===
 |Document type:   	OGC® Policy
 |Document subtype:
-|Document stage:   	Draft
+|Document stage:   	Approved
 |Document language: 	English
 |===
 

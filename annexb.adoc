@@ -23,8 +23,8 @@
 |TC Chair does a call for participation and chairs |TC Chair
 |SWG officially starts: first order of business is to elect chair etc |SWG
 |Work on candidate Standard happens |SWG
-|For a revision to an existing Standard, collate all CRs and prepare summary |SWG
-|For a revision to an existing Standard, process all CRs |SWG
+|For a revision to an existing Standard, collate all CRs/Issues and prepare summary |SWG
+|For a revision to an existing Standard, process all CRs/Issues |SWG
 |Editor(s) edit the document based on change requests |Editor(s)
 |SWG approves release for public comment |SWG
 |Notify TC Chair of intent for release for public comment |SWG Chair and TC Chair

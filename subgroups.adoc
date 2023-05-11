@@ -71,6 +71,7 @@ There are two additional subcommittees with specialized purposes: the OGC Naming
 The OGC Naming Authority (OGC-NA) controls the assignment of OGC Names to resources of interest in geographic information infrastructures. In the terminology defined in ISO 19135-1:2015, OGC-NA is the Control Body for the registry of OGC Names: the OGC Definitions Server. The registry consists of multiple registers, each focuses on a specific aspect of a domain. As many OGC Standards and other products include reference to or use of registered content, the OGC-NA works directly with the owning groups of those products in publication of resources. There are separate https://www.ogc.org/standards/na[OGC-NA Policies and Procedures].
 
 ==== Document Team
+
 The Document Team (DocTeam) works with OGC staff and OGC members to define, enforce, and educate OGC members on documentation guidelines (format, templates, style) within the OGC. The DocTeam also works with OGC staff and OGC members to manage the document publishing infrastructure used by OGC.
 
 === Regional Forums

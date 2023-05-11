@@ -255,6 +255,7 @@ If the votes are in parallel and if a part fails, then any part containing a mod
 
 [[withdrawal]]
 === Vote withdrawal
+
 A motion may only be withdrawn by the subgroup that made the original motion or by the TC Chair for procedural reasons. The subgroup shall have a formal documented vote to withdraw a motion. The reasons for withdrawing a motion are not constrained. The subgroup shall communicate to the TC Chair the request to withdraw a motion. The TC Chair shall then communicate the decision to withdraw a motion to the entire membership.
 
 [[vote-restart]]

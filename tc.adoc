@@ -137,7 +137,7 @@ An electronic Portal is managed by OGC to provide a common platform for members 
 * list and files associated with liaison organizations; and
 * links to external resources that support OGC work (such as file repositories, wikis, etc.).
 
-Every OGC member organization has a portal account and manages the access of its specific representatives. Portal permissions are governed by the role of each account holder. The role is associated with the level of membership and agreement to abide by the Intellectual Property Rules of SWGs and Innovation Program initiatives.
+Every OGC member organization has a portal account and manages the access of its specific representatives. Portal permissions are governed by the role of each account holder. The role is associated with the level of membership and agreement to abide by the Intellectual Property Rules of SWGs and COSI initiatives.
 
 ==== Email reflectors
 
