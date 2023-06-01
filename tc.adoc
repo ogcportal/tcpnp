@@ -165,6 +165,6 @@ Appeals by any member to a decision made at the subgroup level can be brought to
 
 TC members have access to personal information about other members. This information is stored in the OGC Portal and all participants in the OGC agree to having this information available to other OGC members. However, in the course of conducting TC business, a TC member shall not share contact information or a record of that member's activities in the OGC without the permission of that member.
 
-Non-public meeting minutes shall not contain attribution of a specific TC member. For instance, the results of a subgroup vote can be circulated to the public, but the names of the member making and seconding the motion shall not be disclosed.
+Public meeting minutes shall not contain attribution of a specific TC member. For instance, the results of a subgroup vote can be circulated to the public, but the names of the member making and seconding the motion shall not be disclosed.
 
 The TC agrees to abide by the privacy regulations in the jurisdiction in which a TC activity occurs.
